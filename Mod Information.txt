@@ -1,0 +1,43 @@
+
+  __  __  ____  _____    _____ _   _ ______ ____  _____  __  __       _______ _____ ____  _   _ 
+ |  \/  |/ __ \|  __ \  |_   _| \ | |  ____/ __ \|  __ \|  \/  |   /\|__   __|_   _/ __ \| \ | |
+ | \  / | |  | | |  | |   | | |  \| | |__ | |  | | |__) | \  / |  /  \  | |    | || |  | |  \| |
+ | |\/| | |  | | |  | |   | | | . ` |  __|| |  | |  _  /| |\/| | / /\ \ | |    | || |  | | . ` |
+ | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
+ |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
+
+Version Changes - Name TBD Base                                                                                                                                                                                  
+------------------------------------------------------------------------------------------------
+-Project Base
+-Adds an Automaton by:
+Going to the Caverns and defeating 5 Salaris' to get 5 Scrap Metal
+Go to Elly to convert the Scrap Metal for 'Master Command'
+Go to your room
+
+Author Message - Scorched Path v0.02e                                                                                                                                                                                  
+------------------------------------------------------------------------------------------------
+	The accompanying files are the base for my mod and is NOT fit for consumption yet. This 
+repository serves as a way to hold older versions of my mod in case I need them for development.
+The mod may go under several changes overtime thus differing from earlier versions in concept.
+										       
+											- JLP603
+
+---------------------------<!>--{COMMON ERROR OR CRASH SOLUTION}--<!>---------------------------
+If you are experiencing a crash or error on startup of MGD after installing the Mod,
+please make sure that you have the Mod in the right file directory.
+The Mod's folder should be located at \game\Mods\Name TBD
+
+Feedback or Troubleshooting
+------------------------------------------------------------------------------------------------
+If you have any problems with the mod or want to provide feedback (good or bad), 
+feel free to ping me @JLP603 on one of the modding channels of the MGD discord 
+https://discord.com/invite/monstergirldreams
+
+Credit
+------------------------------------------------------------------------------------------------
+I do not own any of the assets listed below, nor use them for monetary reasons. 
+They belong to their respective owners and copyright holders.
+
+Mod built for the game Monster Girl Dreams by Treshold
+Art used is the Automaton from Monster Girl Encylopedia by Kenkou Cross
+Music taken from Purple Planet Music & other various youtube videos

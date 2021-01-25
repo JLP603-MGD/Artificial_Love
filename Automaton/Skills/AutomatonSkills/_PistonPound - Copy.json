@@ -1,0 +1,70 @@
+//have to create another move for the bj stance remove anal?
+//look at how the moveset of later tier and older toer monsters differ
+//how do i deal to the more human like reactions when using skills?
+//below lvl 40 takes 8 demon layers 50-69 dmg she takes away 1-2 spirit
+//below lvl 40 euryale 11 demon layers 50-69 dmg 3 spirit lost resisting checks
+//below lvl 40 white rabbit 13 demon layers 66 dmg arousara 80 dmg dl 3 spirit loss
+//after a dream the automaton does not appear how do I deal with the villi dream?
+//in order to have the automaton only heal when low I think I need to check Mari and her "counters" set choice for low health then hit with "healing skill name"
+//How do I deal with the clearly human like reactions to player moves like distract
+//no anal!
+{
+  "name": "Piston Pound",
+  "cost": "0",
+  "costType": "ep",
+  "requiredLevel": "0",
+  "learningCost": "0",
+  "skillType": "attack",
+  "statType": "Power",
+  "requiredStat": "0",
+  "skillTags": [ "Sex"],
+  "fetishTags": [ "Penetration"],
+  "startsStance": [""],
+  "requiresStance": ["Penetration"],
+  "unusableIfStance": [ ""],
+  "requiresTargetStance": [ "Penetration"],
+  "unusableIfTarget": [ ""],
+  "removesStance": ["None"],
+  "requiresStatusEffect": "None",
+  "requiresStatusPotency": "0",
+  "unusableIfStatusEffect": [ "None"],
+    "requiresStatusEffectSelf": "None",
+    "requiresStatusPotencySelf": "0",
+    "unusableIfStatusEffectSelf": [ "None"],
+
+    "scalesWithStatusEffect": "",
+    "flatDamageSF-FlatScaling": "0",
+    "flatDamageSF-PercentScaling": "0",
+    "totalDamageSF-PercentScaling": "0",
+
+    "requiresPerk": [ ],
+    "requiresOnePerk": [ ],
+    "unusableIfPerk": [ ],
+    "requiresPerkSelf": [ ],
+    "requiresOnePerkSelf": [ ],
+    "unusableIfPerkSelf": [ ],
+  "power": "60",
+  "minRange": "90",
+  "maxRange": "110",
+  "recoil": "0",
+    "critChance": "0",
+    "critDamage": "0",
+  "targetType": "single",
+    "accuracy": "0",
+    "initiative": "0",
+  "statusEffect": "None",
+  "statusChance": "0",
+  "statusDuration": "0",
+  "statusPotency": "0",
+  "statusResistedBy": "",
+  "statusText": "",
+  "descrip": "",
+  "outcome": "Do I make a seperate one for each orifice?, Monster keeps on thrusting,bobbing,slamming,pounding",
+  "miss": "Flavour text, but Player is unaffected",
+  "statusOutcome": "",
+  "statusMiss": "",
+  "restraintStruggle": [""],
+  "restraintStruggleCharmed": [""],
+  "restraintEscaped": [""],
+  "restraintEscapedFail": [""]
+}

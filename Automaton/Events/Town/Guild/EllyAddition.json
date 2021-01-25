@@ -1,0 +1,85 @@
+{
+    "name": "Head over to Elly's table.",
+    "CardType": "Addition",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Elly",
+                    "postName": "",
+                    "SpeakerType": ""
+                  }
+                ],
+    "EventText": [
+                    
+                    {
+                        "NameOfScene": "VisitMenu",
+                        "theScene": [
+                                      "Menu",
+                                        "Talk with Elly.",
+                                        "RequiresTime", "Night",
+                                        "RequiresChoiceFromEvent", "Urgent 'Mushroom' Investigation", "1", "UnlockedCandyStore",
+                                        "Report in on your investigation of Bon Bon Bun.",
+                                        "RequiresTime", "Night",
+                                        "RequiresChoiceFromEvent", "'Bon Bon Bun'", "18", "BANNED",
+                                        "Get Unbanned from Bon Bon Bun. (50000 Eros.)",
+                                        "Learn Skills.",
+                                        "RequiresTime", "Night",
+                                        "RequiresChoice", "13", "NightAccessGiven",
+                                        "Ask to help with Elly's experiments.",
+                                        "FinalOption","Leave Elly to her studies.",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "VisitMenu",
+                        "theScene": [
+                          "MenuAddition",
+                          "RequiresItem", "Scrap Metal","HideOptionOnRequirementFail","Combine Materials",
+                          "EndLoop"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "Combine Materials",
+                        "theScene": [
+                            "Menu",
+                            "RequiresItem", "Scrap Metal",
+                             
+                            "Give the component.",
+                            "I don't have the component yet.",
+                          "EndLoop"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "I don't have the component yet.",
+                        "theScene": [
+                            "JumpToScene", "VisitMenu"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "Give the component.",
+                        "theScene": [
+                            "IfHasItemInInventory", "Scrap Metal", "5", "Combining!",
+                            "Speaks",
+                            "You need 5 Scrap Metal",
+                            "JumpToScene", "Combine Materials"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "Combining!",
+                        "theScene": [
+                            "GiveItemQuietly", "-5", "Scrap Metal",
+                            "Speaks",
+                            "Nice! Here you go",
+                            "GivePerk","Master Command",
+                            "JumpToScene", "VisitMenu"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "EventBroke",
+                        "theScene": [ "aaaaa event broked."
+                                  ]
+                    }      
+                ]
+}

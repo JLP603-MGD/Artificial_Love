@@ -1,0 +1,563 @@
+{
+    "name": "Automaton name",
+    "IDname": "Automaton",
+    "species": "temp",
+    "gender": "female",
+    "description": "temp.",
+    "encyclopedia": "automaton species flavour text",
+    "tags": "none",
+    "generic": "True",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "-99",
+                          "ChoiceNumber": "-1",
+                          "Choice": ""
+                        }
+                      ],
+    "skillList": [ "Orifice Clamp Pussy","Orifice Clamp Mouth","Piston Pound Mouth","Feature Display Mouth","Body Lock","Feature Display Pussy","Piston Pound Sex","Pumping Handjob","Suction Kiss","Automatic Firing Arousal Shell"],
+    "perks": ["Arcane Adept","Quick Witted","Clingy","Grappler","Pinpoint Pleasure","Alert","Bond Breaker"],
+    "stats": { "lvl": "40",
+              "Exp": "500",
+              "max_hp": "450",
+              "max_ep": "15",
+              "max_sp": "1",
+              "Power": "25",
+              "Technique": "30",
+              "Intelligence": "30",
+              "Allure": "15",
+              "Willpower": "30",
+              "Luck": "10"
+    },
+    "Fetishes": [ ""],
+    "BodySensitivity": { "Sex": "90",
+              "Ass": "75",
+              "Breasts": "75",
+              "Mouth": "75",
+              "Seduction": "75",
+              "Magic": "100",
+              "Pain": "75",
+              "Holy": "100",
+              "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm": "100",
+              "Aphrodisiac": "100",
+              "Restraints": "0",
+              "Sleep": "100",
+              "Trance": "100",
+              "Paralysis": "0",
+              "Debuff": "0"
+    },
+    "moneyDropped": "1500",
+    "ItemDropList": [
+                      {
+                        "name": "",
+                        "dropChance": "0"
+                      }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "",
+                        "move": "",
+                        "stance": "",
+                        "includes": [ ""],
+                        "theScene": [ ""
+                                  ],
+                        "picture": ""
+                    }
+                  ],
+    "combatDialogue": [
+                {
+                  "lineTrigger": "SetMusicTo",
+                  "move": "",
+                  "theText": [ ""]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Spank",
+                  "theText": [ "Her large butt jiggles from your slap.",
+                                "'Enjoying yourself, mhm?'",
+                                "'You'll need more than to conquer a gorgon.♪'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Whip",
+                  "theText": [ "'Hmpf.'",
+                              "'Tch. Stop it.' Her snake hair glares at you in anger.",
+                              "'I'm not into that sort of thing.'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Demon Layer",
+                  "theText": [ "'Awawa! Is that h-holy magic?!♥'",
+                              "'Mmmm!♥ F-Feels different!'",
+                              "'Aaauuh!♥ Such potent and unusual magic!'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Holy Headpat",
+                  "theText": [ "She looks at you with a flustered expression while her snakes rub themselves into your hand.",
+                            "'Cutie.♥ I'll eat you up for that.♥'" ]
+                },
+            {
+                  "lineTrigger": "HitWith",
+                  "move": "Analyze",
+                  "theText": [ "My eyes are up here.♥",
+                            "'Mhmhm, curious little boy.♥'" ]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Bondage Net", "Magical Binding"],
+                  "theText": [ "She struggles slightly but doesn't look particularly worried!",
+                              "'Mhmhm.♪ How long do you think you can hold me?'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Pin",
+                  "theText": [ "'My my. So eager...♥'",
+                              "'Mhm. Try and hold me down.♥'",
+                              "'Can't hold yourself back? Mhmhmhm.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Lewd Bottle", "Cloying Mist", "Placebo Pheromone"],
+                  "theText": [ "'My my, it's getting a bit hard to think straight.♥'",
+                              "'You don't want to make even more hot and bothered, if you value your safety.♥'"]
+                },
+                {
+                    "lineTrigger": "HitWith",
+                    "move": "Electrify",
+                    "theText": [ "'Mmm. Not bad. But you have room for improvement yet.'",
+                                "'I almost felt that.♪'",
+                                "'Her snake hair goes wild for a second before rearranging itself back to normal.'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Finger",
+                  "theText": [ "'Mmmmhmhm.♥'",
+                              "'Are you going to keep teasing me?♥'",
+                              "'Good boy.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Dildo",
+                  "theText": [ "'Scared of using the real thing?♪'",
+                              "'Mmm. Decently-sized.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Grope Ass",
+                  "theText": [ "'Do you like my ass, mhm?♥'",
+                              "She hums in satisfaction as you grope her.",
+                              "'Keep going...♥'",
+                              "'Mmmh!♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Squeeze Ass", "Massage Ass", "Fondle Ass"],
+                  "theText": [ "She moans out loud and shakes her ass a bit, encouraging you to continue.",
+                              "'Mhmm... Good boy...♥'",
+                              "'Yes...♥ My ass could use a massage like this...♥'",
+                              "'I bet you want me to sit on you, mhm.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Breast Caress",
+                  "theText": [ "'Ahhh...♥'",
+                              "'They're all yours, sweetie.♥'",
+                              "'What skilled hands, mhmhm.♥'",
+                              "'Oooh...♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Breast Massage", "Breast Knead", "Breast Fondle"],
+                  "theText": [ "'Mmm.♥ Yes, do it more...♥'",
+                              "'Are you falling for my breasts, mhm?♥'",
+                              "She places her hands over yours, encouraging you to keep grabbing them.",
+                              "'Mmmmmm!♥ I love it...♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Suckle",
+                  "theText": [ "'Mhmhm. Cutie.♥'",
+                              "'Suckle all you want, I love it.♥'",
+                              "'Make sure to use your tongue.♥'",
+                              "'Aahhh... Such a good boy...♥'"]
+                },
+                {
+                    "lineTrigger": "HitWith",
+                    "move": "Penetrate",
+                    "theText": [ "'Mmm!♥ Come on, then!'",
+                                "'Make sure to let out a thick load inside me when you lose.♪'",
+                                "'Are you sure you can handle me? Mmhmhm.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Thrust", "Channeling Thrust"],
+                  "theText": [ "'Mmmm! Yes! More!♥'",
+                              "'Move those hips, mmm, cutie!♥'",
+                              "'Oooh!♥ Mmmmm!'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck"],
+                  "theText": [ "'Ooooh! OOH!♥ S-So rough!♥'",
+                              "'S-Such an eager boy! Ooooooh!♥",
+                              "'Yes! Harder! Conquer me!♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                  "theText": [
+                              "'Ooooh...♥ C-Cutie...!♥",
+                              "'Aaah... You absolute cute...♥ I'll eat you up for this.♥'",
+                              "'S-Such a good boy... Are you trying to make me fall for you?♥'",
+                              "'Mmmmm.♥ You're such a sweetheart...♥'"]
+                },
+                {
+                    "lineTrigger": "HitWith",
+                    "move": "Anal Penetration",
+                    "theText": [ "'Mmm!♥ Come on, then!'",
+                                "'Are you sure you can handle me? Mmhmhm.♥'",
+                                "'You're not getting out of there anytime soon now.♪'"]
+                },
+                {
+                  "lineTrigger": "HitWithA",
+                  "move": ["Thrust", "Channeling Thrust"],
+                  "theText": [ "'Mmmm! Yes! More!♥'",
+                              "'Move those hips, mmm, cutie!♥'",
+            "'Do you like watching my tail sway?'",
+                              "'Oooh!♥ Mmmmm!'"]
+                },
+                {
+                  "lineTrigger": "HitWithA",
+                  "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck", "Anal Piston"],
+                  "theText": [ "'Ooooh! OOH!♥ S-So rough!♥'",
+                              "'S-Such an eager boy! Ooooooh!♥",
+                              "'Yes! Harder! Conquer me!♥'"]
+                },
+                {
+                  "lineTrigger": "HitWithA",
+                  "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                  "theText": ["'Ooooh...♥ C-Cutie...!♥",
+                              "'Aaah... You absolute cute...♥ I'll eat you up for this.♥'",
+                              "'S-Such a good boy... Are you trying to make me fall for you?♥'",
+                              "'Mmmmm.♥ You're such a sweetheart...♥'"]
+                },
+                {
+                    "lineTrigger": "HitWith",
+                    "move": "Ear Tease",
+                    "theText": [ "She closes her eyes and blushes furiously.",
+                                "'Oooh! Mmmm, that's not fair, cutie!♥'",
+                                "'Mmm!♥ Don't tease my ear...!♥' She doesn't sound very convincing.",
+                                "'Mhmhmhmhm!♥ You're making me feel all tingly!'"]
+                },
+                {
+                    "lineTrigger": "HitWith",
+                    "move": "Make Out",
+                    "theText": [ "'You want my snakey kissies?♥ I'll be happy to oblige...'",
+                                "'Mhm. Big mistake.♥'",
+                                "'I'm gonna smooch you until you're a little pleasured pile.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Charm", "Charm Wave"],
+                  "theText": [ "'Y-You're so cute... I'm going to pamper you.♥♥♥'",
+                              "'I want your cum...♥ I want it bad!♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": "Sleep",
+                  "theText": [ "'Naughty boy... Trying to make me helpless...? Mmmhmhm.♥'"
+                              ]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Enfeeble", "Sensitize"],
+                  "theText": [ "'Hmmm. A sensible strategy.'",
+                              "'Don't think that'll save you.♥'",
+                              "'Ooh, how uncomfortable... But I can take it.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Disarming Appeal"],
+                  "theText": [ "'Don't be afraid, cutie. I'm not going to hurt you, just make you feel good.♥'",
+                              "'I guess I can slow down a little bit, if it makes you more comfortable, mhm.'",
+                              "'Don't worry, cutie. I want this to be fun for us both.♥'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Arouse", "Arousara", "Arousero"],
+                  "theText": [ "She shrugs off most of the attack with a smug smirk.",
+                              "'Magic isn't a great weapon against a magical being like me, mhmhm.'",
+                              "'Tingly. But you'll need more than that.'",
+                              "'Nice try, cutie.♥ But you have much to learn.'"]
+                },
+                {
+                  "lineTrigger": "HitWith",
+                  "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
+                  "theText": [ "Her cheeks turn red as she lets out an excited giggle.",
+                              "'C-Cutie! Don't tease me!♥'",
+                              "'Such a sweet young man... You're making me fall for you.♥'",
+                              "'Mmmm! Tease me more, cutie...♥'"]
+                },
+            {
+                  "lineTrigger": "HitWith",
+                  "move": "Face Fuck",
+                  "theText": [ "She moans out in delight as you thrust your cock in her mouth.",
+                              "'Mph!♥ Mph!♥'",
+                              "'Mmmhm!!♥♥♥'"]
+                },
+
+
+
+            {
+                    "lineTrigger": "UsesMove",
+                    "move": "Automated Firing Arousal Shell",
+                    "theText": [ "'Weapons Armed. Engaging Enemy.'"
+                    ]
+                },
+            
+                {
+                    "lineTrigger": "LowHealth",
+                    "move": "",
+                    "theText": [ "'H-Have I underestimate you, cutie?♥'",
+                              "'I can't take much more of you...'♥"]
+                },
+                {
+                    "lineTrigger": "PlayerLowHealth",
+                    "move": "",
+                    "theText": [ "'Look at that cute cock throbbing, desperate to release...'♥",
+                  "'Don't hold back, sweetie. Just let it all out for me.♥'"]
+                },
+            {
+                    "lineTrigger": "OnPlayerOrgasm",
+                    "move": "Sex",
+                    "theText": [ "You moan out as Euryale's warm pussy devours your whole erection with ease, the gorgon licking her lips excitedly as she feels you approach your climax. You let out a thick load into her womb, and she giggles out in excitement as you tremble and squirm from the pleasure.",
+                                "You moan desperately as you piston your cock into the gorgon's exquisite pussy, and she clamps down tighty into you, milking out your cum as you unload it into her. 'Mmmmmhmm... Good boy...♥'",
+                                "Euryale throws all of her weight down at you, leaving you pinned and helpless as she rides your cock incessantly, only slowing down once she feels you release your seed deep inside her, a smug smile upon her lips as she trails her forked tongue over them."
+                              ]
+                },
+                {
+                    "lineTrigger": "OnPlayerOrgasm",
+                    "move": "Anal",
+                    "theText": [ "You moan out as Euryale's thick ass devours your whole erection with ease, the gorgon licking her lips excitedly as she feels you approach your climax. You let out a thick load into her anus, and she giggles out in excitement as you tremble and squirm from the pleasure.",
+                                "You moan desperately as you piston your cock into the gorgon's exquisite rear, and she clamps down tighty into you, milking out your cum as you unload it into her. 'Mmmmmhmm... Good boy...♥'",
+                                "Euryale throws all of her weight down at you, leaving you pinned and helpless as she rides your cock incessantly, only slowing down once she feels you release your seed deep inside her, a smug smile upon her lips as she trails her forked tongue over them."
+                              ]
+                },
+            {
+                    "lineTrigger": "OnPlayerOrgasm",
+                    "move": "Blowjob",
+                    "theText": [ "You moan in delight as Euryale pumps on your cock with her mouth, the gorgon wrapping her arms around your waist and bringing you close, causing you to cum right down her throat. She swallows it all with a happy hum, licking your tip in sweet praise.",
+                                "Euryale allows your cock out of her mouth only for it to be assaulted by her snake-hair. They flick their little tongues all over shaft, and the strange and unusual sensation sends you over the edge, a spurt of cum shooting out and causing the serpents to immediately retreat.",
+                                "The gorgon hums contently as she slows down her movements, her hand reaching down to grasp and lovingly massage your testicles, as if encouraging you to produce more cum for her. Soon, you find yourself shoot straight down her naughty throat, and she gasps in delight as she gives your balls a final fondling."
+                              ]
+                },
+            {
+                    "lineTrigger": "OnPlayerOrgasm",
+                    "move": "Making Out",
+                    "theText": [ "You moan in Euryale's mouth as she skillfully wraps her tongue around yours, and your cock throbs in desperate need for release, unable to resist her advances. She giggles as you let out a load of cum, before returning to her kissing session.",
+                                "Euryale starts smooching you all over, leaving your face filled with black lipstick marks while your cock leaks pre-cum, eager to release. She gives it a gentle caress with one finger, and that's enough for you to let out a powerful load as you feel a wave of pleasure tingle through your spine.",
+                                "Your face is assalted by a veritable horde of snakes who begin peppering you with little kisses while Euryale gives your cheeks long licks. Their advances are soon too much for you to withstand and you cum out eagerly for the naughty serpents and their mistress."
+                              ]
+                },
+            {
+                    "lineTrigger": "OnPlayerOrgasm",
+                    "move": "",
+                    "theText": [ "Unable to resist, you let out a spurt of cum, and Euryale watches intently, licking her lips slowly and sensually. 'Mhmmm. Don't cum on the floor, that's just a waste.♥'",
+                              "'Mhm, don't hold back, just let it all out.♥' Incapable of resisting her advances, you let you a thick rope of cum, and Euryale giggles mischievously as she watches your face contort from pleasure."
+                              ]
+                },
+                {
+                    "lineTrigger": "onOrgasm",
+                    "move": "",
+                    "theText": [ "Ooooh!♥ I submit!! MMMMMM!'♥♥♥",
+                                "'S-Such a good boyyyyEEEEK!!!♥♥♥"
+                              ]
+                },
+                {
+                    "lineTrigger": "OnSurrender",
+                    "move": "",
+                    "theText": [ "'Aww, too tired to go on, cutie? It's alright, I'm gonna make you feel super good now.♥'",
+                  "'Yes, stop resisting... I'll show you true pleasure.♥'"]
+                },
+            {
+                    "lineTrigger": "StanceStruggle",
+                    "move": "Sex",
+                    "theText": [ "{ThePlayerName} tries to pull out of the {AttackerName}'s tight pussy..."]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFail",
+                    "move": "Sex",
+                    "theText": [ "But the gorgon's eyes flash a bit, and you feel your body stiffen for a moment, keeping you locked in place!",
+                                "But Euryale's tail wraps aroung your waist and presses you deeper into her instead!",
+                                "But Euryale clings up to you, and you can't get her to stop riding your stiff erection!",
+                                "But the gorgon slams her hips into you with surprising force, keeping you tightly locked in place!",
+                                "But the gorgon lets out a cute whine, and you can't help but continuing thrusting your cock into her!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleComment",
+                    "move": "Sex",
+                    "theText": [ "'Mmm. No stopping now.♥'",
+                                "'Wanting to stop so soon? But you're enjoying yourself so much...♥'",
+                                "'Stop resisting, mmhmhm.♥'",
+                                "'Mmm!♥ Fuck me more...♥'",
+                                "'Nu-huh. Your cock is right where it belongs right now.♥'"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFree",
+                    "move": "Sex",
+                    "theText": [ "And manage to pull your cock out of her tight slit!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFreeComment",
+                    "move": "Sex",
+                    "theText": [ "'Mmm. Why stop? You were making such a cute face.♪'",
+                              "'My my, so pent up... We have to do something about that.♥'",
+                              "Now, where do you think you're going, hm?'",
+                              "'Naughty. I'll have to punish you for that.♥'",
+                              "'Don't pretend you don't want more, mhmhmhm.♥'"]
+                },
+                {
+                    "lineTrigger": "StanceStruggle",
+                    "move": "Anal",
+                    "theText": [ "{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFail",
+                    "move": "Anal",
+                    "theText": [ "But the gorgon's eyes flash a bit, and you feel your body stiffen for a moment, keeping you locked in place!",
+                                "But Euryale's tail wraps aroung your waist and presses you deeper into her instead!",
+                                "But Euryale clings up to you, and you can't get her to stop riding your stiff erection!",
+                                "But the gorgon slams her hips into you with surprising force, keeping you tightly locked in place!",
+                                "But the gorgon lets out a cute whine, and you can't help but continuing thrusting your cock into her!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleComment",
+                    "move": "Anal",
+                    "theText": [ "'Mmm. No stopping now.♥'",
+                                "'Wanting to stop so soon? But you're enjoying yourself so much...♥'",
+                                "'Stop resisting, mmhmhm.♥'",
+                                "'Mmm!♥ Fuck me more...♥'",
+                                "'Nu-huh. Your cock is right where it belongs right now.♥'"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFree",
+                    "move": "Anal",
+                    "theText": [ "And manage to pull your cock out of her tight rear!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFreeComment",
+                    "move": "Anal",
+                    "theText": [ "'Mmm. Why stop? You were making such a cute face.♪'",
+                              "'My my, so pent up... We have to do something about that.♥'",
+                              "Now, where do you think you're going, hm?'",
+                              "'Naughty. I'll have to punish you for that.♥'",
+                              "'Don't pretend you don't want more, mhmhmhm.♥'"]
+                },
+                {
+                    "lineTrigger": "StanceStruggle",
+                    "move": "Making Out",
+                    "theText": [ "{ThePlayerName} tries to break the deep kiss with the gorgon..."]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFail",
+                    "move": "Making Out",
+                    "theText": [ "But she brings a hand to your hair and starts lovingly caressing you, and you can't help but want more of her affection!",
+                                "But she moans in your kiss, pressing her body into yours and leaving your tongue tightly locked around hers!",
+            "But her snake-hair lungers forward and peppers you in small kisses, leaving you too kiss-drunk to back out!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleComment",
+                    "move": "Making Out",
+                    "theText": [ "'You stay - chu - right - chu - where you are.♥'",
+                                "Her snake-hair flicks their tongues all over you playfully."]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFree",
+                    "move": "Making Out",
+                    "theText": [ "And manage to push the lusty gorgon away!",
+                              "And free your mouth from the gorgon's soft black lips!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleFreeComment",
+                    "move": "Making Out",
+                    "theText": [ "She licks her own lips very suggestively.",
+                              "'Don't pretend you don't want my lipstick all over you, mhmhm.♥'",
+                              "'Naughty boy. I'll have to kiss you senseless for that.♥'"]
+                },
+            {
+                    "lineTrigger": "StanceStruggle",
+                    "move": "Blowjob",
+                    "theText": [ "{ThePlayerName} tries to get Euryale's mouth out of his cock..."]
+                },
+            {
+                    "lineTrigger": "StanceStruggleFail",
+                    "move": "Blowjob",
+                    "theText": [ "But she wraps her arms around your waist and presses you deeper into her throat instead!",
+                                "But her snake-hair reaches forward and tickles your crotch with their tongues, leaving you distracted and flustered!",
+            "But she wraps her tongue around your cock over and over, and the pleasure is too good for you to stop it!"]
+                },
+                {
+                    "lineTrigger": "StanceStruggleComment",
+                    "move": "Blowjob",
+                    "theText": [ "'Nu-huh.♥' She giggles mischievous with your cock in her mouth.",
+                                "'Don't struggle and let me eat you up. You know you're loving it.♥'."]
+                },
+            {
+                    "lineTrigger": "StanceStruggleFree",
+                    "move": "Blowjob",
+                    "theText": [ "And manage to push her away from it!",
+                              "And manage to break free of her prison of black lipstick!"]
+                },
+                {
+                  "lineTrigger": "EndOfRound",
+                  "move": "",
+                  "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|HealCheck|n|"]
+                },
+            {
+                    "lineTrigger": "StanceStruggleFreeComment",
+                    "move": "Blowjob",
+                    "theText": [ "'Aw, but you were squirming in such a cute way...♥'",
+                              "'Why resist? You know you want me to eat you up.♥'",
+                              "'Naughty boy. I'll have to suck you dry for that.♥'"]
+                }
+                      ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [ ""],
+                "theScene": [ ""
+                          ],
+                "picture": ""
+            }
+        ],
+  "pictures": [
+              {
+                  "Name": "Base",
+                  "StartOn": "1",
+                  "AlwaysOn": "1",
+                  "IsScene": "0",
+                  "TheBody": "1",
+                  "Overlay": "No",
+                  "setXalign": "0.0",
+                  "setYalign": "0.18",
+                  "Images": [
+                  {
+                      "Name": "Base",
+                      "File": "../Mods/Automaton/Images/MGE_Automaton_87%.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }
+                ]
+              }
+            ]
+  
+    }
+  

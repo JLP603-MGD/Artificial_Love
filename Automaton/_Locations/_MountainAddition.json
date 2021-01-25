@@ -1,0 +1,25 @@
+{
+    "name": "Mountain",
+    "exploreTitle": "Addition",
+    "Monsters": [""],
+    "MonsterGroups": [
+                  {
+                      "Group": [""]
+                  }
+
+                ],
+    "Events": ["Scorched Path"],
+    "Quests": [""],
+    "Adventures": ["Visit Alyssa"],
+    "Treasure": [
+                {
+                    "Common": [""]
+                },
+                {
+                    "Uncommon": [""]
+                },
+                {
+                    "Rare": [""]
+                }
+              ]
+}
