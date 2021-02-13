@@ -124,6 +124,46 @@
                                                           ]
                                             },
                                 {
+                                    "NameOfScene": "No Anal",
+                                    "theScene": [
+                                                    "SkipPlayerAttack",
+                                                    "IfMonsterHasStatusEffect", "Restrain", "No Anal Still",
+                                                    "IfMonsterHasStatusEffect", "Sleep", "No Anal Still",
+                                                    "IfMonsterHasStatusEffect", "Stun", "No Anal Still",
+                                                    "ChangeImageLayer", "Expression",  "Curious",
+                                                    "You move to penetrate Amy's ass, managing to move her long tail out of the way to see... She doesn't appear to have one? Amy's staring at you with a mixture of curiosity and confusion, and invitingly spreads her pussy with a chirp, inviting you in.",
+                                                    "Menu",
+                                                    "Fuck her pussy!",
+                                                    "Abort!",
+                                                    "EndLoop"
+                                        ]
+                                },
+                                                {
+                                                    "NameOfScene": "No Anal Still",
+                                                    "theScene": [
+                                                                "You move to penetrate Amy's ass, managing to move her long tail out of the way to see... She doesn't appear to have one?",
+                                                                "Menu",
+                                                                    "Fuck her pussy!",
+                                                                    "Abort!",
+                                                                "EndLoop"
+                                                            ]
+                                                },
+                                        {
+                                            "NameOfScene": "Abort!",
+                                            "theScene": [ "You step back and try to think of your next move, and Amy seems a little miffed you ignored her offer..."
+                                                        ]
+                                        },
+                                        {
+                                            "NameOfScene": "Fuck her pussy!",
+                                            "theScene": [ "ApplyStance", "Sex",
+                                                            "HitPlayerWith", "Devouring Ride",
+                                                            "ChangeImageLayer", "Expression",  "Seductive",
+                                                            "You plunge your rigid cock into her tight cilia-filled pussy with a moan, and only moan louder as two long tongues descend and wrap around your throbbing cock to massage and tease it.{DamageToPlayer}",
+                                                            "HitMonsterWith", "Thrust",
+                                                            "But Amy herself also coos happily at your stiff erection filling her, clearly enjoying you inside her.{DamageToEnemy}"
+                                                        ]
+                                        },
+                                {
                                     "NameOfScene": "HealCheck",
                                     "theScene": [ "IfMonsterArousalGreaterThan", "315", "I_NEED_HEALING"
                                                       
@@ -135,6 +175,21 @@
                                         "HEALING AUTOMATON IN PROGRESS",
                                         "CallMonsterAttack", "SpecificAttack", "System Cooling"    
                                     ]
+                                },
+                                {
+                                    "NameOfScene": "Shocked",
+                                    "theScene": [
+                                                    "SkipPlayerAttack",
+                                                    "IfMonsterHasStatusEffect", "Restrain", "No Anal Still",
+                                                    "IfMonsterHasStatusEffect", "Sleep", "No Anal Still",
+                                                    "IfMonsterHasStatusEffect", "Stun", "No Anal Still",
+                                                    "ChangeImageLayer", "Expression",  "Curious",
+                                                    "You move to penetrate Amy's ass, managing to move her long tail out of the way to see... She doesn't appear to have one? Amy's staring at you with a mixture of curiosity and confusion, and invitingly spreads her pussy with a chirp, inviting you in.",
+                                                    "Menu",
+                                                    "Fuck her pussy!",
+                                                    "Abort!",
+                                                    "EndLoop"
+                                        ]
                                 }
                 ]
 }
