@@ -31,7 +31,7 @@
               "Luck": "10"
     },
     "Fetishes": [ ""],
-    "BodySensitivity": { "Sex": "90",
+    "BodySensitivity": { "Sex": "75",
               "Ass": "75",
               "Breasts": "75",
               "Mouth": "75",
@@ -128,11 +128,10 @@
                               "'You don't want to make even more hot and bothered, if you value your safety.♥'"]
                 },
                 {
-                    "lineTrigger": "HitWith",
-                    "move": "Electrify",
-                    "theText": [ "'Mmm. Not bad. But you have room for improvement yet.'",
-                                "'I almost felt that.♪'",
-                                "'Her snake hair goes wild for a second before rearranging itself back to normal.'"]
+                  "lineTrigger": "HitWith",
+                  "move": ["Electrify"],
+                  "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Shocked|n|"
+                              ]
                 },
                 {
                   "lineTrigger": "HitWith",
@@ -218,13 +217,6 @@
                               "'Mmmmm.♥ You're such a sweetheart...♥'"]
                 },
                 {
-                    "lineTrigger": "HitWith",
-                    "move": "Anal Penetration",
-                    "theText": [ "'Mmm!♥ Come on, then!'",
-                                "'Are you sure you can handle me? Mmhmhm.♥'",
-                                "'You're not getting out of there anytime soon now.♪'"]
-                },
-                {
                   "lineTrigger": "HitWithA",
                   "move": ["Thrust", "Channeling Thrust"],
                   "theText": [ "'Mmmm! Yes! More!♥'",
@@ -234,7 +226,7 @@
                 },
                 {
                   "lineTrigger": "HitWithA",
-                  "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck", "Anal Piston"],
+                  "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck"],
                   "theText": [ "'Ooooh! OOH!♥ S-So rough!♥'",
                               "'S-Such an eager boy! Ooooooh!♥",
                               "'Yes! Harder! Conquer me!♥'"]
@@ -311,7 +303,12 @@
                               "'Mph!♥ Mph!♥'",
                               "'Mmmhm!!♥♥♥'"]
                 },
-
+                {
+                  "lineTrigger": "AutoCounter",
+                  "move": "Anal Penetration",
+                  "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|No Anal|n|"
+                              ]
+                },
 
 
             {
@@ -338,14 +335,6 @@
                     "move": "Sex",
                     "theText": [ "You moan out as Euryale's warm pussy devours your whole erection with ease, the gorgon licking her lips excitedly as she feels you approach your climax. You let out a thick load into her womb, and she giggles out in excitement as you tremble and squirm from the pleasure.",
                                 "You moan desperately as you piston your cock into the gorgon's exquisite pussy, and she clamps down tighty into you, milking out your cum as you unload it into her. 'Mmmmmhmm... Good boy...♥'",
-                                "Euryale throws all of her weight down at you, leaving you pinned and helpless as she rides your cock incessantly, only slowing down once she feels you release your seed deep inside her, a smug smile upon her lips as she trails her forked tongue over them."
-                              ]
-                },
-                {
-                    "lineTrigger": "OnPlayerOrgasm",
-                    "move": "Anal",
-                    "theText": [ "You moan out as Euryale's thick ass devours your whole erection with ease, the gorgon licking her lips excitedly as she feels you approach your climax. You let out a thick load into her anus, and she giggles out in excitement as you tremble and squirm from the pleasure.",
-                                "You moan desperately as you piston your cock into the gorgon's exquisite rear, and she clamps down tighty into you, milking out your cum as you unload it into her. 'Mmmmmhmm... Good boy...♥'",
                                 "Euryale throws all of her weight down at you, leaving you pinned and helpless as she rides your cock incessantly, only slowing down once she feels you release your seed deep inside her, a smug smile upon her lips as she trails her forked tongue over them."
                               ]
                 },
@@ -424,43 +413,6 @@
                 },
                 {
                     "lineTrigger": "StanceStruggle",
-                    "move": "Anal",
-                    "theText": [ "{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
-                },
-                {
-                    "lineTrigger": "StanceStruggleFail",
-                    "move": "Anal",
-                    "theText": [ "But the gorgon's eyes flash a bit, and you feel your body stiffen for a moment, keeping you locked in place!",
-                                "But Euryale's tail wraps aroung your waist and presses you deeper into her instead!",
-                                "But Euryale clings up to you, and you can't get her to stop riding your stiff erection!",
-                                "But the gorgon slams her hips into you with surprising force, keeping you tightly locked in place!",
-                                "But the gorgon lets out a cute whine, and you can't help but continuing thrusting your cock into her!"]
-                },
-                {
-                    "lineTrigger": "StanceStruggleComment",
-                    "move": "Anal",
-                    "theText": [ "'Mmm. No stopping now.♥'",
-                                "'Wanting to stop so soon? But you're enjoying yourself so much...♥'",
-                                "'Stop resisting, mmhmhm.♥'",
-                                "'Mmm!♥ Fuck me more...♥'",
-                                "'Nu-huh. Your cock is right where it belongs right now.♥'"]
-                },
-                {
-                    "lineTrigger": "StanceStruggleFree",
-                    "move": "Anal",
-                    "theText": [ "And manage to pull your cock out of her tight rear!"]
-                },
-                {
-                    "lineTrigger": "StanceStruggleFreeComment",
-                    "move": "Anal",
-                    "theText": [ "'Mmm. Why stop? You were making such a cute face.♪'",
-                              "'My my, so pent up... We have to do something about that.♥'",
-                              "Now, where do you think you're going, hm?'",
-                              "'Naughty. I'll have to punish you for that.♥'",
-                              "'Don't pretend you don't want more, mhmhmhm.♥'"]
-                },
-                {
-                    "lineTrigger": "StanceStruggle",
                     "move": "Making Out",
                     "theText": [ "{ThePlayerName} tries to break the deep kiss with the gorgon..."]
                 },
@@ -529,14 +481,21 @@
                       ],
   "victoryScenes": [
             {
-                "NameOfScene": "",
-                "move": "",
-                "stance": "",
-                "includes": [ ""],
-                "theScene": [ ""
-                          ],
-                "picture": ""
-            }
+              "NameOfScene": "AutomatonDefeated",
+              "move": "",
+              "stance": "",
+              "includes": [ "Automaton"],
+              "theScene": [ "ClearMonsterEncounter",
+                          "ChangeBGM", "music/Loss/reason.mp3",
+                            "The kunoichi trainee collapses onto the ground, gasping with lust as her body spasms in orgasmic pleasure, but she refuses to fade away through sheer force of will as she defiantly glares up at you with the faintest expression of need.",
+                            "Speaks",
+                            "D-Don't think you've won just yet, human! I-I'm still not defeated! T-There's no way I could lose to someone like you...",
+                            "ClearMonsterEncounter",
+                            "JumpToEvent",
+                            "Automaton Defeated"
+                        ],
+              "picture": ""
+          }
         ],
   "pictures": [
               {

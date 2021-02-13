@@ -1,4 +1,4 @@
-# Name TBD
+# Name TBD Base v0.02
 ___
 A Mod that adds an Automaton to the game, **[Monster Girl Dreams](https://www.patreon.com/MonsterGirlDreams)** by **Threshold**
 

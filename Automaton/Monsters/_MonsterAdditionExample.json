@@ -1,0 +1,162 @@
+{
+    "name": "Elf",
+    "IDname": "Elf",
+    "gender": "Addition",
+    "tags": "none",
+    "skillList": [ "Blowjob", "Blowjob", "Blowjob", "Blowjob", "Blowjob", "Blowjob","Blowjob","Blowjob","Blowjob","Blowjob","Blowjob"],
+    "perks": [ "Pacing"],
+   // "perks": [ "MonsterPacing","Swift","Clingy","BondBreaker","ResistnaceTraining","Predictive","EnduringBody","PinpointPleasure"],
+    "ItemDropList": [
+                        {
+                          "name": "Energy Potion",
+                          "dropChance": "100"
+                        }
+                    ],
+    "lossScenes": [
+                      {
+                          "NameOfScene": "Anal scene",
+                          "move": "",
+                          "stance": "Anal",
+                          "includes": [ "Elf"],
+                          "theScene": [ "the elf rides you senseless in anal!"
+                                    ],
+                          "picture": ""
+                      }
+                  ],
+    "combatDialogue": [
+                          {
+                              "lineTrigger": "UsesMove",
+                              "move": "Blowjob",
+                              "theText": [ "This will replace the original combat dialogue the elf says!",
+                                          "The pictures and victory scenes will remove the dead ones from monsters that don't have one initally, otherwise they add it to the end of the list."]
+                          }
+
+                      ],
+  "victoryScenes": [
+              {
+                  "NameOfScene": "Example Win",
+                  "move": "",
+                  "stance": "",
+                  "includes": [ "Elf"],
+                  "theScene": [ "Huzza, you beat the elf!"
+                            ],
+                  "picture": ""
+              }
+        ],
+        "pictures": [
+          {
+            "Name": "Base",
+            "Set":  [
+                        {
+                            "Name": "Base",
+                            "StartOn": "1",
+                            "AlwaysOn": "1",
+                            "IsScene": "0",
+                            "TheBody": "1",
+                            "Overlay": "No",
+                            "setXalign": "0.0",
+                            "setYalign": "0.22",
+                            "Images": [
+                              {
+                                  "Name": "NewImageInExistingLayer",
+                                  "File": "NPCs/Elena/elena_drunkflirt.png",
+                                  "setXalign": "0.0",
+                                  "setYalign": "0.0"
+                              }
+                            ]
+                        },
+                        {
+                            "Name": "NewLayer",
+                            "StartOn": "1",
+                            "AlwaysOn": "1",
+                            "IsScene": "0",
+                            "TheBody": "0",
+                            "Overlay": "No",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0",
+                            "Images": [
+                              {
+                                  "Name": "NewPicture",
+                                  "File": "Monsters/Camilla/expression_Camilla_Horny.png",
+                                  "setXalign": "0.0",
+                                  "setYalign": "0.0"
+                              }
+                            ]
+                        }
+                ]
+              },
+              {
+                "Name": "NEw",
+                "Set":  [
+                      {
+                          "Name": "Base",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "1",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.16",
+                          "Images": [
+                                {
+                                    "Name": "Base",
+                                    "File": "NPCs/Lillian/Lillian-neutral.png",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
+                                },
+                                {
+                                    "Name": "Happy",
+                                    "File": "NPCs/Lillian/Lillian-happy.png",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
+                                },
+                                {
+                                    "Name": "Blush",
+                                    "File": "NPCs/Lillian/Lillian-blush.png",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
+                                },
+                                {
+                                    "Name": "Nervous",
+                                    "File": "NPCs/Lillian/Lillian-nervous.png",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
+                                },
+                                {
+                                    "Name": "Surprised",
+                                    "File": "NPCs/Lillian/Lillian-surprised.png",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
+                                },
+                                {
+                                    "Name": "Upset",
+                                    "File": "NPCs/Lillian/Lillian-upset.png",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
+                                }
+                        ]
+                      },
+                      {
+                          "Name": "NewLayer",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "0",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.0",
+                          "Images": [
+                            {
+                                "Name": "NewPicture",
+                                "File": "Monsters/Camilla/expression_Camilla_Horny.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            }
+                          ]
+                      }
+                    ]
+                  }
+
+
+                    ]
+}
