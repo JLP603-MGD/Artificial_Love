@@ -6,13 +6,14 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.03                                                                                                                                                                                  
+Version Changes - Artificial Love v.0.03a                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
+-made some changes balance tweaks and fixed some bugs based on feedback
 -Adds an Automaton by:
 Going to the Caverns selecting them from the deck of Generic enemies
 -Secret WIP feature (something to do with the Automaton's loot drops)
 
-Author Message - Artificial Love v.0.03                                                                                                                                                                                  
+Author Message - Artificial Love v.0.03a                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
 	The following mod adds a generic enemy encounter to the Caverns. However, they are much
 stronger than the area's typical generics. Advised level is 40-50. The enemies stats are still 

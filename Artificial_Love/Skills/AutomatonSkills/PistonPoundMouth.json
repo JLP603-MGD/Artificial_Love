@@ -10,7 +10,7 @@
   "skillTags": [ "Blowjob"],
   "fetishTags": [ "Blowjob"],
   "startsStance": "",
-  "requiresStance": ["Blowjob"],
+  "requiresStance": "Blowjob",
   "unusableIfStance": [ "Penetration"],
   "requiresTargetStance": [ "Blowjob"],
   "unusableIfTarget": [ ""],

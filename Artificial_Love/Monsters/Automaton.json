@@ -20,7 +20,7 @@
     "perks": ["Arcane Adept","Quick Witted","Clingy","Grappler","Pinpoint Pleasure","Alert","Bond Breaker","Undeniable Pleasure"],
     "stats": { "lvl": "40",
               "Exp": "400",
-              "max_hp": "550",
+              "max_hp": "650",
               "max_ep": "15",
               "max_sp": "1",
               "Power": "25",

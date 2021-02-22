@@ -188,9 +188,10 @@
                                         },
                                 {
                                     "NameOfScene": "ArousalCheck",
-                                    "theScene": [ "IfMonsterArousalGreaterThan", "385", "I_NEED_HEALING",
-                                                  "IfMonsterArousalGreaterThan", "275", "HOT!!!",
-                                                  "IfMonsterArousalGreaterThan", "135", "Hot"
+                                    "theScene": [ 
+                                                  "IfMonsterArousalGreaterThan", "455", "I_NEED_HEALING",
+                                                  "IfMonsterArousalGreaterThan", "325", "HOT!!!",
+                                                  "IfMonsterArousalGreaterThan", "165", "Hot"
                                                       
                                     ]
                                 },
@@ -236,8 +237,7 @@
                                             "!",
                                             "Hostile action registered. Enacting appropriate response.",
                                             "EndLoop",
-                                            "CallMonsterAttack", "SpecificAttack", "Automatic Firing: Arousal Shell",
-                                            "SkipMonsterAttack"
+                                            "CallMonsterAttack", "SpecificAttack", "Automatic Firing: Arousal Shell"
                                         ]
                                 },
                                 {
@@ -281,8 +281,7 @@
                                             "!",
                                             "Connection established.",
                                             "EndLoop",
-                                            "CallMonsterAttack", "SpecificAttack", "Orifice Clamp: Pussy",
-                                            "SkipMonsterAttack"
+                                            "CallMonsterAttack", "SpecificAttack", "Orifice Clamp: Pussy"
                                         ]
                                 },
                                 {

@@ -11,7 +11,7 @@
     "fetishTags": [ ""],
     "startsStance": [""],
     "requiresStance": "Any",
-    "unusableIfStance": [ "Anal"],
+    "unusableIfStance": [ "Sex", "Blowjob", "Making Out"],
     "requiresTargetStance": [ "Any"],
     "unusableIfTarget": [ ""],
     "removesStance": ["None"],
