@@ -1,0 +1,163 @@
+{
+  //Event seperate from the inn so I can store vent progress?
+    "name": "AutomatonEvent",
+    "CardType": "Addition",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Automaton",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "Enter",
+                        "theScene": [
+                                    "StoreCurrentBG",
+                                    "ChangeBG", "standIn.png",
+                                    "You head upstairs and enter into your cozy, sparsely decorated room.",
+                                    "IfHasPerk", "Master Command","Android Greet",
+                                    "JumpToScene", "RoomMenu"
+                                ]
+                    },
+                    {
+                        "NameOfScene": "Android Greet",
+                        "theScene": [
+                         
+                          "DisplayCharacters",
+                            "2",
+                          "EndLoop",
+                          "Speaks",
+                          "Greetings Master. How may I serve you?",
+                          "JumpToScene", "RoomMenu"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "RoomMenu",
+                        "theScene": [ "SetChoice", "1", "",
+                                      "Menu",
+                                        "Rest. (Advances Time 1)",
+                                        "Sleep till morning.",
+                                        "Rest till dusk.",
+                                        "FinalOption","Leave",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "RoomMenu",
+                        "theScene": [
+                          "MenuAddition",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "MORTAL KOMBAT",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "SEX with android",
+                          "EndLoop"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "SEX with android",
+                        "theScene": ["Speaks",
+                            "Command registered. Processing ..... Sex finished succesfully!",
+                            "You hear her say in a rather monotone voice",
+                        "JumpToScene",
+                        "RoomMenu"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "MORTAL KOMBAT",
+                      "theScene": ["Speaks",
+                          "Command registered. Processing ..... Combat Mode Engaged!",
+                          "You hear her say in a rather monotone voice",
+                          "CombatEncounter", "NoRunning",
+                          "Automaton",
+                          "StartCombat",
+                          "DisplayCharacters",
+                          "2",
+                          "EndLoop",
+									        "The robot reappears soon after.",
+                      "JumpToScene",
+                      "RoomMenu"
+                                ]
+                  },
+                 
+                  {
+                    "NameOfScene": "Rest. (Advances Time 1)",
+                    "theScene": [
+                                "DisplayCharacters",
+                                "EndLoop",
+                                "RestPlayer",
+                                "DisplayCharacters",
+                                "2",
+                                "EndLoop",
+                                "JumpToScene", "RoomMenu"
+                              ]
+                },
+                {
+                    "NameOfScene": "Sleep till morning.",
+                    "theScene": [ 
+                                  "DisplayCharacters",
+                                  "EndLoop",
+                                  "You lay back in your soft bed and drift off to sleep...",
+                                  "JumpToScene", "Sleeping"
+                              ]
+                },
+                      {
+                          "NameOfScene": "Sleeping",
+                          "theScene": [
+                                        "...",
+                                        "SetChoice", "1", "SleepingInRoom",
+                                        "SleepPlayer",
+                                        "SetChoice", "1", "",
+                                        "Later you get out of bed with a lazy stretch, and start preparing for the day.",
+                                        "DisplayCharacters",
+                                        "2",
+                                        "EndLoop",
+                                        "JumpToScene", "RoomMenu"
+                                    ]
+                      },
+
+                {
+                    "NameOfScene": "Rest till dusk.",
+                    "theScene": [ 
+                                  "DisplayCharacters",
+                                  "EndLoop",
+                                  "You lay back in your soft bed and drift off as you rest until night...",
+                                  "...",
+                                  "JumpToScene", "SleepingNight"
+                              ]
+                },
+                      {
+                          "NameOfScene": "SleepingNight",
+                          "theScene": [
+                                        "RestPlayer",
+                                        "IfTimeIs", "Day", "SleepingNight",
+                                        "Later you get out of bed with a lazy stretch, and start preparing for the day.",
+                                        "DisplayCharacters",
+                                        "2",
+                                        "EndLoop",
+                                        "JumpToScene", "RoomMenu"
+                                    ]
+                      },
+
+                  {
+                    "NameOfScene": "Leave",
+                    "theScene": [
+                      "IfHasPerk", "Master Command","Android Goodbye",
+                      "UseHeldBG"
+                              ]
+                },
+                {
+                  "NameOfScene": "Android Goodbye",
+                  "theScene": [
+                   
+                   
+                    "Speaks",
+                    "Goodbye Master.",
+                    "DisplayCharacters",
+									"EndLoop",
+                  "UseHeldBG"
+                            ]
+              }
+            ]
+}

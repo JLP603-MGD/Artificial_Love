@@ -56,10 +56,6 @@
                       {
                         "name": "Damaged Internal Hard Drive",
                         "dropChance": "-999"
-                      },
-                      {
-                        "name": "Automaton Artifical Womb Unit",
-                        "dropChance": "20"
                       }
                     ],
     "lossScenes": [
@@ -151,7 +147,7 @@
                   "lineTrigger": "HitWith",
                   "move": "Finger",
                   "theText": [ "'...'",
-                               "'...' Her eyes are glued to your finger, following it along up as it repeatedly goes in and out of her pussy.",
+                               "'...' Her eyes are glued to your finger, following it along as it repeatedly goes in and out of her pussy.",
                               "You slowly retract your finger from her tight snatch, leaving a gooey string of lubricant between her pussy and the tip of your coated finger."]
                 },
                 {
@@ -164,13 +160,13 @@
                   "lineTrigger": "HitWith",
                   "move": "Caress",
                   "theText": [ 
-                    "You indulge in the oddly satisfying sensation of feeling her cold, equisitely smooth, steely fittings, textured, leathery surfaces, and dipping your fingers and running them down her deep sweeping grooves.",
+                    "You indulge in the oddly satisfying sensation of feeling her cold, equisitely smooth, steely fittings; textured, leathery surfaces; and dipping your fingers before running them down her deep sweeping grooves.",
                     "'...'"]
                 },
                 {
                   "lineTrigger": "HitWith",
                   "move": ["Squeeze Ass", "Massage Ass", "Grope Ass"],
-                  "theText": [ "'...' She places her hands over yours, moving them in circles, and helping you massage them.",
+                  "theText": [ "'...' She places her hands over yours, moving them in circles; helping you massage them.",
                     "She bends forward and raises her butt, presenting her ass to you.",
                     "'...'"]
                 },
@@ -186,7 +182,7 @@
                   "move": ["Breast Massage", "Breast Knead", "Breast Fondle"],
                   "theText": [ 
                               "'...'",
-                              "'...' She places her hands over yours, moving them in circles, and helping you massage them.",
+                              "'...' She places her hands over yours, moving them in circles; helping you massage them.",
                               "She leans forward and raises her chest, presenting her breasts to you."]
                 },
                 {
@@ -204,7 +200,7 @@
                 {
                   "lineTrigger": "HitWith",
                   "move": ["Thrust", "Channeling Thrust"],
-                  "theText": [ "She stares into your eyes, taking in your expression as you fuck her",
+                  "theText": [ "She stares into your eyes, taking in your expression as you fuck her.",
                               "..."]
                 },
                 {
@@ -216,7 +212,7 @@
                   "lineTrigger": "HitWith",
                   "move": ["Tantric Thrust", "Passionate Lovemaking"],
                   "theText": [
-                              "The sensation of your wild thrusts reverberates across her body, making her quiver as her body moves perfectly in-synch to your movements."]
+                              "The sensation of your wild thrusts reverberate across her body, making her quiver as her body moves perfectly in-sync with your movements."]
                 },
                 {
                     "lineTrigger": "HitWith",
@@ -286,9 +282,9 @@
             {
                     "lineTrigger": "OnPlayerOrgasm",
                     "move": "Sex",
-                    "theText": [ "'Cum.' With one rough final slam of her hips, you reach climax, exploding into her as you fill up the Automaton's greedy pussy. 'Spiritual energy detected. Absobing...' The tatoo on her stomach glows ounce before growing dim ounce more.",
-                                "You desperately thrust into the Automaton's exquisite pussy, as she clamps down on your cock, milking out streams of your cum as you deposit it into her. 'Spiritual energy detected. Absobing...' The tatoo on her stomach glows ounce before growing dim ounce more.",
-                                "The Automaton continues to ride your cock before leaning in close and whispering into your ear, commanding you to cum as she pushes down her entire weight, forcing you to unload your seed deep inside her pussy. 'Spiritual energy detected. Absobing...' The tatoo on her stomach glows ounce before growing dim ounce more."
+                    "theText": [ "'Cum.' With one rough final slam of her hips, you reach climax; exploding into her as you fill up the Automaton's greedy pussy. 'Spiritual energy detected. Absobing...' The tatoo on her stomach glows ounce before growing dim ounce more.",
+                                "You desperately thrust into the Automaton's exquisite pussy, as she clamps down on your cock, milking out streams of your cum as you deposit them into her. 'Spiritual energy detected. Absobing...' The tatoo on her stomach glows ounce before growing dim ounce more.",
+                                "The Automaton continues to ride your cock before leaning in close and whispering into your ear; commanding you to cum as she pushes down her entire weight, forcing you to unload your seed deep inside her pussy. 'Spiritual energy detected. Absobing...' The tatoo on her stomach glows ounce before growing dim ounce more."
                               ]
                 },
             {
@@ -302,8 +298,8 @@
             {
                     "lineTrigger": "OnPlayerOrgasm",
                     "move": "Making Out",
-                    "theText": [ "Your senses are overun from the intense making out as your mind temporarily blacksout from the intense pleasure, unleashing thick ropes of cum and marking the Automaton's body.",
-                                "The Automaton places both of her hands on your face as she stares dominantly into your eyes as she gives you one final intense kiss, causing your legs to tremble as your dick explodes, painting her body with your cum."
+                    "theText": [ "Your senses are overun from the intense make out as your mind temporarily blacks out from the intense pleasure, unleashing thick ropes of cum and marking the Automaton's body.",
+                                "The Automaton places both of her hands on your face as she stares dominantly into your eyes and gives you one final intense kiss, causing your legs to tremble as your dick explodes, painting her body with your cum."
                               ]
                 },
             {
@@ -440,7 +436,7 @@
                             "The Automaton collapses onto the ground, as her body shuts down and the light seems to leave her eyes. Hot air rises from her body while electrical sparks shoot out.",
                             "Speaks",
                             "Alert! System has shutdown due to: Overheating. Activating recall protocol in T - 5 minutes. ",
-                            "You stand in place as the countdown starts ticking, checking in on the defeated mechanical woman, waving your hands over her eyes, poking her cheeks and gingerly lifting her arm up into the air as it falls immediately without you propping it up. Searching for any kind of reaction.",
+                            "A countdown starts ticking, while you check on the defeated mechanical woman, waving your hands over her eyes, poking her cheeks and gingerly lifting her arm up into the air as it falls immediately without you propping it up. Searching for any kind of reaction.",
                             "You could probabbly get away with doing whatever you want with her limp body for the next few minutes.",
                             "ClearMonsterEncounter",
                             "JumpToEvent",

@@ -123,7 +123,7 @@
                                       "Give R Arm",
                                       "Give L Leg",
                                       "Give R Leg",
-                                      "Give None",
+                                      "Give Womb",
                                       "Give None",
                                       "Give None",
                                       "Give None",
@@ -164,6 +164,12 @@
                       "NameOfScene": "Give R Leg",
                       "theScene": [   
                                     "GiveItem", "1", "Damaged Automaton Right Leg Parts"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Give Womb",
+                      "theScene": [   
+                                    "GiveItem", "1", "Automaton Artifical Womb Unit"
                                 ]
                     },
                     {
