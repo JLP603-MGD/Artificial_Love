@@ -79,10 +79,9 @@
                               "theScene": [
                                             "You make an effort to resist the temptation of sticking your dick in her waiting mouth.",
                                             "StatCheck",
-                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "25", "2",
-                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "50", "3",
-                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "75", "5",
-                                            "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
+                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
+                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
                                             "Temptation", "20", "NoSuckySucky",
                                             "Fail",
                                             "CantResistBJ"
@@ -134,10 +133,9 @@
                                           "theScene": [
                                                         "You make an effort to resist the temptation of her drooling pussy.",
                                                         "StatCheck",
-                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
-                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
-                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
-                                                        "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "25", "2",
+                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "50", "3",
+                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "75", "5",
                                                         "Temptation", "20", "No Sex",
                                                         "Fail",
                                                         "CantResistPussy"
