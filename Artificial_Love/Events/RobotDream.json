@@ -1,0 +1,71 @@
+{
+    "name": "Dream of Robots",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "Flowers are the reproductive organs of flower-bearing plants, so sticking your pp in a flower woman is even lewder than the average monster girl.",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Automaton",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Nicci",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+	                   {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+										"IfHasPerk", "Master Command", "DreamScene"
+									
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "DreamScene",
+                        "theScene": [
+							
+									"DisplayCharacters",
+                                    "EndLoop",
+									"StoreCurrentBGM",
+                                    "ChangeBGM", "music/Relaxing/Purple Planet Music - Dreamy - A Touch Of Zen (4_25) 62bpm.mp3",
+                                    "StoreCurrentBG",
+                                    "ChangeBG", "forestNight.png",
+									"You find yourself in the Mystic Forest, as the full moon and starry sky illumate the path. A trail of flowers and fireflies stands before you, and you make your way onwards.",
+									"A sweet scent quickly grabs your attention as you continue, further guiding you down this path. The mere sensation sends a tingle down your nostrils.",
+                  "You shake your head slightly as you realize this path is familiar to you, for it leads to Nicci's grove. The large petals of her flower slightly open up, revealing the Alraune who slowly rises up to her full height, a hazy pink mist surrounding her.",
+									"As she slowly opens her eyes and turns them to you, a small, curious smile grows on her face.",
+									"ChangeImageFor", "1", "Concern",
+									"Speak","Nicci",
+                                    "My my, is it not too late for you to be wandering the woods?",
+									"ChangeImageFor", "1", "Winning",
+									"Speak","Nicci",
+                                    "Or could it be that you simply could not wait to see me again?",
+									"ChangeImageFor", "1", "Base",
+									"As her sweet voice rings through your ears, that sweet scent - the smell of her nectar - caresses your nostrils once more. Yes, that {i}was{/i} the reason you were there. So that you could spend more time with the lovely plant woman again.",
+									"Your face goes a slight shade of red as your eyes trail through her body. Her lovely purple skin, her long blonde hair, her plump lips, her large soft breasts, her motherly hips, the vines which all seem to accentuate her assets even more... You feel like you could look at her forever.",
+                  "DisplayCharacters",
+                                       "2",
+                                       "EndLoop",
+                                       "Speak","Automaton",
+                                       "Error! Manufacturer: JLP603 has not finished creating this feature. Attempting to wake Master up from 'Nightmare'.",
+									"DisplayCharacters",
+                                     "EndLoop",
+                                    "PlayStoredBGM",
+                                    "UseHeldBG",
+                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "RoomWakeUp"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "RoomWakeUp",
+                        "theScene": [
+                                        "You hastily wakeup as your upperbody jerks upwards, as cold sweat runs down your face. You try to steady your breathing and quickly turn your head to see the Automaton resting on her knees with closed eyes. You let out a sigh of relief before relaxing your body and continuing on with your day."
+                                  ]
+                    }
+                ]
+}

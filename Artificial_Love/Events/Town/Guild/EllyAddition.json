@@ -1,0 +1,141 @@
+{
+    "name": "Head over to Elly's table.",
+    "CardType": "Addition",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Elly",
+                    "postName": "",
+                    "SpeakerType": ""
+                  }
+                ],
+    "EventText": [
+                      {
+                        "NameOfScene": "PostIntroEvent",
+                        "theScene": [
+                                      "IfChoice", "13", "", "NightAccessGiveCheck",
+                                      "IfChoice", "60", "", "Automata Checker",
+                                      "JumpToScene", "VisitMenu"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "Automata Checker",
+                      "theScene": [
+                                    "IfHasItemInInventory", "Damaged Automaton Head Parts", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Damaged Automaton Torso Parts", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Damaged Automaton Left Leg Parts", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Damaged Automaton Left Arm Parts", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Damaged Automaton Right Arm Parts", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Damaged Automaton Right Leg Parts", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Automaton Artifical Womb Unit", "1", "Automata Part Found",
+                                    "JumpToScene", "VisitMenu"
+                                ]
+                  },
+                  {
+                    "NameOfScene": "Automata Part Found",
+                    "theScene": [
+                                  "SetChoice", "60", "PartFound!",
+                                  "JumpToScene", "VisitMenu"
+                              ]
+                },
+                {
+                  "NameOfScene": "NightAccessGiveCheck",
+                  "theScene": [
+                                "ProgressEqualsOrGreater", "30", "RoomAccessGive",
+                                "IfChoice", "60", "", "Automata Checker",
+                                "JumpToScene", "VisitMenu"
+                            ]
+              },
+                    {
+                        "NameOfScene": "VisitMenu",
+                        "theScene": [
+                                      "Menu",
+                                        "Talk with Elly.",
+                                        "RequiresTime", "Night",
+                                        "RequiresChoiceFromEvent", "Urgent 'Mushroom' Investigation", "1", "UnlockedCandyStore",
+                                        "Report in on your investigation of Bon Bon Bun.",
+                                        "RequiresTime", "Night",
+                                        "RequiresChoiceFromEvent", "'Bon Bon Bun'", "18", "BANNED",
+                                        "Get Unbanned from Bon Bon Bun. (50000 Eros.)",
+                                        "Learn Skills.",
+                                        "RequiresTime", "Night",
+                                        "RequiresChoice", "13", "NightAccessGiven",
+                                        "Ask to help with Elly's experiments.",
+                                        "FinalOption","Leave Elly to her studies.",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "VisitMenu",
+                        "theScene": [
+                          "MenuAddition",
+                          "RequiresChoice", "60", "PartFound!","HideOptionOnRequirementFail","Combine Materials",
+                          "EndLoop"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "Combine Materials",
+                        "theScene": [
+                            "Menu",
+                            "RequiresItem", "Damaged Automaton Head Parts",
+                            "RequiresItem", "Damaged Automaton Torso Parts",
+                            "RequiresItem", "Damaged Automaton Left Arm Parts",
+                            "RequiresItem", "Damaged Automaton Right Arm Parts",
+                            "RequiresItem", "Damaged Automaton Left Leg Parts",
+                            "RequiresItem", "Damaged Automaton Right Leg Parts",
+                            "RequiresItem", "Automaton Artifical Womb Unit",
+                            "Give the component.",
+                            "I don't have the component yet.",
+                          "EndLoop"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "I don't have the component yet.",
+                        "theScene": [
+                            "JumpToScene", "VisitMenu"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "Give the component.",
+                        "theScene": [
+                            "IfHasItemInInventory", "Damaged Automaton Head Parts", "1", "Combining!",
+                            "Speaks",
+                            "You need x amount of the item to proceed.",
+                            "JumpToScene", "Combine Materials"
+                          ]
+                    },
+                    {
+                      "NameOfScene": "Give the components.",
+                      "theScene": [
+                          "IfHasItemInInventory", "Damaged Automaton Head Parts", "1", "Item Check 2",
+                          "Speaks",
+                          "You are missing Damaged Automaton Head Parts",
+                          "JumpToScene", "Combine Materials"
+                        ]
+                  },
+                    {
+                        "NameOfScene": "Combining!",
+                        "theScene": [
+                            "GiveItemQuietly", "-1", "Damaged Automaton Head Parts",
+                            "GiveItemQuietly", "-1", "Damaged Automaton Torso Parts",
+                            "GiveItemQuietly", "-1", "Damaged Automaton Left Arm Parts",
+                            "GiveItemQuietly", "-1", "Damaged Automaton Right Arm Parts",
+                            "GiveItemQuietly", "-1", "Damaged Automaton Left Leg Parts",
+                            "GiveItemQuietly", "-1", "Damaged Automaton Right Leg Parts",
+                            "GiveItemQuietly", "-1", "Automaton Artifical Womb Unit",
+                            "Speaks",
+                            "Nice! Here you go",
+                            "GivePerk","Master Command",
+                            "SetChoice","60","Automaton Get!",
+                            "JumpToScene", "VisitMenu"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "EventBroke",
+                        "theScene": [ "aaaaa event broked."
+                                  ]
+                    }      
+                ]
+}
