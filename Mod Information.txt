@@ -6,26 +6,27 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Name TBD Base                                                                                                                                                                                  
+Version Changes - Artificial Love v.0.03                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
--Project Base
 -Adds an Automaton by:
-Going to the Caverns and defeating 5 Salaris' to get 5 Scrap Metal
-Go to Elly to convert the Scrap Metal for 'Master Command'
-Go to your room
+Going to the Caverns selecting them from the deck of Generic enemies
+-Secret WIP feature (something to do with the Automaton's loot drops)
 
-Author Message - Scorched Path v0.02e                                                                                                                                                                                  
+Author Message - Artificial Love v.0.03                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
-	The accompanying files are the base for my mod and is NOT fit for consumption yet. This 
-repository serves as a way to hold older versions of my mod in case I need them for development.
-The mod may go under several changes overtime thus differing from earlier versions in concept.
+	The following mod adds a generic enemy encounter to the Caverns. However, they are much
+stronger than the area's typical generics. Advised level is 40-50. The enemies stats are still 
+under testing and may change based on feedback or personal play testing. The mod's other 
+features outside of the generic's fight are still a work in progress and as such may find some
+immersion breaking dialogue sentences or bugs. As always I would love to hear any positive 
+or negative feedback on anything! Thank you of trying out my mod!
 										       
 											- JLP603
 
 ---------------------------<!>--{COMMON ERROR OR CRASH SOLUTION}--<!>---------------------------
 If you are experiencing a crash or error on startup of MGD after installing the Mod,
 please make sure that you have the Mod in the right file directory.
-The Mod's folder should be located at \game\Mods\Name TBD
+The Mod's folder should be located at \game\Mods\Artificial_Love
 
 Feedback or Troubleshooting
 ------------------------------------------------------------------------------------------------
@@ -40,4 +41,4 @@ They belong to their respective owners and copyright holders.
 
 Mod built for the game Monster Girl Dreams by Treshold
 Art used is the Automaton from Monster Girl Encylopedia by Kenkou Cross
-Music taken from Purple Planet Music & other various youtube videos
+Music taken from Monstercat & other various youtube videos

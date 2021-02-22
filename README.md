@@ -1,10 +1,10 @@
-# Name TBD
+# Artificial Love
 ___
-A Mod that adds an Automaton to the game, **[Monster Girl Dreams](https://www.patreon.com/MonsterGirlDreams)** by **Threshold**
+A Mod that adds an Automaton fight in the Caverns and other things to the game, **[Monster Girl Dreams](https://www.patreon.com/MonsterGirlDreams)** by **Threshold**
 
 ## NOTICE:
 ___
-
+This mod is still a work in progress outside of the fight, so you should expect some immersion breaking dialogue and potential bugs. This mod also features some extreme content such as prolapse, rough sex, asphyxiation, and stomach bulging.
 
 ## MOD INSTALLATION AND SPECIFIC MOD INFO
 ___
@@ -15,7 +15,7 @@ Otherwise, Simply extract the mod and place the folder into the <b>Mods</b> fold
 ___
 If you encounter a problem with running this Mod please make sure you have placed the Mod properly<br>
 You should have this as your file path to the Mod:<br>
-<b>\game\Mods\Name TBD</b>
+<b>\game\Mods\Artifical_Love</b>
 
 ## FEEDBACK
 ___
