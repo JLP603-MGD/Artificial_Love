@@ -143,7 +143,7 @@
                                       },
                                             {
                                                 "NameOfScene": "No Sex",
-                                                "theScene": [ "The Automaton crosses her slender legs, before gracefully sdjusting herself upright and levitates off the ground."
+                                                "theScene": [ "The Automaton crosses her slender legs, before gracefully adjusting herself upright and then levitates off the ground."
                                                           ]
                                             },
                                 {
@@ -172,7 +172,7 @@
                                                 },
                                         {
                                             "NameOfScene": "Abort!",
-                                            "theScene": [ "You step back and try to think of your next move. As the Automaton wordlessly stares at you."
+                                            "theScene": [ "You step back and try to think of your next move as the Automaton wordlessly stares at you."
                                                         ]
                                         },
                                         {
@@ -206,7 +206,8 @@
                                     "NameOfScene": "HOT!!!",
                                     "theScene": [ 
                                                     "IfChoice", "2", "Hotness2_done", "Heat Recognized",
-                                                    "'Warning! Detecting high levels of heat in internal core reactor and lower abdomen. External leakage of lubricant detected.'",
+                                                    "FocusedSpeaks",
+                                                    "Warning! Detecting high levels of heat in internal core reactor and lower abdomen. External leakage of lubricant detected.",
                                                     "A small amount of liquid drips down between her thighs as her face turns into an alarming shade of red, radiating off heat that even you can feel from where you stand. Her eyes focus on you with increased intesity.",
                                                     "SetChoice", "2", "Hotness2_done"               
                                     ]
@@ -215,8 +216,9 @@
                                     "NameOfScene": "I_NEED_HEALING",
                                     "theScene": [
                                                     "SetChoice", "1", "Hotness1_done",
-                                                    "SetChoice", "2", "Hotness2_done",  
-                                                    "'Warning! System overheating. Activating emergency cooling protocol.'",
+                                                    "SetChoice", "2", "Hotness2_done",
+                                                    "FocusedSpeaks",  
+                                                    "Warning! System overheating. Activating emergency cooling protocol.",
                                                     "CallMonsterAttack", "SpecificAttack", "System Cooling"
                                     ]
                                 },
@@ -226,7 +228,14 @@
                                                     ""               
                                     ]
                                 },
-                                
+                                {
+                                    "NameOfScene": "BodyLock",
+                                    "theScene": [
+                                        "{AttackerName} rockets towards {TargetName} and tries to restrain him with her tight embrace, and the sound of a loud click shortly follows.",
+                                            "FocusedSpeaks",
+                                            "Target Secured."
+                                        ]
+                                },
                                 {
                                     "NameOfScene": "PhysicalHarm",
                                     "theScene": [
@@ -257,7 +266,7 @@
                                     "theScene": [
                                         "But can't get free!",
                                         "FocusedSpeaks",
-                                        "'Logging enemy escape attempt. Task failed. Recommending enemy surrender.'"
+                                        "Logging enemy escape attempt. Task failed. Recommending enemy surrender."
                                         ]
                                 },
                                 {
@@ -266,9 +275,11 @@
                                         "And free yourself!",
                                         "FocusedSpeaks",
                                         "SwapLineIf", "Random",
-                                        "'Warning! Target has escaped containment. Proceeding with caution.'",
-                                        "'Logging enemy escape.' She keeps her gaze fixed on you. Watching your movements.",
-                                        "EndLoop"
+                                        "Warning! Target has escaped containment. Proceeding with caution.",
+                                        "'Logging enemy escape.'",
+                                        "EndLoop",
+                                        "She keeps her gaze fixed on you. Watching your movements."
+                                        
                                         ]
                                 },
                                 {

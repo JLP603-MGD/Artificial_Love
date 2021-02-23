@@ -32,7 +32,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "{AttackerName} rockets towards {TargetYouOrMonsterName} and tries to restrain him with her tight embrace, as the sound of a loud click shortly follows. 'Target Secured.'",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|BodyLock|n|",
     "statusMiss": "{AttackerName} rockets towards {TargetYouOrMonsterName} and tries to restrain him with her tight embrace, but fails as he manages to evade her grasp!",
     "restraintStruggle": [""],
     "restraintStruggleCharmed": [""],
