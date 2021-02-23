@@ -6,14 +6,15 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.03c                                                                                                                                                                                  
+Version Changes - Artificial Love v.0.03d                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
+-adjusted loot drop eros worth and eros dropped from fights
 -made some changes to the wording of the scenes, balance tweaks, and fixed some bugs based on feedback
 -Adds an Automaton by:
 Going to the Caverns selecting them from the deck of Generic enemies
 -Secret WIP feature (something to do with the Automaton's loot drops)
 
-Author Message - Artificial Love v.0.03c                                                                                                                                                                                  
+Author Message - Artificial Love v.0.03d                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
 	The following mod adds a generic enemy encounter to the Caverns. However, they are much
 stronger than the area's typical generics. Advised level is 40-50. The enemies stats are still 

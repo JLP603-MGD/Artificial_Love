@@ -1,7 +1,7 @@
 {
     "name": "Automaton Artifical Womb Unit",
     "itemType": "Loot",
-    "cost": "2000",
+    "cost": "1000",
     "requires": [ ""],
     "requiresEvent": [
                         {

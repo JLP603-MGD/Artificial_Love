@@ -31,7 +31,7 @@
               "Luck": "10"
     },
     "Fetishes": [ ""],
-    "BodySensitivity": { "Sex": "85",
+    "BodySensitivity": { "Sex": "75",
               "Ass": "75",
               "Breasts": "75",
               "Mouth": "75",
@@ -51,7 +51,7 @@
               "Paralysis": "20",
               "Debuff": "0"
     },
-    "moneyDropped": "500",
+    "moneyDropped": "400",
     "ItemDropList": [
                       {
                         "name": "Damaged Internal Hard Drive",

@@ -1,7 +1,7 @@
 {
     "name": "Damaged Automaton Right Arm Parts",
     "itemType": "Loot",
-    "cost": "1500",
+    "cost": "500",
     "requires": [ ""],
     "requiresEvent": [
                         {
