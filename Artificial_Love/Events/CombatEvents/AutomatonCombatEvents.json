@@ -276,7 +276,7 @@
                                         "FocusedSpeaks",
                                         "SwapLineIf", "Random",
                                         "Warning! Target has escaped containment. Proceeding with caution.",
-                                        "'Logging enemy escape.'",
+                                        "Logging enemy escape.",
                                         "EndLoop",
                                         "She keeps her gaze fixed on you. Watching your movements."
                                         

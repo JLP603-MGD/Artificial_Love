@@ -49,22 +49,21 @@
                         "NameOfScene": "RoomMenu",
                         "theScene": [
                           "MenuAddition",
-                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "MORTAL KOMBAT",
-                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "SEX with android",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "Combat Simulation",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "Sexual Service",
                           "EndLoop"
                           ]
                     },
                     {
-                        "NameOfScene": "SEX with android",
+                        "NameOfScene": "Sexual Service",
                         "theScene": ["Speaks",
                             "Command registered. Processing ..... Error! Manufacturer: JLP603 has not finished creating this feature.",
-                            "You hear her say in a rather monotone voice",
                         "JumpToScene",
                         "RoomMenu"
                                   ]
                     },
                     {
-                      "NameOfScene": "MORTAL KOMBAT",
+                      "NameOfScene": "Combat Simulation",
                       "theScene": ["Speaks",
                           "Command registered. Switching to combat mode... Systems: Check! Weapons: Check! Ammunition: Check! Combat Mode Engaged!",
                           "CombatEncounter", "NoRunning",
@@ -75,7 +74,7 @@
                           "EndLoop",
                           "The robot soon materializes in your room.",
                           "Speaks",
-                          "Automaton recall protocol: Successful. Cleaning internal systems... Task completed. Switching to stand by mode.",
+                          "Automaton recall protocol: Successful. Rebooting internal systems... Task completed. Switching to stand by mode.",
                       "JumpToScene",
                       "RoomMenu"
                                 ]

@@ -1,0 +1,92 @@
+{
+    "name": "Dream Eject Fall",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Harpy",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Automaton",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+	                   {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                                  "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "MasterCommandCheck"
+									
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "MasterCommandCheck",
+                      "theScene": [
+                                    "IfHasPerk", "Master Command", "RandomDream"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "RandomDream",
+                      "theScene": [  "StoreCurrentBGM",
+                                      "ChangeBGM", "music/Relaxing/Purple Planet Music - Gentle - Meltwater (1_38) (L).mp3",
+                                     "JumpToRandomScene",
+                                          "Trip",
+                                          "FallingOutOfBed",
+                                          "RequiresMinimumProgressFromEvent", "Visit the Campers", "1",
+                                          "HarpyRide",
+                                      "EndLoop"
+                                ]
+                  },
+                  {
+                    "NameOfScene": "Trip",
+                    "theScene": [
+                                   "You're walking along a peaceful meadow path, the birds are singing, the sun is shining through the leaves, and everything feels right with the world.",
+                                   "PlayStoredBGM",
+                                   "But with one missed step you slip and fall backwards, leaving your eyes going wide and your heart racing, preparing for the hard impact of the ground.",
+                                   "Only to jolt awake in your bed in the dead of night, gasping for air momentarily as your panic is quickly replaced with annoyance as you lay back and try to sleep some more...",
+                                   "JumpToScene",
+                                      "RoomWakeUp"
+                              ]
+                },
+                {
+                    "NameOfScene": "FallingOutOfBed",
+                    "theScene": [
+                                  "You're floating in a bed of stars, each glimmering wonderfully above you, so you smile and lay back, enjoying the sight.",
+                                  "PlayStoredBGM",
+                                  "But the back of your mind recalls you can't lay on nothing, so you immediately start to slip down through the void until you're left falling careening down into-",
+                                  "You jolt awake and stare up at the ceiling, only one leg left on your bed as the morning light shines in, with a grumble you toss yourself back into bed to try and get a little more sleep, but to no avail."
+                              ]
+                },
+                {
+                    "NameOfScene": "HarpyRide",
+                    "theScene": [
+                                   "You're flying! Soaring through the sky, the wind caressing your skin and the sun shining above you as you streak above the forest below.",
+                                   "DisplayCharacters",
+                                     "1",
+                                     "EndLoop",
+                                   "Well, actually you're being carried by a rather cheerful harpy, and her small body is doing it's best to give you the ride of your life.",
+                                   "ChangeImageFor", "1", "Clueless",
+                                   "ChangeBGM", "music/Forest Dungeon/New Step.mp3",
+                                   "But a strong gust of wind hits the two of you, knocking her off course, her diminutive strength unable to course correct, and unable to support your weight properly, sending you both hurtling forward at speeds no harpy should ever be able to reach.",
+                                   "ChangeImageFor", "1", "Panic",
+                                   "You're both left screaming in a panic as you careen towards the ground at incredible speeds, the small bird-woman tightly clinging to you for her life.",
+                                   "PlayStoredBGM",
+                                   "DisplayCharacters",
+                                     "EndLoop",
+                                   "Then you snap awake with a sweat on your brow, blinking a few times as you realize that was just a dream."
+                              ]
+                },
+                    {
+                        "NameOfScene": "RoomWakeUp",
+                        "theScene": [
+                                        "You hastily wakeup with laboured breaths as your upper body jerks, cold sweat running down your face. You try to steady your breathing touching your face to see if you are awake.and quickly turn your head to see the Automaton resting on her knees with closed eyes. You let out a sigh of relief and calm down before relaxing your body and go back to bed and try to get more sleep."
+                                  ]
+                    }
+                ]
+}

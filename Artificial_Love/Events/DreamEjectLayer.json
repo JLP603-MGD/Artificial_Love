@@ -1,0 +1,127 @@
+{
+    "name": "Dream Eject Layer",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Lillian",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Imp",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Automaton",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                                    "GetEventAndIfChoiceIs", "EnteringChurch",  "2", "DemonLayerGet", "MasterCommandCheck"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "MasterCommandCheck",
+                      "theScene": [
+                                    "IfHasPerk", "Master Command", "DreamSceneLayer"
+                                ]
+                    },
+                    {
+                        "NameOfScene": "DreamSceneLayer",
+                        "theScene": [
+                                      "StoreCurrentBG", "StoreCurrentBGM",
+                                      "ChangeBG", "Church.png",
+                                      "ChangeBGM", "music/Town/Holy night.mp3",
+                                      "DisplayCharacters",
+                                        "1",
+                                      "EndLoop",
+                                      "ChangeImageFor", "1", "Upset",
+                                      "You stand in the church with Lillian, having just informed her of how 'combat' on Lucidia is done, the erotic pretense clearly weighing down on her mind.",
+                                      "Speaks",
+                                      "N-No wonder less and less adventurers keep coming back! They keep being led astray by monster girls...",
+                                      "ChangeImageFor", "1", "Happy",
+                                      "Speaks",
+                                      "But don't worry {ThePlayerName}! I have a holy relic to give you that I ordered through the mail! Blessed by the Goddess herself, it's going to let you fight them the {i}right{/i} way!",
+                                      "DisplayCharacters",
+                                        "1",
+                                        "2",
+                                      "EndLoop",
+                                        "ChangeImageFor", "1", "Happy",   "ChangeImageFor", "2", "Submissive",
+                                      "She joyfully scampers off to some part of the church, and returns just as fast with an ornate silver-coated whip in one hand, and dragging a chair in the other seated with what appears to be a blindfolded imp who is completely bound, gagged, and flushing deeply, letting out the occasion muffled gasp of arousal.",
+                                      "ChangeImageFor", "1", "Base",
+                                      "She sets the chair down a few feet in front of you with a wide smile.",
+                                      "Speaks",
+                                      "I captured this clearly {i}villainous{/i} demon poking around the church in the dead of night, and I've been interrogating her every night with special holy techniques, but she's been a tough nut to crack.",
+                                      "Lillian leans on the chair with a smile, taking out a small device from her robes and flicking it's switch, making the whimpering imp let out a muffled howl of pleasure as the now noticeable vibrator stuffing her gushing pussy turns on to max, leaving her twitching in a constant cascade of orgasms before Lillian turns the setting back down, leaving the imp stifling moans and gasps.",
+                                      "ChangeImageFor", "1", "Upset",
+                                      "Speaks",
+                                      "See? She just {i}refuses{/i} to be purified no matter how hard I try.",
+                                      "Lillian slips the gag off of the mewling imp who eagerly takes deep, shaky breaths of air, the vibrator still sending jolts through her body.",
+                                      "Speaks",
+                                      "So, my resilient prisoner, what are the demon queens plans?",
+                                      "Speaks2",
+                                      "M-Mistress, I-I keep telling you I d-don't know anyth-thing... B-But please m-make me cum {i}more{/i}...♥",
+                                      "Lillian lets out a scoff of dissatisfaction before walking over to you.",
+                                      "ChangeImageFor", "1", "Happy",
+                                      "Speaks",
+                                      "Such depraved things demons are, {i}anyways,{/i} I figured she would be good to use for a demonstration of this holy relic! The Demon Layer!",
+                                      "She sweetly shows off the whip's handle towards you, letting you see the ornate engraving on it 'Demon Layer'.",
+                                      "ChangeImageFor", "1", "Upset",
+                                      "Speaks",
+                                      "I've never been able to get it to work quite right, I've been trying for weeks, but using a whip is really {i}hard.{/i} I'm sure this weapon could purify the imp in a single strike...",
+                                      "ChangeImageFor", "1", "Happy",
+                                      "She shrugs before unfurling the whip with a smile, clearly eager to try and give you a proper demonstration of the weapon.",
+                                      "Speaks",
+                                      "Won't hurt to give it one more go though.♪",
+                                      "ChangeImageFor", "1", "Surprised",
+                                      "With a grand arc she swings her arm, sending the metallic whip lashing through the air in an incredible display of unexpected skill before striking the imp with a loud crack and a resounding flash of white light, that leaves the imp tossing her head back as she moans incoherently, quaking in pure ecstasy, fading away from the intense purifying orgasm, praising and thanking Lillian profusely for this bliss.",
+                                      "DisplayCharacters",
+                                        "1",
+                                      "EndLoop",
+                                      "ChangeImageFor", "1", "Surprised",
+                                      "Even Lillian seems rather surprised by this outcome as she gazes at the now vacant chair with shock, the imp now returned to whence it came.",
+                                      "ChangeImageFor", "1", "Base",
+                                      "ChangeBGM", "music/Loss/Do not yarn.mp3",
+                                      "Speaks",
+                                      "{ThePlayerName}! Did you see that! I actually did it! I purified that naughty demon. Hehe,♪ maybe {i}I'm{/i} the chosen hero.♪",
+                                      "ChangeImageFor", "1", "Happy",
+                                      "After hopping in joy for a moment she stopped, an almost eerie smile spreads over her face as she turns to you.",
+                                      "Speaks",
+                                      "You know {ThePlayerName}, I think you could use some {i}purification{/i} too.♥",
+                                      "She gives her lips an uncharacteristically depraved lick as she starts to walk towards you with an unreadable domineering gaze, the whip coiling through the air from a simple flick of her wrist, quickly coiling around your arms and legs, your heart racing in a mixture of panic and arousal as she brings you to your knees-",
+                                      
+                                      "DisplayCharacters",
+                                      "1",
+                                      "3",
+                                      "EndLoop",
+                                      "Speak","Automaton",
+                                      "Error! Manufacturer: JLP603 has not finished creating this feature. Attempting to wake Master up from 'Nightmare'. Ejecting.",
+                                      "PlayStoredBGM",
+                                      "DisplayCharacters",
+                                      "EndLoop",
+                                      "UseHeldBG",
+                                      "JumpToScene",
+                                      "RoomWakeUp"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "RoomWakeUp",
+                        "theScene": [
+                                       "DisplayCharacters",
+                                       "3",
+                                       "EndLoop",
+                                        "You hastily wakeup with laboured breaths as your upper body jerks, cold sweat running down your face. You try to steady your breathing touching your face to see if you are awake.and quickly turn your head to see the Automaton resting on her knees with closed eyes. You let out a sigh of relief and calm down before relaxing your body and go back to bed and try to get more sleep."
+                                  ]
+                    }
+                ]
+}

@@ -1,17 +1,12 @@
 {
-    "name": "Dream of Robots",
+    "name": "Dream Eject Robot",
     "CardType": "Dream",
     "CardLimit": "0",
-    "Description": "Flowers are the reproductive organs of flower-bearing plants, so sticking your pp in a flower woman is even lewder than the average monster girl.",
+    "Description": "",
     "requires": [ ""],
     "Speakers": [
                   {
                     "name": "Automaton",
-                    "postName": "",
-                    "SpeakerType": "Monster"
-                  },
-                  {
-                    "name": "Nicci",
                     "postName": "",
                     "SpeakerType": "Monster"
                   }
@@ -21,12 +16,12 @@
 	                   {
                         "NameOfScene": "EventStart",
                         "theScene": [
-										"IfHasPerk", "Master Command", "DreamScene"
+										"IfHasPerk", "Master Command", "DreamSceneRobot"
 									
                                   ]
                     },
                     {
-                        "NameOfScene": "DreamScene",
+                        "NameOfScene": "DreamSceneRobot",
                         "theScene": [
 							
 									"DisplayCharacters",
