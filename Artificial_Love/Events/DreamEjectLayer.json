@@ -36,6 +36,12 @@
                                 ]
                     },
                     {
+                      "NameOfScene": "RoomCheck",
+                      "theScene": [
+                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "DreamSceneLayer"
+                                ]
+                    },
+                    {
                         "NameOfScene": "DreamSceneLayer",
                         "theScene": [
                                       "StoreCurrentBG", "StoreCurrentBGM",
@@ -98,17 +104,6 @@
                                       "Speaks",
                                       "You know {ThePlayerName}, I think you could use some {i}purification{/i} too.♥",
                                       "She gives her lips an uncharacteristically depraved lick as she starts to walk towards you with an unreadable domineering gaze, the whip coiling through the air from a simple flick of her wrist, quickly coiling around your arms and legs, your heart racing in a mixture of panic and arousal as she brings you to your knees-",
-                                      
-                                      "DisplayCharacters",
-                                      "1",
-                                      "3",
-                                      "EndLoop",
-                                      "Speak","Automaton",
-                                      "Error! Manufacturer: JLP603 has not finished creating this feature. Attempting to wake Master up from 'Nightmare'. Ejecting.",
-                                      "PlayStoredBGM",
-                                      "DisplayCharacters",
-                                      "EndLoop",
-                                      "UseHeldBG",
                                       "JumpToScene",
                                       "RoomWakeUp"
 
@@ -117,10 +112,26 @@
                     {
                         "NameOfScene": "RoomWakeUp",
                         "theScene": [
-                                       "DisplayCharacters",
+                                      "Speak", "???",
+                                      "Wake up. Master, please wake up...... Master. WAKE UP.",
+                                      
+                                      "DisplayCharacters",
+                                      "EndLoop",
+                                      "UseHeldBG",
+                                      "DisplayCharacters",
                                        "3",
-                                       "EndLoop",
-                                        "You hastily wakeup with laboured breaths as your upper body jerks, cold sweat running down your face. You try to steady your breathing touching your face to see if you are awake.and quickly turn your head to see the Automaton resting on her knees with closed eyes. You let out a sigh of relief and calm down before relaxing your body and go back to bed and try to get more sleep."
+                                      "EndLoop",
+                                      "Your body jolts awake, quickly gasping for air, as you reflexively wipe your cheek and turn it around to find your hand covered in cold sweat.",
+                                      "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                                      "Speaks3",
+                                      "Master. Scans indicated that you were experiencing a phenomena called a 'Nightmare'. Initiative was taken to terminate said phenomena.",
+                                      "Speaks3",
+                                      "Scanning... Detecting an increase in internal body temperature, elevated heart rate, and high amount of perspiration. Diagnosis results suggest that you may be experiencing an illness known as a 'fever'. Proceeding to bring you to a medical expert.",
+                                      "You turn towards the concerned Automaton and quickly reassure her of your good health as you try to steady your breathing.",
+                                      "DisplayCharacters",
+                                      "EndLoop",
+                                      "After several more attempts of her trying to get you to see a doctor, you finally calm her down and watch as the mechanical woman shuts down for the night before deciding to do the same yourself; laying back down on your bed, closing your eyes and drift off back to sleep.",
+                                      "PlayStoredBGM"
                                   ]
                     }
                 ]

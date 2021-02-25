@@ -1,6 +1,6 @@
 {
     "name": "Master Command",
-    "description": "You ARE my mastah!",
+    "description": "Gives you administrative privilleges, recognizing you as the designated master or owner of one or more Automata giving you the ability to command said Automata or Automatons.",
     
     "LevelReq": "0",
     "PerkReq": [ ""],

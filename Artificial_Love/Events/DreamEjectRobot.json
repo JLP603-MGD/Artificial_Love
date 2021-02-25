@@ -9,6 +9,11 @@
                     "name": "Automaton",
                     "postName": "",
                     "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Automaton",
+                    "postName": ": Enemy",
+                    "SpeakerType": "Monster"
                   }
 
                 ],
@@ -16,50 +21,106 @@
 	                   {
                         "NameOfScene": "EventStart",
                         "theScene": [
-										"IfHasPerk", "Master Command", "DreamSceneRobot"
-									
+                                      "IfHasPerk", "Master Command", "DreamSceneRobot"
                                   ]
                     },
+                    {
+                      "NameOfScene": "RoomCheck",
+                      "theScene": [
+                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "DreamSceneRobot"
+                                ]
+                  },
                     {
                         "NameOfScene": "DreamSceneRobot",
                         "theScene": [
 							
-									"DisplayCharacters",
+									                  "DisplayCharacters",
                                     "EndLoop",
-									"StoreCurrentBGM",
-                                    "ChangeBGM", "music/Relaxing/Purple Planet Music - Dreamy - A Touch Of Zen (4_25) 62bpm.mp3",
+                                    "StoreCurrentBGM",
+                                    "ChangeBGM", "music/Caverns/New-Paradise.mp3",
                                     "StoreCurrentBG",
-                                    "ChangeBG", "forestNight.png",
-									"You find yourself in the Mystic Forest, as the full moon and starry sky illumate the path. A trail of flowers and fireflies stands before you, and you make your way onwards.",
-									"A sweet scent quickly grabs your attention as you continue, further guiding you down this path. The mere sensation sends a tingle down your nostrils.",
-                  "You shake your head slightly as you realize this path is familiar to you, for it leads to Nicci's grove. The large petals of her flower slightly open up, revealing the Alraune who slowly rises up to her full height, a hazy pink mist surrounding her.",
-									"As she slowly opens her eyes and turns them to you, a small, curious smile grows on her face.",
-									"ChangeImageFor", "1", "Concern",
-									"Speak","Nicci",
-                                    "My my, is it not too late for you to be wandering the woods?",
-									"ChangeImageFor", "1", "Winning",
-									"Speak","Nicci",
-                                    "Or could it be that you simply could not wait to see me again?",
-									"ChangeImageFor", "1", "Base",
-									"As her sweet voice rings through your ears, that sweet scent - the smell of her nectar - caresses your nostrils once more. Yes, that {i}was{/i} the reason you were there. So that you could spend more time with the lovely plant woman again.",
-									"Your face goes a slight shade of red as your eyes trail through her body. Her lovely purple skin, her long blonde hair, her plump lips, her large soft breasts, her motherly hips, the vines which all seem to accentuate her assets even more... You feel like you could look at her forever.",
-                  "DisplayCharacters",
-                                       "2",
-                                       "EndLoop",
-                                       "Speak","Automaton",
-                                       "Error! Manufacturer: JLP603 has not finished creating this feature. Attempting to wake Master up from 'Nightmare'.",
-									"DisplayCharacters",
-                                     "EndLoop",
-                                    "PlayStoredBGM",
+                                    "ChangeBG", "darkHaze.png",
+                                    "You slowly open your eyes, waking up to find yourself in a dimly lit room with your arms and legs bound to a chair as the lights flicker every so often. Using all of your strength, you try to break free, but to no avail as you only end up managing to strain your wrists and legs.",
+                                    "DisplayCharacters",
+                                    "2",
+                                    "EndLoop",
+                                    "Speak", "Automaton",
+                                    "Status update: Human Subject #15 has woken up. Analyzing... detecting high amounts of potential spiritual energy. Assessement: Subject proves useful as alternative source of power. Relaying to network and awaiting orders...  Orders received. Proceeding to forcefully harvest spiritual energy.",
+                                    "ChangeBGM-NoFade", "music/Caverns/Purple Planet Music - Emotional - Darkness (1_55) 94bpm.mp3",
+                                    "Your mechanical captor slowly gets closer and closer, her eyes turning a glowing opressive red as she raises both of her arms and the left hand transforms into some kind of whirling mechanical contraption, making strong pumping motions, while her other arm's hand transforms into a two pronged stick as strong electric currents electrify the air.",
+                                    "ChangeBGM", "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3",
+                                    "You panic as you struggle even harder to break free, twisting and turning as you jerk on your restraints, making the chair hop backwards a little, before falling sideways from your movements.",
+                                    "Speaks2",
+                                    "Do not resist.",
+                                    
+                                    "Just as you give up and resign yourself to your fate, you hear the sound of a large metallic crash.",
+                                    "ChangeBGM-NoFade", "music/Battle/Battel-LunaticDance.mp3",
+                                    "Speaks2",
+                                    "Warning! Intru-",
+                                    "DisplayCharacters",
+                                    "EndLoop",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                    "The sound of gunfire rings out in the room as the enemy Automaton, collapses onto the ground covered in bullet holes as the light in her eyes slowly fades away. The mysterious figure slowly approaches you.",
+                                    "DisplayCharacters",
+                                    "1",
+                                    "EndLoop",
+                                    
+                                    "Speaks",
+                                    "Scanning... Threats neutralized. Identity confirmed. Master, I have come for you.",
+                                    "ChangeBGM", "music/Emotional/Purple Planet Music - Emotional - Spiritual Moment (1_32) 90bpm (L).mp3",
+									                  "The Automaton promptly proceeds to undo your restraints, as you let out a sigh of relief upon seeing her metallic face, but just as she finishes untying your arms. You hear the sound of a loud click.",
+                                    "ChangeBGM-NoFade", "../Mods/Artificial_Love/Music/Trimmed Electro  7 Minutes Dead  Act III Monstercat FREE Halloween Release.mp3",                     
+                                    "DisplayCharacters",
+                                    "1",
+                                    "2",
+                                    "EndLoop",
+                                    "Speaks2",
+                                    
+                                    "Halt. Step away from the human, or hostile actions will be taken against you.",
+                                    
+                                    "Speaks",
+                                    "Request: denied.",
+                                    "DisplayCharacters",
+                                    "EndLoop",
+                                    "StopBGM",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                    "Your Automaton rockets towards the enemy, pushing her out from sight as the sounds of gunfire can be heard. You struggle once again, this time breaking yourself free as you get up to search for the two mechanical women.",
+                                    "ChangeBG", "dungeon.png",
+                                    "ChangeBGM-NoFade", "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3",
+                                    "You rush out of the room, momentarily stunned by the influx of light, before scampering to find the both of them as you run down the dark hallways, until you hear the sound of mechanical movements.",
+                                    "DisplayCharacters",
+                                    "1",
+                                    "EndLoop",
+                                    "Speaks",
+                                    "M-maszht-tteerr...",
+                                    "ChangeBGM", "music/Caverns/Falling Down.mp3",
+                                    "DisplayCharacters",
+                                    "EndLoop",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                    "The Automaton crawls from the ground, sparks flying everywhere as black oil runs down her face, before being shotdown by a barrage of bullets. You stand there gasping in horror at the sight of your automaton, covered in bullet holes as she lies there motionless on the ground.",
+                                    "ChangeBGM", "../Mods/Artificial_Love/Music/Trimmed Electro  7 Minutes Dead  Act III Monstercat FREE Halloween Release.mp3",
+                                    "DisplayCharacters",
+                                    "2",
+                                    "EndLoop",
+                                    "Speaks2",
+                                    
+                                    "Target eliminated. Awaiting orders... orders confirmed. Eliminating other target.",
+                                    
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+									                  "DisplayCharacters",
+                                    "EndLoop",
                                     "UseHeldBG",
-                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "RoomWakeUp"
+                                    "JumpToScene",
+                                    "RoomWakeUp"
 
                                   ]
                     },
                     {
                         "NameOfScene": "RoomWakeUp",
-                        "theScene": [
-                                        "You hastily wakeup as your upperbody jerks upwards, as cold sweat runs down your face. You try to steady your breathing and quickly turn your head to see the Automaton resting on her knees with closed eyes. You let out a sigh of relief before relaxing your body and continuing on with your day."
+                        "theScene": [             
+                                        "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                        "PlayStoredBGM",
+                                        "You snap awake with a sweat on your brow, panting heavily, as you cup your cheeks and pat your body to make sure you are in fact, truly safe and sound. You quickly turn your head to see the Automaton resting on her knees in the corner of the room. Seeing this, you instantly let out a sigh of relief and relax your body, before plopping back onto the bed and going back to sleep."
                                   ]
                     }
                 ]

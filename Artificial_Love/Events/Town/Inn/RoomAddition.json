@@ -29,7 +29,7 @@
                           "DisplayCharacters",
                             "2",
                           "EndLoop",
-                          "Speaks",
+                          "Speaks2",
                           "Scanning... Identity confirmed. Greetings Master. How may I serve you?",
                           "JumpToScene", "RoomMenu"
                                   ]
@@ -49,36 +49,81 @@
                         "NameOfScene": "RoomMenu",
                         "theScene": [
                           "MenuAddition",
-                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "Combat Simulation",
-                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "Sexual Service",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "Interact with your Automaton",
                           "EndLoop"
                           ]
                     },
                     {
-                        "NameOfScene": "Sexual Service",
-                        "theScene": ["Speaks",
-                            "Command registered. Processing ..... Error! Manufacturer: JLP603 has not finished creating this feature.",
-                        "JumpToScene",
-                        "RoomMenu"
-                                  ]
+                      "NameOfScene": "Interact with your Automaton",
+                      "theScene": [ 
+                                    "Menu",
+                                    "Change Appearance",
+                                    "Converse",
+                                    "Spend Time",
+                                    "Combat Simulation",
+                                    "Sexual Service",
+                                    "FinalOption","Changed My Mind",
+                                    "EndLoop"
+                                ]
                     },
                     {
-                      "NameOfScene": "Combat Simulation",
-                      "theScene": ["Speaks",
-                          "Command registered. Switching to combat mode... Systems: Check! Weapons: Check! Ammunition: Check! Combat Mode Engaged!",
-                          "CombatEncounter", "NoRunning",
-                          "Automaton",
-                          "StartCombat",
-                          "DisplayCharacters",
-                          "2",
-                          "EndLoop",
-                          "The robot soon materializes in your room.",
-                          "Speaks",
-                          "Automaton recall protocol: Successful. Rebooting internal systems... Task completed. Switching to stand by mode.",
-                      "JumpToScene",
-                      "RoomMenu"
-                                ]
-                  },
+                    "NameOfScene": "Changed My Mind.",
+                    "theScene": [
+                                "JumpToScene",
+                                "RoomMenu"
+                              ]
+                    },
+                   
+                      {
+                        "NameOfScene": "Change Appearance",
+                        "theScene": [
+                          "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
+                          "JumpToScene",
+                          "Interact with your Automaton"
+                                  ]
+                        },
+                        {
+                          "NameOfScene": "Converse",
+                          "theScene": [
+                            "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
+                            "JumpToScene",
+                            "Interact with your Automaton"
+                                    ]
+                          },
+                        {
+                          "NameOfScene": "Spend Time",
+                          "theScene": [
+                            "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
+                            "JumpToScene",
+                            "Interact with your Automaton"
+                                    ]
+                          },
+                          {
+                            "NameOfScene": "Combat Simulation",
+                            "theScene": ["Speaks2",
+                                "Command registered. Switching to combat mode... Systems: Check! Weapons: Check! Ammunition: Check! Combat Mode Engaged!",
+                                "CombatEncounter", "NoRunning",
+                                "Automaton",
+                                "StartCombat",
+                                "DisplayCharacters",
+                                "2",
+                                "EndLoop",
+                                "The robot soon materializes in your room.",
+                                "Speaks2",
+                                "Automaton recall protocol: Successful. Rebooting internal systems... Task completed. Switching to stand by mode.",
+                            "JumpToScene",
+                            "Interact with your Automaton"
+                                      ]
+                        },
+                    {
+                        "NameOfScene": "Sexual Service",
+                        "theScene": ["Speaks2",
+                            "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
+                        "JumpToScene",
+                        "Interact with your Automaton"
+                                  ]
+                    },
+                    
                  
                   {
                     "NameOfScene": "Rest. (Advances Time 1)",
@@ -154,7 +199,7 @@
                   "theScene": [
                    
                    
-                    "Speaks",
+                    "Speaks2",
                     "Goodbye Master.",
                     "DisplayCharacters",
 									"EndLoop",

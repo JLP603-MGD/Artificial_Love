@@ -71,12 +71,12 @@
                         "NameOfScene": "VisitMenu",
                         "theScene": [
                           "MenuAddition",
-                          "RequiresChoice", "60", "PartFound!","HideOptionOnRequirementFail","Combine Materials",
+                          "RequiresChoice", "60", "PartFound!","HideOptionOnRequirementFail","'Could you look at this Automaton part?'",
                           "EndLoop"
                           ]
                     },
                     {
-                        "NameOfScene": "Combine Materials",
+                        "NameOfScene": "'Could you look at this Automaton part?'",
                         "theScene": [
                             "Menu",
                             "RequiresItem", "Damaged Automaton Head Parts",
@@ -86,19 +86,19 @@
                             "RequiresItem", "Damaged Automaton Left Leg Parts",
                             "RequiresItem", "Damaged Automaton Right Leg Parts",
                             "RequiresItem", "Automaton Artifical Womb Unit",
-                            "Give the component.",
-                            "I don't have the component yet.",
+                            "Give the parts",
+                            "I don't have all of the parts yet",
                           "EndLoop"
                           ]
                     },
                     {
-                        "NameOfScene": "I don't have the component yet.",
+                        "NameOfScene": "I don't have all of the parts yet.",
                         "theScene": [
                             "JumpToScene", "VisitMenu"
                           ]
                     },
                     {
-                        "NameOfScene": "Give the component.",
+                        "NameOfScene": "Give the parts",
                         "theScene": [
                             "IfHasItemInInventory", "Damaged Automaton Head Parts", "1", "Combining!",
                             "Speaks",
