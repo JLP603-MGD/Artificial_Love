@@ -16,7 +16,7 @@
                     "SpeakerType": "Monster"
                   },
                   {
-                    "name": "Automaton",
+                    "name": "Galla",
                     "postName": "",
                     "SpeakerType": "Monster"
                   }
@@ -130,7 +130,7 @@
                                       "You turn towards the concerned Automaton and quickly reassure her of your good health as you try to steady your breathing.",
                                       "DisplayCharacters",
                                       "EndLoop",
-                                      "After several more attempts of her trying to get you to see a doctor, you finally calm her down and watch as the mechanical woman shuts down for the night before deciding to do the same yourself; laying back down on your bed, closing your eyes and drift off back to sleep.",
+                                      "After several more attempts of her trying to get you to see a doctor, you finally calm her down and watch as the mechanical woman shuts down for the night before deciding to do the same yourself; laying back down on your bed, closing your eyes and drifting off back to sleep.",
                                       "PlayStoredBGM"
                                   ]
                     }

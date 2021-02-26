@@ -6,7 +6,7 @@
     "requires": [ ""],
     "Speakers": [
                   {
-                    "name": "Automaton",
+                    "name": "Galla",
                     "postName": "",
                     "SpeakerType": "Monster"
                   },
@@ -68,7 +68,7 @@
                                     "Speaks",
                                     "Scanning... Threats neutralized. Identity confirmed. Master, I have come for you.",
                                     "ChangeBGM", "music/Emotional/Purple Planet Music - Emotional - Spiritual Moment (1_32) 90bpm (L).mp3",
-									                  "The Automaton promptly proceeds to undo your restraints, as you let out a sigh of relief upon seeing her metallic face, but just as she finishes untying your arms. You hear the sound of a loud click.",
+									                  "Galla promptly proceeds to undo your restraints, as you let out a sigh of relief upon seeing her metallic face, but just as she finishes untying your arms. You hear the sound of a loud click.",
                                     "ChangeBGM-NoFade", "../Mods/Artificial_Love/Music/Trimmed Electro  7 Minutes Dead  Act III Monstercat FREE Halloween Release.mp3",                     
                                     "DisplayCharacters",
                                     "1",
@@ -84,7 +84,7 @@
                                     "EndLoop",
                                     "StopBGM",
                                     "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
-                                    "Your Automaton rockets towards the enemy, pushing her out from sight as the sounds of gunfire can be heard. You struggle once again, this time breaking yourself free as you get up to search for the two mechanical women.",
+                                    "Galla rockets towards the enemy, pushing her out from sight as the sounds of gunfire can be heard. You struggle once again, this time breaking yourself free as you get up to search for the two mechanical women.",
                                     "ChangeBG", "dungeon.png",
                                     "ChangeBGM-NoFade", "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3",
                                     "You rush out of the room, momentarily stunned by the influx of light, before scampering to find the both of them as you run down the dark hallways, until you hear the sound of mechanical movements.",
@@ -97,7 +97,7 @@
                                     "DisplayCharacters",
                                     "EndLoop",
                                     "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
-                                    "The Automaton crawls from the ground, sparks flying everywhere as black oil runs down her face, before being shotdown by a barrage of bullets. You stand there gasping in horror at the sight of your automaton, covered in bullet holes as she lies there motionless on the ground.",
+                                    "The Automaton crawls from the ground, sparks flying everywhere as black oil runs down her face, before being shotdown by a barrage of bullets. You stand there gasping in horror at the sight of Galla, covered in bullet holes as she lies there motionless on the ground.",
                                     "ChangeBGM", "../Mods/Artificial_Love/Music/Trimmed Electro  7 Minutes Dead  Act III Monstercat FREE Halloween Release.mp3",
                                     "DisplayCharacters",
                                     "2",
@@ -120,7 +120,7 @@
                         "theScene": [             
                                         "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
                                         "PlayStoredBGM",
-                                        "You snap awake with a sweat on your brow, panting heavily, as you cup your cheeks and pat your body to make sure you are in fact, truly safe and sound. You quickly turn your head to see the Automaton resting on her knees in the corner of the room. Seeing this, you instantly let out a sigh of relief and relax your body, before plopping back onto the bed and going back to sleep."
+                                        "You snap awake with a sweat on your brow, panting heavily, as you cup your cheeks and pat your body to make sure you are in fact, truly safe and sound. You quickly turn your head to see Galla resting on her knees in the corner of the room. Seeing this, you instantly let out a sigh of relief and relax your body, before plopping back onto the bed and going back to sleep."
                                   ]
                     }
                 ]

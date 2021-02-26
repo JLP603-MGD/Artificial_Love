@@ -6,7 +6,7 @@
     "requires": [ ""],
     "Speakers": [
                   {
-                    "name": "Automaton",
+                    "name": "Galla",
                     "postName": "",
                     "SpeakerType": "Monster"
                   }

@@ -1,6 +1,6 @@
 {
-  "name": "Automaton",
-  "IDname": "Automaton",
+  "name": "Galla",
+  "IDname": "Galla+",
   "species": "Golem",
   "gender": "female",
   "description": "An expressionless gynoid of medium frame, with peculiarly hard smooth skin with a semi-glossy sheen. Impossibly straight, medium length, bob cut hair covers the top of her head, as her bangs taper down before cleanly cutting off at her perfectly shaped eyebrows, that frame her cold, yet unnaturally clear bright eyes, small mouth, and oval shaped face.\n\nHer mechanical, perfectly proportioned body is dressed in some form of strange metallic armour; resembling some kind of short crop top with shoulderless sleeves and elbow length arm bracers. A frontless, ankle length skirt wraps around her waist, and two horn shaped head pieces are attached to the sides of her head. All in all, they do nothing to cover up her c-cup gravity defying breasts, sculpted rubbery torso, long, tapering, dynamically lined angular legs that end at her flat tipped triangular feet, and her brazenly displayed compact pussy.\n\nShe has intricately plated arms with concave fittings, going all the way to her hands, and her sublimely padded fingertips. Her wide curved hips accentuate her bottomed out hourglass figure. Her entire body is also lined with shallow, wide sweeping grooves, that along with her exposed spurred gear joints, and fluorescent glowing womb tattoo, serve as highlights to her sleek feminine body.",
@@ -458,7 +458,7 @@
                 "Images": [
                 {
                     "Name": "Base",
-                    "File": "../Mods/Artificial_Love/Images/MGE_Automaton_87%.png",
+                    "File": "../Mods/Artificial_Love/Images/MGE_Automaton_Future_87%.png",
                     "setXalign": "0.0",
                     "setYalign": "0.0"
                 }
