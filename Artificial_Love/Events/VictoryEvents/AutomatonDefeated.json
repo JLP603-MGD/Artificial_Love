@@ -83,10 +83,9 @@
                     {
                         "NameOfScene": "Leave.",
                         "theScene": [
-                                      "You decide to leave the out of comission robo-girl alone to complete her recall protocol. As you stand up and turn around, heading on your way, as you hear sound of the Automaton's countdown gradually growing softer and softer until the atmosphere ounce again becomes silent. Continuing on your journey.",
+                                      "You decide to leave the out of comission robo-girl alone to complete her recall protocol. As you stand up and turn around, heading on your way, you hear sound of the Automaton's countdown gradually growing softer and softer until the atmosphere ounce again becomes silent.",
                                       "DisplayCharacters",
-                                      "EndLoop",
-                                      "JumpToScene","Item Drop"
+                                      "EndLoop"
                                       
                                   ]
                     },
@@ -97,9 +96,8 @@
                                       "With your lust now sated, you let go of the Automaton as it crashes sideways with her defiled lifeless body on the ground.",
                                         "DisplayCharacters",
                                         "EndLoop",
-                                        "As you stare at your own handiwork, you take your time to clean yourself up, before getting up and turning around. Walking away as the Automaton finally fades away, leaving you to continue onwards on your journey .",
-                                        "JumpToScene","Item Drop",
-                                        "AdvanceTime", "1"
+                                        "As you stare at your own handiwork, you take your time to clean yourself up, before getting up and turning around. Walking away as the Automaton finally fades away, leaving you to continue onwards on your journey ."
+                                      
                                   ]
                     },
                     {

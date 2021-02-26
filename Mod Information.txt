@@ -9,6 +9,7 @@
 Version Changes - Artificial Love v.0.05                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
 -added an item use functionality
+-changed item drop system to normal loot drops
 -added some additional content to the WIP feature
 -adjusted loot drop eros worth and eros dropped from fights
 -made some changes to the wording of the scenes, balance tweaks, and fixed some bugs based on 
@@ -20,8 +21,7 @@ Going to the Caverns and selecting them from the deck of Generic enemies
 Author Message - Artificial Love v.0.05                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
 	The following mod adds a generic enemy encounter to the Caverns. However, they are much
-stronger than the area's typical generics. Advised level is 40-50. The enemies stats are still 
-under testing and may change based on feedback or personal play testing. The mod's other 
+stronger than the area's typical generics. Advised level is 40-50. The mod's other 
 features outside of the generic's fight are still a work in progress and as such may find some
 immersion breaking dialogue sentences or bugs. As always I would love to hear any positive 
 or negative feedback on anything! Thank you of trying out my mod!

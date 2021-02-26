@@ -1,7 +1,7 @@
 {
     "name": "Automaton Artifical Womb Unit",
     "itemType": "NotCombatConsumable",
-    "cost": "1000",
+    "cost": "800",
     "requires": [ ""],
     "requiresEvent": [
                         {

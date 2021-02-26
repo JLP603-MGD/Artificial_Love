@@ -54,6 +54,34 @@
     "moneyDropped": "400",
     "ItemDropList": [
                       {
+                        "name": "Automaton Artifical Womb Unit",
+                        "dropChance": "30"
+                      },
+                      {
+                        "name": "Damaged Automaton Head Parts",
+                        "dropChance": "20"
+                      },
+                      {
+                        "name": "Damaged Automaton Left Arm Parts",
+                        "dropChance": "10"
+                      },
+                      {
+                        "name": "Damaged Automaton Left Leg Parts",
+                        "dropChance": "10"
+                      },
+                      {
+                        "name": "Damaged Automaton Right Arm Parts",
+                        "dropChance": "10"
+                      },
+                      {
+                        "name": "Damaged Automaton Right Leg Parts",
+                        "dropChance": "10"
+                      },
+                      {
+                        "name": "Damaged Automaton Torso Parts",
+                        "dropChance": "20"
+                      },
+                      {
                         "name": "Damaged Internal Hard Drive",
                         "dropChance": "-999"
                       }
