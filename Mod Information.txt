@@ -6,8 +6,10 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.05                                                                                                                                                                                  
+Version Changes - Artificial Love v.0.05a                                                                                                                                                                                  
 ------------------------------------------------------------------------------------------------
+-fixed being able to heal despite being stunned or restrained, fixed being able to make her 
+counter you despite being stunned or restrained, fixed being able to status or cc her
 -added an item use functionality
 -changed item drop system to normal loot drops
 -added some additional content to the WIP feature
@@ -18,7 +20,7 @@ feedback
 Going to the Caverns and selecting them from the deck of Generic enemies
 -Secret WIP feature (something to do with the Automaton's loot drops)
 
-Author Message - Artificial Love v.0.05                                                                                                                                                                                  
+Author Message - Artificial Love v.0.05a                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------
 	The following mod adds a generic enemy encounter to the Caverns. However, they are much
 stronger than the area's typical generics. Advised level is 40-50. The mod's other 

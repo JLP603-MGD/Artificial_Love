@@ -43,11 +43,11 @@
     },
     "resistancesStatusEffects": {
               "Stun": "20",
-              "Charm": "100",
-              "Aphrodisiac": "100",
+              "Charm": "200",
+              "Aphrodisiac": "200",
               "Restraints": "20",
-              "Sleep": "100",
-              "Trance": "100",
+              "Sleep": "200",
+              "Trance": "200",
               "Paralysis": "20",
               "Debuff": "0"
     },
@@ -79,7 +79,7 @@
                       },
                       {
                         "name": "Damaged Automaton Torso Parts",
-                        "dropChance": "20"
+                        "dropChance": "10"
                       },
                       {
                         "name": "Damaged Internal Hard Drive",

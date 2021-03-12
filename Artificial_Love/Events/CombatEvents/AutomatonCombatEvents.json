@@ -187,6 +187,7 @@
                                 {
                                     "NameOfScene": "ArousalCheck",
                                     "theScene": [ 
+                                                  
                                                   "IfMonsterArousalGreaterThan", "455", "I_NEED_HEALING",
                                                   "IfMonsterArousalGreaterThan", "325", "HOT!!!",
                                                   "IfMonsterArousalGreaterThan", "165", "Hot"
@@ -215,6 +216,8 @@
                                 {
                                     "NameOfScene": "I_NEED_HEALING",
                                     "theScene": [
+                                                    "IfMonsterHasStatusEffect", "Restrain", "Heat Recognized",
+                                                    "IfMonsterHasStatusEffect", "Stun", "Heat Recognized",
                                                     "SetChoice", "1", "Hotness1_done",
                                                     "SetChoice", "2", "Hotness2_done",
                                                     "FocusedSpeaks",  
@@ -239,6 +242,8 @@
                                 {
                                     "NameOfScene": "PhysicalHarm",
                                     "theScene": [
+                                            "IfMonsterHasStatusEffect", "Restrain", "Heat Recognized",
+                                            "IfMonsterHasStatusEffect", "Stun", "Heat Recognized",
                                             "FocusedSpeaks",
                                             "SwapLineIf", "Random",
                                             "!",
