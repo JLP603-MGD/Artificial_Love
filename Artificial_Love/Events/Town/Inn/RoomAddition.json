@@ -27,7 +27,7 @@
                         "theScene": [
                          
                           "DisplayCharacters",
-                            "2",
+                            "Galla",
                           "EndLoop",
                           "Speaks2",
                           "Scanning... Identity confirmed. Greetings Master. How may I serve you?",
@@ -95,7 +95,7 @@
                                 "Automaton",
                                 "StartCombat",
                                 "DisplayCharacters",
-                                "2",
+                                "Galla",
                                 "EndLoop",
                                 "The robot soon materializes in your room.",
                                 "Speaks2",
@@ -128,7 +128,7 @@
                   "NameOfScene": "Android Rest",
                   "theScene": [
                                 "DisplayCharacters",
-                                "2",
+                                "Galla",
                                 "EndLoop",
                                 "JumpToScene", "RoomMenu"
                             ]
