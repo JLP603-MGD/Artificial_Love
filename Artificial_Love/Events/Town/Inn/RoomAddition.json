@@ -186,12 +186,11 @@
                 {
                   "NameOfScene": "Android Goodbye",
                   "theScene": [
-                   
-                   
                     "Speaks2",
                     "Goodbye Master.",
                     "DisplayCharacters",
 									"EndLoop",
+                  "",
                   "UseHeldBG"
                             ]
               }
