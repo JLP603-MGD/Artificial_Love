@@ -16,13 +16,13 @@
 	                   {
                         "NameOfScene": "EventStart",
                         "theScene": [
-										                "IfHasPerk", "Master Command", "DreamSceneHappyBeginning"
+										                "IfHasPerk", "Master Command", "RoomCheck"
                                   ]
                     },
                     {
                       "NameOfScene": "RoomCheck",
                       "theScene": [
-                                  "GetEventAndIfChoiceIs", "Go to your room.", "1","DreamSceneHappyBeginning"
+                                  "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "DreamSceneHappyBeginning"
                                 ]
                   },
                     {

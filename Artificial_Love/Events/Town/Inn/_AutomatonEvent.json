@@ -1,12 +1,13 @@
 {
-    "name": "Go to your room.",
+  //Event seperate from the inn so I can store vent progress?
+    "name": "AutomatonEvent",
     "CardType": "Addition",
     "CardLimit": "0",
     "Description": "",
     "requires": [ ""],
     "Speakers": [
                   {
-                    "name": "Galla",
+                    "name": "Automaton",
                     "postName": "",
                     "SpeakerType": "Monster"
                   }
@@ -29,90 +30,56 @@
                           "DisplayCharacters",
                             "2",
                           "EndLoop",
-                          "Speaks2",
-                          "Scanning... Identity confirmed. Greetings Master. How may I serve you?",
+                          "Speaks",
+                          "Greetings Master. How may I serve you?",
                           "JumpToScene", "RoomMenu"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "RoomMenu",
+                        "theScene": [ "SetChoice", "1", "",
+                                      "Menu",
+                                        "Rest. (Advances Time 1)",
+                                        "Sleep till morning.",
+                                        "Rest till dusk.",
+                                        "FinalOption","Leave",
+                                      "EndLoop"
                                   ]
                     },
                     {
                         "NameOfScene": "RoomMenu",
                         "theScene": [
                           "MenuAddition",
-                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "Interact with your Automaton",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "MORTAL KOMBAT",
+                          "RequiresPerk", "Master Command","HideOptionOnRequirementFail", "SEX with android",
                           "EndLoop"
                           ]
                     },
                     {
-                      "NameOfScene": "Interact with your Automaton",
-                      "theScene": [ 
-                                    "Menu",
-                                    "Change Appearance",
-                                    "Converse",
-                                    "Spend Time",
-                                    "Combat Simulation",
-                                    "Sexual Service",
-                                    "FinalOption","Changed My Mind",
-                                    "EndLoop"
-                                ]
-                    },
-                    {
-                    "NameOfScene": "Changed My Mind.",
-                    "theScene": [
-                                "JumpToScene",
-                                "RoomMenu"
-                              ]
-                    },
-                   
-                      {
-                        "NameOfScene": "Change Appearance",
-                        "theScene": [
-                          "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
-                          "JumpToScene",
-                          "Interact with your Automaton"
-                                  ]
-                        },
-                        {
-                          "NameOfScene": "Converse",
-                          "theScene": [
-                            "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
-                            "JumpToScene",
-                            "Interact with your Automaton"
-                                    ]
-                          },
-                        {
-                          "NameOfScene": "Spend Time",
-                          "theScene": [
-                            "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
-                            "JumpToScene",
-                            "Interact with your Automaton"
-                                    ]
-                          },
-                          {
-                            "NameOfScene": "Combat Simulation",
-                            "theScene": ["Speaks2",
-                                "Command registered. Switching to combat mode... Systems: Check! Weapons: Check! Ammunition: Check! Combat Mode Engaged!",
-                                "CombatEncounter", "NoRunning",
-                                "Automaton",
-                                "StartCombat",
-                                "DisplayCharacters",
-                                "2",
-                                "EndLoop",
-                                "The robot soon materializes in your room.",
-                                "Speaks2",
-                                "Automaton recall protocol: Successful. Rebooting internal systems... Task completed. Switching to stand by mode.",
-                            "JumpToScene",
-                            "Interact with your Automaton"
-                                      ]
-                        },
-                    {
-                        "NameOfScene": "Sexual Service",
-                        "theScene": ["Speaks2",
-                            "Command registered. Processing ..... Error! Creator: JLP603 has not finished creating this feature.",
+                        "NameOfScene": "SEX with android",
+                        "theScene": ["Speaks",
+                            "Command registered. Processing ..... Sex finished succesfully!",
+                            "You hear her say in a rather monotone voice",
                         "JumpToScene",
-                        "Interact with your Automaton"
+                        "RoomMenu"
                                   ]
                     },
-                    
+                    {
+                      "NameOfScene": "MORTAL KOMBAT",
+                      "theScene": ["Speaks",
+                          "Command registered. Processing ..... Combat Mode Engaged!",
+                          "You hear her say in a rather monotone voice",
+                          "CombatEncounter", "NoRunning",
+                          "Automaton",
+                          "StartCombat",
+                          "DisplayCharacters",
+                          "2",
+                          "EndLoop",
+									        "The robot reappears soon after.",
+                      "JumpToScene",
+                      "RoomMenu"
+                                ]
+                  },
                  
                   {
                     "NameOfScene": "Rest. (Advances Time 1)",
@@ -120,18 +87,11 @@
                                 "DisplayCharacters",
                                 "EndLoop",
                                 "RestPlayer",
-                                "IfHasPerk", "Master Command","Android Rest",
-                                "JumpToScene", "RoomMenu"
-                              ]
-                },
-                {
-                  "NameOfScene": "Android Rest",
-                  "theScene": [
                                 "DisplayCharacters",
                                 "2",
                                 "EndLoop",
                                 "JumpToScene", "RoomMenu"
-                            ]
+                              ]
                 },
                 {
                     "NameOfScene": "Sleep till morning.",
@@ -150,7 +110,9 @@
                                         "SleepPlayer",
                                         "SetChoice", "1", "",
                                         "Later you get out of bed with a lazy stretch, and start preparing for the day.",
-                                        "IfHasPerk", "Master Command","Android Rest",
+                                        "DisplayCharacters",
+                                        "2",
+                                        "EndLoop",
                                         "JumpToScene", "RoomMenu"
                                     ]
                       },
@@ -171,7 +133,9 @@
                                         "RestPlayer",
                                         "IfTimeIs", "Day", "SleepingNight",
                                         "Later you get out of bed with a lazy stretch, and start preparing for the day.",
-                                        "IfHasPerk", "Master Command","Android Rest",
+                                        "DisplayCharacters",
+                                        "2",
+                                        "EndLoop",
                                         "JumpToScene", "RoomMenu"
                                     ]
                       },
@@ -188,7 +152,7 @@
                   "theScene": [
                    
                    
-                    "Speaks2",
+                    "Speaks",
                     "Goodbye Master.",
                     "DisplayCharacters",
 									"EndLoop",

@@ -32,13 +32,13 @@
                     {
                       "NameOfScene": "MasterCommandCheck",
                       "theScene": [
-                                    "IfHasPerk", "Master Command", "DreamSceneLayer"
+                                    "IfHasPerk", "Master Command", "RoomCheck"
                                 ]
                     },
                     {
                       "NameOfScene": "RoomCheck",
                       "theScene": [
-                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "DreamSceneLayer"
+                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "DreamSceneLayer"
                                 ]
                     },
                     {
