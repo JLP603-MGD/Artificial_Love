@@ -6,29 +6,32 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.05d                                                                                                                                                                                  
+Version Changes - Artificial Love v.0.06                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------
--fixed being able to trigger dreams outside of the inn, fixed the conflic with other mods with
-additions to the town
--fixed being able to heal despite being stunned or restrained, fixed being able to make her 
-counter you despite being stunned or restrained, fixed being able to status or cc her
--added an item use functionality
--changed item drop system to normal loot drops
--added some additional content to the WIP feature
--adjusted loot drop eros worth and eros dropped from fights
--made some changes to the wording of the scenes, balance tweaks, and fixed some bugs based on 
-feedback
--Adds an Automaton by:
-Going to the Caverns and selecting them from the deck of Generic enemies
--Secret WIP feature (something to do with the Automaton's loot drops)
+-added an event that introduces you to the Monstergirl species known as the Automatons
+-reworded various flavour text, lines, and Automaton skill attack lines
+-changed move list and some reactions of the Automaton generic fight
+-fixed the 'investigate bon bon bun' option showing when talking to Elly
+-fixed a typo
+-made it compatible for MGD v23.7a
 
-Author Message - Artificial Love v.0.05d                                                                                                                                                                                 
+Author Message - Artificial Love v.0.06                                                                                                                                                                                
 ------------------------------------------------------------------------------------------------
-	The following mod adds a generic enemy encounter to the Caverns. However, they are much
-stronger than the area's typical generics. Advised level is 40-50. The mod's other 
-features outside of the generic's fight are still a work in progress and as such may find some
-immersion breaking dialogue sentences or bugs. As always I would love to hear any positive 
-or negative feedback on anything! Thank you of trying out my mod!
+	The following mod adds an event called 'Ruins' that you will need to make progress with 
+to have the Automatons appear again in the grimoire as a generic fight. You will not lose 
+progress or lose the ability to access the Automaton in your room and her related drops if you 
+already did so. HOWEVER, I will be working on the event portion of the mod again in the future, 
+which might mess with the current usage of Choices so I HIGHLY RECOMMEND USING A SEPERATE 
+SAVE FROM YOUR MAIN IF YOU GO THROUGH THE EVENT's CONTENT. Sadly there is no new sexual and or
+non sexual content in this update for the Automaton in your room. This mod uses a LOT of sfx 
+so please adjust your volume accordingly
+
+	This mod also contains some extreme but avoidable content such as prolapse, rough sex, 
+asphyxiation, and stomach bulging.
+
+The mod's is still a work in progress and as such you may find some immersion breaking 
+dialogue sentences or bugs. As always I would love to hear any positive or negative feedback 
+on anything! Thank you of trying out my mod!
 										       
 											- JLP603
 
@@ -50,4 +53,5 @@ They belong to their respective owners and copyright holders.
 
 Mod built for the game Monster Girl Dreams by Treshold
 Art used is the Automaton from Monster Girl Encylopedia by Kenkou Cross
-Music taken from Monstercat & other various youtube videos
+Music taken from Purpleplanet and Monstercat
+while Sfx are taken from zapsplat, other games, MusMus, & other various youtube videos

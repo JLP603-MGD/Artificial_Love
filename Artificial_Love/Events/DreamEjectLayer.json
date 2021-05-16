@@ -26,7 +26,7 @@
                     {
                         "NameOfScene": "EventStart",
                         "theScene": [
-                                    "GetEventAndIfChoiceIs", "EnteringChurch",  "2", "DemonLayerGet", "MasterCommandCheck"
+                                    "GetEventAndIfChoice", "EnteringChurch",  "2", "DemonLayerGet", "MasterCommandCheck"
                                   ]
                     },
                     {
@@ -38,7 +38,7 @@
                     {
                       "NameOfScene": "RoomCheck",
                       "theScene": [
-                                    "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "DreamSceneLayer"
+                                    "GetEventAndIfChoice", "Go to your room.", "1", "SleepingInRoom", "DreamSceneLayer"
                                 ]
                     },
                     {

@@ -10,13 +10,13 @@
     "requires": [ ""],
     "requiresEvent": [
                         {
-                          "NameOfEvent": "",
+                          "NameOfEvent": "Ruins",
                           "Progress": "-99",
-                          "ChoiceNumber": "-1",
-                          "Choice": ""
+                          "ChoiceNumber": "77",
+                          "Choice": "WORLD-DOMINATION-Bzzt"
                         }
                       ],
-    "skillList": [ "Orifice Clamp: Mouth","Orifice Clamp: Pussy","Piston Pound Mouth","Piston Pound Sex","Feature Display: Mouth","Feature Display: Pussy","Body Lock","Body Lock","Pumping Handjob","Suction Kiss","Automatic Firing: Arousal Shell","Automatic Firing: Arousal Shell"],
+    "skillList": [ "Orifice Clamp: Mouth","Orifice Clamp: Pussy","Piston Pound Mouth","Piston Pound Sex","Feature Display: Mouth","Feature Display: Pussy","Pumping Handjob","Suction Kiss","Body Lock","Body Lock","Body Lock","Tazer","Tazer","Tazer","Automatic Firing: Arousal Shell","Automatic Firing: Arousal Shell","Automatic Firing: Arousal Shell","Finger: Drill Motion","Finger: Jack Hammer Motion","Finger Penetrate","Finger Penetrate"],
     "perks": ["Arcane Adept","Quick Witted","Clingy","Grappler","Pinpoint Pleasure","Alert","Bond Breaker","Undeniable Pleasure"],
     "stats": { "lvl": "40",
               "Exp": "400",
@@ -113,7 +113,7 @@
                 {
                   "lineTrigger": "HitWith",
                   "move": "Spank",
-                  "theText": [ "Her body jerks upwards as her round butt cheeks jiggle from the impact.",
+                  "theText": [ "Her body jerks upwards as her curvy butt absorbs the impact.",
                                 "'!'",
                                 "'...Are you testing my shock absorption?'"
                               ]
@@ -169,7 +169,8 @@
                 {
                   "lineTrigger": "HitWith",
                   "move": "Pin",
-                  "theText": [ "'...'"]
+                  "theText": [ "'...'",
+                    "'Warning. Data shows lowered chances at victory in this position. Suggesting immediate escape.'"]
                 },
                 {
                   "lineTrigger": "HitWith",
@@ -188,7 +189,7 @@
                   "lineTrigger": "HitWith",
                   "move": "Caress",
                   "theText": [ 
-                    "You indulge in the oddly satisfying sensation of feeling her cold, equisitely smooth, steely fittings; textured, leathery surfaces; and dipping your fingers before running them down her deep sweeping grooves.",
+                    "You indulge in the oddly satisfying sensation of feeling her cold equisitely smooth, steely fittings; textured, leathery surfaces and dipping your fingers before running them down her deep sweeping grooves.",
                     "'...'"]
                 },
                 {
@@ -216,7 +217,8 @@
                 {
                   "lineTrigger": "HitWith",
                   "move": "Suckle",
-                  "theText": [ "..."]
+                  "theText": [ "...",
+                  "Target seems to be attempting the extraction of breast milk despite not being equipped with said feature."]
                 },
                 {
                     "lineTrigger": "HitWith",
@@ -240,12 +242,12 @@
                   "lineTrigger": "HitWith",
                   "move": ["Tantric Thrust", "Passionate Lovemaking"],
                   "theText": [
-                              "The sensation of your wild thrusts reverberate across her body, making her quiver as her body moves perfectly in-sync with your movements."]
+                    "The sensation of your wild thrusts reverberate across her body, making her quiver in feedback."]
                 },
                 {
                     "lineTrigger": "HitWith",
                     "move": "Ear Tease",
-                    "theText": [ "..."]
+                    "theText": [ "...?"]
                 },
                 {
                     "lineTrigger": "HitWith",
@@ -260,7 +262,7 @@
                 {
                   "lineTrigger": "HitWith",
                   "move": "Sleep",
-                  "theText": [ "'Attempt to shutdown system registered. Task failed.'"
+                  "theText": [ "'Attempt at system shutdown registered. Task failed.'"
                               ]
                 },
                 {
@@ -287,7 +289,9 @@
                   "lineTrigger": "HitWith",
                   "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
                   "theText": [ "'...'",
-                               "She remains fixed in place, seemingly indifferent to your seduction."]
+                               "She remains fixed in place, seemingly indifferent to your seduction.",
+                               "'Processing human courting ritual... Process complete.'"]
+                              
                 },
             {
                   "lineTrigger": "HitWith",
@@ -338,17 +342,17 @@
                               ]
                 },
                 {
-                    "lineTrigger": "onOrgasm",
+                    "lineTrigger": "OnOrgasm",
                     "move": "",
-                    "theText": [ "'Danger! System is overheating.' She throws her head backwards, as her entire body clenches, squirting all over you.",
-                                 "'Danger! System failure.' Her entire body shakes as violent waves of pleasure wash over her body, causing her pelvis to jolt upwards and orgasm all over you."
+                    "theText": [ "'Danger! System is overheating.' She throws her head backwards, as her entire body clenches before squirting all over you.",
+                                 "'Danger! System failure.' Her entire body shakes as violent waves of pleasure wash over her body, causing her pelvis to jolt upwards and orgasms all over you."
                               ]
                 },
                 {
                     "lineTrigger": "OnSurrender",
                     "move": "",
                     "theText": [ "'Enemy surrender accepted. Commencing enemy dispatch protocol.'",
-                                 "'Mission status updated. Mission: Dispatch enemy completed.'",
+                                 "'Mission status updated. Mission: Dispatch Enemy completed.'",
                                  "'Processing enemy surrender... Process complete. Enemy surrender confirmed.'"]
                 },
             {
@@ -367,7 +371,7 @@
                 {
                     "lineTrigger": "StanceStruggleComment",
                     "move": "Sex",
-                    "theText": [ "'...' She keeps her gaze fixed on your. Watching your movements.",
+                    "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
                                   "'Logging enemy escape attempt. Task failed. Recommending enemy surrender.'"]
                 },
                 {
@@ -379,7 +383,7 @@
                 {
                     "lineTrigger": "StanceStruggleFreeComment",
                     "move": "Sex",
-                    "theText": [ "'...' She keeps her gaze fixed on your. Watching your movements.'",
+                    "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
                               "'Logging enemy escape. Running diagnostics for system abnormalities... Test results: Negative. Do I not feel good?'",
                               "'Logging enemy escape. Would you like to test my other orrifices?'"]
                 },
@@ -399,7 +403,7 @@
                 {
                     "lineTrigger": "StanceStruggleComment",
                     "move": "Making Out",
-                    "theText": [ "'...' She keeps her gaze fixed on your. Watching your movements.",
+                    "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
                                   "'Logging enemy escape attempt. Task failed. Recommending enemy surrender.'"]
                 },
                 {
@@ -412,7 +416,7 @@
                     "lineTrigger": "StanceStruggleFreeComment",
                     "move": "Making Out",
                     "theText": [ 
-                      "'...' She keeps her gaze fixed on your. Watching your movements.'",
+                      "'...' She keeps her gaze fixed on you. Watching your movements.",
                       "'Logging enemy escape. Running diagnostics for system abnormalities... Test results: Negative. Is my service unsatisfactory?'"]
                 },
             {
@@ -425,12 +429,12 @@
                     "lineTrigger": "StanceStruggleFail",
                     "move": "Blowjob",
                     "theText": [ "But she wraps her arms around your waist and presses you deeper into her throat instead!",
-                                "But she makes a vaccum tight seal around her lips, locking your cock with her mouth."]
+                      "But she makes a vaccum tight seal around her lips; locking your cock within her mouth!"]
                 },
                 {
                     "lineTrigger": "StanceStruggleComment",
                     "move": "Blowjob",
-                    "theText": [ "'...' She keeps her gaze fixed on your. Watching your movements.",
+                    "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
                                 "She looks up at you as she casually continues servicing your dick."]
                 },
             {
@@ -444,7 +448,7 @@
                     "lineTrigger": "StanceStruggleFreeComment",
                     "move": "Blowjob",
                     "theText": [ "'Logging enemy escape attempt. Running diagnostics for system abnormalities... Test results: Negative. Was my service unsatisfactory?'",
-                              "'...' She keeps her gaze fixed on your. Watching your movements.'",
+                              "'...' She keeps her gaze fixed on you. Watching your movements.",
                               "'Logging enemy escape. Would you like to test my other orrifices?'"]
                 },
                 {
@@ -459,13 +463,7 @@
               "move": "",
               "stance": "",
               "includes": [ "Automaton"],
-              "theScene": [ "ClearMonsterEncounter",
-                            "ChangeBGM", "music/Loss/reason.mp3",
-                            "The Automaton collapses onto the ground, as her body shuts down and the light seems to leave her eyes. Hot air rises from her body while electrical sparks shoot out.",
-                            "Speaks",
-                            "Alert! System has shutdown due to: Overheating. Activating recall protocol in T - 5 minutes. ",
-                            "A countdown starts ticking, while you check on the defeated mechanical woman, waving your hands over her eyes, poking her cheeks and gingerly lifting her arm up into the air as it falls immediately without you propping it up. Searching for any kind of reaction.",
-                            "You could probabbly get away with doing whatever you want with her limp body for the next few minutes.",
+              "theScene": [ 
                             "ClearMonsterEncounter",
                             "JumpToEvent",
                             "Automaton Defeated"

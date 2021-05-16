@@ -27,7 +27,7 @@
                     {
                       "NameOfScene": "RoomCheck",
                       "theScene": [
-                                  "GetEventAndIfChoiceIs", "Go to your room.", "1", "SleepingInRoom", "DreamSceneRobot"
+                                  "GetEventAndIfChoice", "Go to your room.", "1", "SleepingInRoom", "DreamSceneRobot"
                                 ]
                   },
                     {

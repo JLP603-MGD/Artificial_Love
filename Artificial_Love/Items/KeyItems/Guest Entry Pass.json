@@ -1,7 +1,7 @@
 {
-    "name": "Automaton Artifical Womb Unit",
-    "itemType": "NotCombatConsumable",
-    "cost": "800",
+    "name": "Guest Entry Pass",
+    "itemType": "Key",
+    "cost": "0",
     "requires": [ ""],
     "requiresEvent": [
                         {
@@ -11,7 +11,7 @@
                           "Choice": ""
                         }
                       ],
-    "descrip": "A strange cylindrical device, with a see through domed cap encapsulating a rubber looking convex crown, connected to the cap with a series of small springs. Weird inscriptions are written across it's length in fine print, while it's bottom seems to resemble the lips of a human female's vagina.",
+    "descrip": "A palm sized, paper thin sheet of plastic. The words 'Guest Entry Pass' are printed on one of it's sides",
     "perks": [ ""],
     "skills": [ ],
 
@@ -54,7 +54,7 @@
     },
 
 
-    "useOutcome": "|f|JumpToEventThenScene|/|Ruins|/|UseWomb",
+    "useOutcome": "",
     "useMiss": "",
 
     "onEquip": "",

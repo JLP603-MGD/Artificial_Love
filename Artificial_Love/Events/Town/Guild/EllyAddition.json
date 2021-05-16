@@ -54,7 +54,7 @@
                                       "Menu",
                                         "Talk with Elly.",
                                         "RequiresTime", "Night",
-                                        "RequiresChoiceFromEvent", "Urgent 'Mushroom' Investigation", "1", "UnlockedCandyStore",
+                                        "RequiresChoiceFromEvent", "Urgent 'Mushroom' Investigation", "1", "UnlockedCandyStore", "RequiresChoiceFromEvent", "ConfrontingVenefica", "3", "",
                                         "Report in on your investigation of Bon Bon Bun.",
                                         "RequiresTime", "Night",
                                         "RequiresChoiceFromEvent", "'Bon Bon Bun'", "18", "BANNED",

@@ -1,7 +1,7 @@
 {
-    "name": "Master Command",
-    "itemType": "Key",
-    "cost": "0",
+    "name": "Crystal Shard",
+    "itemType": "Loot",
+    "cost": "500",
     "requires": [ ""],
     "requiresEvent": [
                         {
@@ -11,7 +11,7 @@
                           "Choice": ""
                         }
                       ],
-    "descrip": "An object or device in a movie or a book that serves merely as a trigger for the plot.",
+    "descrip": "A small shard of high quality crystal that emmits a faint green glow",
     "perks": [ ""],
     "skills": [ ],
 
