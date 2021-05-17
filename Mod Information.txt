@@ -6,9 +6,10 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.06->v.0.06b                                                                                                                                                                                
+Version Changes - Artificial Love v.0.06->v.0.06c                                                                                                                                                                                
 ------------------------------------------------------------------------------------------------
 -fixed an invalid jump to unreleased and undeveloped scenes
+-hhopefully fixes being unable to have elly inspect the Automaton loot drops
 
 Version Changes - Artificial Love v.0.06                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------

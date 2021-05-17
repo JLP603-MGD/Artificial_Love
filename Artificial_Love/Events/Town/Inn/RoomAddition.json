@@ -4,6 +4,7 @@
     "CardLimit": "0",
     "Description": "",
     "requires": [ ""],
+    "Addition": "Yes",
     "Speakers": [
                   {
                     "name": "Galla",
