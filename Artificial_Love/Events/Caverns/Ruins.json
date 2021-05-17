@@ -110,8 +110,8 @@
                                   "ChangeBG", "Caverns.png",
                                   "ChangeBGM", "music/Forest/Starry sky.mp3",
                                   "Your sprint quickly comes to a halt as you bend over and try to catch your breath. You slowly raise your head up to find the familiar glow of numerous crystals overhead as your mouth breaks open into a wide grin. After a moment of rest you get up, turning your head backwards one last time before moving on, venturing through the caverns.",
-                                  "IfChoice","1","","SetChoice1Block",
-                                  "IfChoice","77","tmp","WORLD-DOMINATION-Bzzt"
+                                  "IfChoice","1","","SetChoice1Block"
+                                  
                                 ]
                     },
                     {
@@ -136,13 +136,20 @@
                       "theScene": [  
                                   "SetChoice","10","",
                                   "SetChoice","11","",
-                                  "SetChoice","12",""
+                                  "SetChoice","12","",
+                                  "IfChoice","77","tmp","Set77"
                                 ]
                     },
                     {
                       "NameOfScene": "SetChoice1Block",
                       "theScene": [  
                                   "SetChoice","1","RockBlock"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Set77",
+                      "theScene": [  
+                                  "SetChoice","77","WORLD-DOMINATION-Bzzt"
                                 ]
                     },
                     {
@@ -835,6 +842,9 @@
                                     "You might want get out of there before they start coming out to find you...",
                                     "ChangeBGM", "../Mods/Artificial_Love/Music/Darkness.ogg",
                                   "SetChoice", "77", "tmp",
+                                  "SetChoice","10","EnemySpwned",
+                                  "SetChoice","11","EnemySpwned",
+                                  "SetChoice","12","EnemySpwned",
                                   "QuestComplete",
                                   "JumpToScene",
                                   "LabMenu1"
