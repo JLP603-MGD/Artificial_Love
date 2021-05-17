@@ -6,6 +6,10 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
+Version Changes - Artificial Love v.0.06->v.0.06a                                                                                                                                                                                
+------------------------------------------------------------------------------------------------
+-fixed an invalid jump to unreleased and undeveloped scenes
+
 Version Changes - Artificial Love v.0.06                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------
 -added an event that introduces you to the Monstergirl species known as the Automatons

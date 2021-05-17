@@ -110,7 +110,8 @@
                                   "ChangeBG", "Caverns.png",
                                   "ChangeBGM", "music/Forest/Starry sky.mp3",
                                   "Your sprint quickly comes to a halt as you bend over and try to catch your breath. You slowly raise your head up to find the familiar glow of numerous crystals overhead as your mouth breaks open into a wide grin. After a moment of rest you get up, turning your head backwards one last time before moving on, venturing through the caverns.",
-                                  "IfChoice","1","","SetChoice1Block"
+                                  "IfChoice","1","","SetChoice1Block",
+                                  "IfChoice","77","tmp","WORLD-DOMINATION-Bzzt"
                                 ]
                     },
                     {
@@ -833,7 +834,7 @@
                                     "As soon as it opens, you grab the card out from the box and rush through the door as several bullets hit where you stood before the door once again slams shut as you hear the sound of several people slamming up against the door. You stand there for a while, watching the door to see if it remains closed, before finally feeling content as you let out a sigh of relief.",
                                     "You might want get out of there before they start coming out to find you...",
                                     "ChangeBGM", "../Mods/Artificial_Love/Music/Darkness.ogg",
-                                  "SetChoice", "77", "WORLD-DOMINATION-Bzzt",
+                                  "SetChoice", "77", "tmp",
                                   "QuestComplete",
                                   "JumpToScene",
                                   "LabMenu1"
