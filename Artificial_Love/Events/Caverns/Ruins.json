@@ -205,7 +205,7 @@
                                   "SetChoice", "6", "ChamberEntrance",
                                   "ChangeBG", "Caverns.png",
                                   "IfChoice","3","IntruderOccupy", "IntruderCheck",
-                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "LabExteriorIntro4",
+                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "ChamberIntro4",
                                   "ChangeBGM", "../Mods/Artificial_Love/Music/Drips.ogg",                                  
                                   "Stepping out of the passage you wince as your eyes are hit by a sudden influx of light before opening them up and being greeted with the scenic view of a wide open chamber, decorated with a mix of turquoise and sky blue crystals as your eyes are immediately drawn to the singular giant mass of shining crystal jutting down from the ceiling.", 
                                   "Below it lies some sort of platform branching from a long bridge that sends people over the wide rift that otherwise seperates you from the mysterious large building, visible to you even from such a far distance. The sound of water dripping down from the stalagmites are the only thing you hear as you stand atop an elevated stone platform with a small set of stairs.",
