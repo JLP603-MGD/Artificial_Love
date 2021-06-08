@@ -579,7 +579,8 @@
                                                    "RemoveSkillFromMonster","Automatic Firing",
                                                    "RemoveSkillFromMonster","Automatic Firing",
                                                    "RemoveSkillFromMonster","Automatic Firing",
-                                                   "PlayStoredBGM"
+                                                   "PlayStoredBGM",
+                                                   "Speak", ""
             
                                     ]
                                 },
