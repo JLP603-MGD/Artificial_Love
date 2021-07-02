@@ -41,38 +41,12 @@
                                   "JumpToScene", "VisitMenu"
                               ]
                 },
-                {
-                  "NameOfScene": "NightAccessGiveCheck",
-                  "theScene": [
-                                "ProgressEqualsOrGreater", "30", "RoomAccessGive",
-                                "IfChoice", "60", "", "Automata Checker",
-                                "JumpToScene", "VisitMenu"
-                            ]
-              },
-                    {
-                        "NameOfScene": "VisitMenu",
-                        "theScene": [
-                                      "Menu",
-                                        "Talk with Elly.",
-                                        "RequiresTime", "Night",
-                                        "RequiresChoiceFromEvent", "Urgent 'Mushroom' Investigation", "1", "UnlockedCandyStore", "RequiresChoiceFromEvent", "ConfrontingVenefica", "3", "",
-                                        "Report in on your investigation of Bon Bon Bun.",
-                                        "RequiresTime", "Night",
-                                        "RequiresChoiceFromEvent", "'Bon Bon Bun'", "18", "BANNED",
-                                        "Get Unbanned from Bon Bon Bun. (50000 Eros.)",
-                                        "Learn Skills.",
-                                        "RequiresTime", "Night",
-                                        "RequiresChoice", "13", "NightAccessGiven",
-                                        "Ask to help with Elly's experiments.",
-                                        "FinalOption","Leave Elly to her studies.",
-                                      "EndLoop"
-                                  ]
-                    },
                     {
                         "NameOfScene": "VisitMenu",
                         "theScene": [
                           "MenuAddition",
                           "RequiresChoice", "60", "PartFound!","HideOptionOnRequirementFail","'Could you look at this Automaton part?'",
+                          "OverrideOption", "FinalOption", "Leave Elly to her studies.",
                           "EndLoop"
                           ]
                     },

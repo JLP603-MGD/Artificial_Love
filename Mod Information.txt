@@ -6,11 +6,15 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.06d->v.0.06e                                                                                                                                                                                
+Version Changes - Artificial Love v.0.06e->v.0.06f                                                                                                                                                                                
 ------------------------------------------------------------------------------------------------
--fixed music no longer playing after the Automaton gets a new moveset
--adds an event in the caverns that resets the choices in the event: Ruins 
-for those who played earlier lettered 0.06 versions
+-hopefully fixes not being able to turn in the Automaton parts to Elly 
+(no new content once you build the robot though)
+-disabled the Ruin reset event by default with an underscore in the location 
+and cavern event folders
+-moved the leave or backout options to the bottom of the menu for Elly and the Automaton in your 
+room
+-removed the Quest complete line from the Ruins event
 
 Version Changes - Artificial Love v.0.06                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------

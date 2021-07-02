@@ -845,7 +845,6 @@
                                   "SetChoice","10","EnemySpwned",
                                   "SetChoice","11","EnemySpwned",
                                   "SetChoice","12","EnemySpwned",
-                                  "QuestComplete",
                                   "JumpToScene",
                                   "LabMenu1"
                                 ]
