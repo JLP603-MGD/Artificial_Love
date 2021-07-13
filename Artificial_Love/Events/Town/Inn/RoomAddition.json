@@ -16,7 +16,6 @@
                     {
                         "NameOfScene": "Enter",
                         "theScene": [
-                                    "StoreCurrentBG",
                                     "ChangeBG", "standIn.png",
                                     "You head upstairs and enter into your cozy, sparsely decorated room.",
                                     "IfHasPerk", "Master Command","Android Greet",
@@ -182,7 +181,8 @@
                     "NameOfScene": "Leave",
                     "theScene": [
                       "IfHasPerk", "Master Command","Android Goodbye",
-                      "UseHeldBG"
+                      "IfTimeIs", "Day","ChangeBG-Day",
+                      "IfTimeIs", "Day","ChangeBG-Night"
                               ]
                 },
                 {
@@ -193,8 +193,21 @@
                     "DisplayCharacters",
 									"EndLoop",
                   "",
-                  "UseHeldBG"
+                  "IfTimeIs", "Day","ChangeBG-Day",
+                  "IfTimeIs", "Day","ChangeBG-Night"
                             ]
+              },
+              {
+                "NameOfScene": "ChangeBG-Day",
+                "theScene": [
+                  "ChangeBG", "Inn.png"
+                          ]
+              },
+              {
+                "NameOfScene": "ChangeBG-Night",
+                "theScene": [
+                  "ChangeBG", "InnNight.png"
+                          ]
               }
             ]
 }

@@ -6,15 +6,10 @@
  | |  | | |__| | |__| |  _| |_| |\  | |   | |__| | | \ \| |  | |/ ____ \| |   _| || |__| | |\  |
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
-Version Changes - Artificial Love v.0.06e->v.0.06f                                                                                                                                                                                
+Version Changes - Artificial Love v.0.06f->v.0.06g                                                                                                                                                                                
 ------------------------------------------------------------------------------------------------
--hopefully fixes not being able to turn in the Automaton parts to Elly 
-(no new content once you build the robot though)
--disabled the Ruin reset event by default with an underscore in the location 
-and cavern event folders
--moved the leave or backout options to the bottom of the menu for Elly and the Automaton in your 
-room
--removed the Quest complete line from the Ruins event
+-fixed showing the wrong inn background after advancing time to
+night or day in your room
 
 Version Changes - Artificial Love v.0.06                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------
