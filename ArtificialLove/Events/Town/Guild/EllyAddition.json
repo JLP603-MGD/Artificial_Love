@@ -1,0 +1,479 @@
+{
+    "name": "Head over to Elly's table.",
+    "CardType": "Addition",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Addition": "Yes",
+    "Speakers": [
+                  {
+                    "name": "Elly",
+                    "postName": "",
+                    "SpeakerType": ""
+                  }
+                ],
+    "EventText": [
+                      {
+                        "NameOfScene": "PostIntroEvent",
+                        "theScene": [
+                                      "IfChoice", "13", "", "NightAccessGiveCheck",
+                                      "IfChoice", "60", "", "Automata Checker",
+                                      "JumpToScene", "VisitMenu"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "Automata Checker",
+                      "theScene": [
+                                    "IfHasItemInInventory", "Automaton Head", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Automaton Torso", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Automaton Left Leg", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Automaton Left Arm", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Automaton Right Arm", "1", "Automata Part Found",
+                                    "IfHasItemInInventory", "Automaton Right Leg", "1", "Automata Part Found",
+                                    "JumpToScene", "VisitMenu"
+                                ]
+                  },
+                  {
+                    "NameOfScene": "Automata Part Found",
+                    "theScene": [
+                                  "SetChoice", "60", "PartFound!",
+                                  "JumpToScene", "VisitMenu"
+                              ]
+                },
+                    {
+                        "NameOfScene": "VisitMenu",
+                        "theScene": [
+                          "MenuAddition",
+                          "RequiresChoice", "60", "PartFound!","HideOptionOnRequirementFail","Ask her about the Automaton parts",
+                          "OverrideOption", "FinalOption", "Leave Elly to her studies.",
+                          "EndLoop"
+                          ]
+                    },
+                    {
+                        "NameOfScene": "Ask her about the Automaton parts",
+                        "theScene": [
+                          "IfChoice", "61", "Knows of parts", "Told about parts intro",
+                          "ChangeImageLayer", "Expression", "1", "Base",
+                          "PlayerSpeaks",
+                          "Hey Elly, could you take a look at something for me?",
+                          "ChangeImageLayer", "Expression", "1", "Happy",
+                          "Speaks",
+                          "Oh, sure. Just set it on the table right over here.",
+                          "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                          "Elly suddenly adjusts her glasses with a serious look as you rummage through your inventory before finding what you need and setting it on the table.",
+                          "Speaks",
+                          "Did you happen to find some kind of magical artifa-",
+                          "ChangeImageLayer", "Expression","1", "SpazYell", "ChangeImageLayer", "RightArm", "1", "ArmRDown", "ChangeImageLayer", "Glasses", "1", "Glasses",
+                          "Speaks",
+                          "I-IS THAT A P-PERSON?!",
+                          "ChangeImageLayer", "Expression","1", "Awkward", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush",
+                          "SwapLineIf", "IfTimeIs",
+                            "Day", "Several people in the guild turn their heads towards the both of you, as you quickly try to calm Elly down and tell her all about the previously blocked chamber in the caverns and the Automatons. She visibly relaxes after hearing your explanation while everyone else seems to have lost their interest long ago, having gone back to minding their own business.",
+                            "Night", "You immediately try to calm her down and tell her all about the previously blocked chamber in the caverns and the Automatons as she seems to be visibly relieved after hearing your explanation.",
+                          "EndLoop",
+                          "ChangeImageLayer", "Expression","1", "Happy",
+                          "Speaks",
+                          "Hm, I see. A secret chamber in the caverns... that sure is intriguing. I'll be sure to inform my sister about this, good job!",
+                          "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine",
+                          "Speaks",
+                          "But for now, lets take a look at this thing you brought.",
+
+                          "Elly carefully picks up the piece of the Automaton from the table and examines it thoroughly, flipping it around and periodically bringing her face closer to get a better look.",
+                          "ChangeImageLayer", "RightArm", "1", "ArmRDown",
+                          "Her expression remains undescribable all throughout the inspection, giving no visual or verbal cues as to what she thinks before setting the item back on to the table.",
+                          "Speaks",
+                          "...",
+                          "PlayerSpeaks",
+                          "...",
+                          "PlayerSpeaks",
+                          "...Well how is it?",
+                          "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush",
+                          "Elly adjust her glasses as she meets your line of sight.",
+                          "ChangeImageLayer", "RightArm", "1", "ArmRDown",
+                          "Speaks",
+                          "It's...",
+                          "PlayerSpeaks",
+                          "It's?",
+                          "ChangeImageLayer", "Expression","1", "Happy","ChangeImageLayer", "Glasses", "1", "Glasses",
+                          "Speaks",
+                          "It's... incredible! I have never seen anything like this! See these grooves? These suggest the flow of some type of magical energy along it's body used to animate it's body and perform fine tuned motor control!",
+                          "ChangeImageLayer", "Expression","1", "Sparkling",
+                          "Speaks",
+                          "Elly's face beams with excitement as she proceeds to gush about the objects exquisite craftsmanship and its sophisticated design, most of which goes over your head.",
+                          "Speaks",
+                          "... and look over here, do you see these small marks hidden away over here in the corner? This is indicates the use of an ancient crafting technique that goes back hundreds of years! You must have had stumbled onto some sort of ancient ruin of some kind by accident! The only other artifact to have been recovered from such a place is...", 
+                          "ChangeImageLayer", "Expression","1", "Serious",
+                          "Speaks",
+                          "W-wait hold on, I'll be right back!",
+                          "DisplayCharacters",
+                          "EndLoop",
+                          "Elly quickly disappears to the back of the guild leaving you alone for a while...",
+                          "DisplayCharacters",
+                            "Elly",
+                          "EndLoop",
+                          "ChangeImageLayer", "Expression","1", "SpazYell","ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                          "... before coming back panting with a large scroll in hand.",
+                          "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Expression","1", "Happy",
+                          "Speaks",
+                          "Hah... hah... I-I found it! Here take a look.",
+                          "ChangeImageLayer", "Expression","1", "Serious",
+                          "She unrolls the scroll on the table to reveal a picture of a woman with her body sprawled out on to the parchment. Looking closer, she appears to be identical to one of the Automatons with depictions of her being split into 7 different parts.",
+                          "PlayerSpeaks",
+                          "What is this?",
+                          "ChangeImageLayer", "Glasses", "1", "GlassesShine",
+                          "Speaks",
+                          "This is a scroll that was recovered from another ruin that matches the description with the one you found, somewhere in Lucidia. From what I could gather, it seems to hold the secrets to embewing magic onto the body of one of the Automatons.",
+                          "Speaks",
+                          "Hm... according to this it seems like we need seven pieces, a left and right arm, a left and right leg, a head, a torso, and ... some sort of core? I'm not entirely sure but it seems to be somthing found inside her body and looks like some sort of long... tube?",
+                          "ChangeImageLayer", "Expression","1", "Sparkling","ChangeImageLayer", "Glasses", "1", "Glasses",
+                          "Speaks",
+                          "With this we might be able to bring one of these Automatons back to life! Just imagine the ramifications this could bring to the world of magic if we manage to succeed!",
+                          "You watch as Elly goes on and on about the impact such a revelation could bring while you can't help but wonder, whether or not you should really be doing such a thing.", 
+                          "You take back the piece of the Automaton on the table and put it in your inventory as Elly rolls the scroll back up and stashes it away somewhere nearby.",
+                          "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Expression","1", "Happy",
+                          "Speaks",
+                          "{ThePlayerName} let me know if you find anymore pieces. I'm positive. No- I'm certain I'd be able to bring one to life if I have all the parts!",
+                          "SetChoice", "61", "Knows of parts",
+                          "JumpToScene", "GivePartsMenu"
+                          ]
+                    },
+                    {
+                      "NameOfScene": "Told about parts intro",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Sparkling","ChangeImageLayer", "LeftArm", "1","ArmLDown",
+                        "Elly places a bookmark into her book before closing it and setting it aside on her table",
+                        "Speaks",
+                          "Ah- Did you manage to aquire another part of the Automatons?",
+                          "JumpToScene", "GivePartsMenu"
+                        ]
+                  },
+                  {
+                    "NameOfScene": "GivePartsMenu",
+                    "theScene": [
+                     
+                        "Menu",
+                        "RequiresItem", "Automaton Head","RequiresChoice", "62", "",
+                        "Give head",
+                        "RequiresItem", "Automaton Torso","RequiresChoice", "63", "",
+                        "Give torso",
+                        "RequiresItem", "Automaton Left Arm","RequiresChoice", "64", "",
+                        "Give left arm",
+                        "RequiresItem", "Automaton Right Arm","RequiresChoice", "65", "",
+                        "Give right arm",
+                        "RequiresItem", "Automaton Left Leg","RequiresChoice", "66", "",
+                        "Give left leg",
+                        "RequiresItem", "Automaton Right Leg","RequiresChoice", "67", "",
+                        "Give right leg",
+                        "RequiresItem", "Automaton Artifical Vagina","RequiresChoice", "68", "",
+                        "Give vagina",
+                        "Nevermind",
+                      "EndLoop"
+                      ]
+                  },
+                    {
+                        "NameOfScene": "Nevermind",
+                        "theScene": [
+                            "Elly takes back her book from the table and opens it up to back to where she left off.",
+                            " ", 
+                            "ChangeImageLayer", "LeftArm", "1", "BookClothed",
+                            "ChangeImageLayer", "Expression", "1", "Base",
+                            "JumpToScene", "VisitMenu"
+                          ]
+                    },
+                    {
+                      "NameOfScene": "Give head",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Hm, alright everything seems to still be intact and there doesn't seemm to be any considerable damage. Good job.",
+                        "Hm, nothing seems to be out of place. It seems we are one step closer to our goal. Good job.",
+                        "Hm, its a little dirty but other than that everything looks good. Good job.",
+                        "EndLoop",
+                        
+                        "GiveItemQuietly", "-1", "Automaton Head",
+                        "SetChoice","62","GivenHead",
+                        "JumpToScene", "AllPartsChecker1"
+                          
+                        ]
+                    },
+                    
+                    {
+                      "NameOfScene": "Give torso",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Hm, alright everything seems to still be intact and there doesn't seemm to be any considerable damage. Good job.",
+                        "Hm, nothing seems to be out of place. It seems we are one step closer to our goal. Good job.",
+                        "Hm, its a little dirty but other than that everything looks good. Good job.",
+                        "EndLoop",
+
+                        "GiveItemQuietly", "-1", "Automaton Torso",
+                        "SetChoice","63","GivenTorso",
+                        "JumpToScene", "AllPartsChecker1"
+                        ]
+                    },
+                    {
+                      "NameOfScene": "Give left arm",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Hm, alright everything seems to still be intact and there doesn't seemm to be any considerable damage. Good job.",
+                        "Hm, nothing seems to be out of place. It seems we are one step closer to our goal. Good job.",
+                        "Hm, its a little dirty but other than that everything looks good. Good job.",
+                        "EndLoop",
+
+                        "GiveItemQuietly", "-1", "Automaton Left Arm",
+                        "SetChoice","64","GivenLArm",
+                        "JumpToScene", "AllPartsChecker1"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "Give right arm",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Hm, alright everything seems to still be intact and there doesn't seemm to be any considerable damage. Good job.",
+                        "Hm, nothing seems to be out of place. It seems we are one step closer to our goal. Good job.",
+                        "Hm, its a little dirty but other than that everything looks good. Good job.",
+                        "EndLoop",
+
+                        "GiveItemQuietly", "-1", "Automaton Right Arm",
+                        "SetChoice","65","GivenRArm",
+                        "JumpToScene", "AllPartsChecker1"
+                          
+                        ]
+                    },
+                    
+                    {
+                      "NameOfScene": "Give left leg",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Hm, alright everything seems to still be intact and there doesn't seemm to be any considerable damage. Good job.",
+                        "Hm, nothing seems to be out of place. It seems we are one step closer to our goal. Good job.",
+                        "Hm, its a little dirty but other than that everything looks good. Good job.",
+                        "EndLoop",
+
+                        "GiveItemQuietly", "-1", "Automaton Left Leg",
+                        "SetChoice","66","GivenLLeg",
+                        "JumpToScene", "AllPartsChecker1"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "Give right leg",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Hm, alright everything seems to still be intact and there doesn't seemm to be any considerable damage. Good job.",
+                        "Hm, nothing seems to be out of place. It seems we are one step closer to our goal. Good job.",
+                        "Hm, its a little dirty but other than that everything looks good. Good job.",
+                        "EndLoop",
+
+                        "GiveItemQuietly", "-1", "Automaton Right Leg",
+                        "SetChoice","67","GivenRLeg",
+                        "JumpToScene", "AllPartsChecker1"
+                          
+                        ]
+                    },
+                    
+                    {
+                      "NameOfScene": "Give vagina",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression","1", "Serious", "ChangeImageLayer", "RightArm", "1", "ArmRGlassesPush", "ChangeImageLayer", "Glasses", "1", "GlassesShine", "ChangeImageLayer", "LeftArm", "1", "ArmLDown",
+                        "You take out the item from you inventory and hand it over to Elly as she appraises it on the spot.",
+                        "ChangeImageLayer", "RightArm", "1", "ArmRDown","ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "Speaks",
+                        "Hm, everything seems to be-",
+                        "ChangeImageLayer", "Expression","1", "SpazYell",
+                        "Speaks",
+                        "W-Wh.. What is this?!",
+                        "ChangeImageLayer", "Expression", "1", "Gasping",
+                        "She immediately drops the item onto the table with a loud thud.",
+                        "ChangeImageLayer", "Expression", "1", "Awkward",
+                        "Speaks",
+                        "Ugh... I guess the scroll never did specify what exactly the core was...",
+                        "GiveItemQuietly", "-1", "Automaton Artifical Vagina",
+                        "SetChoice","68","GiveVagBefore",
+                        "JumpToScene", "AllPartsChecker1"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker1",
+                      "theScene": [
+                        "IfChoice","62","GivenHead","AllPartsChecker2",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker2",
+                      "theScene": [
+                        "IfChoice","63","GivenTorso","AllPartsChecker3",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker3",
+                      "theScene": [
+                        "IfChoice","64","GivenLArm","AllPartsChecker4",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker4",
+                      "theScene": [
+                        "IfChoice","65","GivenRArm","AllPartsChecker5",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker5",
+                      "theScene": [
+                        "IfChoice","66","GivenLLeg","AllPartsChecker6",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker6",
+                      "theScene": [
+                        "IfChoice","67","GivenRLeg","AllPartsChecker7",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "AllPartsChecker7",
+                      "theScene": [
+                        "IfChoice","68","GiveVagBefore","Combining!",
+                          "JumpToScene", "ItemGivingPart2",
+                        "IfChoice","68","GivenVag","Combining!",
+                          "JumpToScene", "ItemGivingPart2"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "ItemGivingPart2",
+                      "theScene": [
+                        "IfChoice","68","GiveVagBefore","ItemGivingVagPart2",
+                        "Elly quickly stashes the piece of the Automaton somewhere nearby before turning back towards you.",
+                       "ChangeImageLayer", "Expression", "1", "Happy",
+                        "Speaks",
+                        "SwapLineIf", "Random",
+                        "Do you have something else?",
+                        "Are there any other pieces?",
+                        "Is there anything else?",
+                        "EndLoop",
+                          "JumpToScene", "GivePartsMenu"
+                          
+                        ]
+                    },
+                    {
+                      "NameOfScene": "ItemGivingVagPart2",
+                      "theScene": [
+                        "Despite her discomfort, Elly quickly stashes the piece of the Automaton somewhere nearby before turning back towards you.",
+                        "ChangeImageLayer", "Expression", "1", "Base",
+                        "Speaks",
+                        "Um.. Do you have anything else?",
+                        "SetChoice","68","GivenVag"
+                          
+                        ]
+                    },
+                    
+                    {
+                        "NameOfScene": "Combining!",
+                        "theScene": [
+                          "SetChoice","68","GivenVag",
+                          "ChangeImageLayer", "Expression","1", "Serious", 
+                            "Speaks",
+                            "Alright, with this we should have everything we need to perform the experiment. Now hold on to these and follow me, lets go somewhere with a little more privacy...",
+                            "She takes out the rest of the pieces of the Automaton and hands some of them over to you before grabbing her scroll and leading you to the back of the guild to an unoccupied room, devoid of any windows.", 
+                            "Several barrels and stacks of crates can be found in the corner of the room as she places the parts of the Automaton on the floor which you then follow suit.",
+                            "Speaks",
+                            "There should be some candles and matches behind those stack of crates in the corner, could you light some of them for me?",
+                            "You nod and head over to the stack of boxes and put them aside before finding the candles in question.", 
+                            "You light a few of them up before turning around to see Elly on the ground with the scroll spread open, drawing what seems to be a large circle made out of complex runes and glyphs.",
+                            "She then takes a quick glance at her scroll before creating seven smaller circles on the ground, each equally spaced out from one another around the larger circle's circumfurrence.",
+                            "You can't help but watch her as she dedicates her entire focus to the task at hand, scrutinizing every single detail while occassionally taking a quick glance to look at her scroll.", 
+                            "After finishing the last circle, she stands up and takes one final look at her work and smiles in satisfaction before finally raising her head to look at you.",
+                            "Speaks",
+                            "Oh! Great you found them, put them around the circles and close the door.", 
+                            "Her words bring you back to reality as you quickly close the door, leaving the room to be lit solely by candleflame as you turn around and watch Elly pick up the pieces of the Automaton.",
+                            "Speaks",
+                            "Here. Take these and put them each inside the smaller circles.",
+                            "She hands over some parts of the Automaton, as you proceed to crouch down and do as your told.",
+                            "You carefully place the parts into each individual circle on your side of the room before looking up to see Elly doing the same, placing the head of the Automaton into the center of one of the smaller magical circles and adjusting it slightly before raising her head and meeting with your gaze.",
+                            "Watching the scene unfold, you can't help but feel she looks exactly like a witch despite her denial to being one.",
+                            "Menu",
+                            "'... Witch'",
+                            "Stay quiet",
+                            "EndLoop"
+                            
+                          ]
+                    },
+                    
+                    {
+                      "NameOfScene": "'... Witch'",
+                      "theScene": [ "ChangeImageLayer", "Expression", "Elly", "SpazYell", "ChangeImageLayer", "RightArm", "1", "ArmRDown",
+                       
+                        "Speaks",
+                        "I am NOT a witch! Ugh!",
+                        "You let out a snicker from seeing her reaction as she goes back to placing the parts, pouting all the while.",
+                        "After a short while, you also get back to business and finish up, placing the last piece in place before getting up with a groan, stretching your stiff limbs while Elly does the same.",
+                        "JumpToScene", "Combining2"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Stay quiet",
+                      "theScene": [ "You decide to keep quiet and return to the task at hand as you both sit on the floor working in diligent silence.",
+                                    "After putting the last part in place, you get up and groan as you stretch your stiff arms and legs as Elly gets up and does the same.",
+                        "JumpToScene", "Combining2"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Combining2",
+                      "theScene": [
+                            "Alright, the preperations are now complete and everything is all set... Are you ready to start the experiment?",
+                            "You nod in confirmation, signalling for Elly to begin.",
+                            "<!>JLP603: I have not finished the dialogue for this scene yet, I am sorry for this inconvenice<!>",
+                            "<!> We will now skip to the part where you have finished making the Automaton and can noq see her at your room<!>",
+                            "GivePerk","Master Command",
+                            "SetChoice","60","Automaton Get!",
+                            "JumpToScene", "VisitMenu"
+                            
+                          
+                        ]
+                  },      
+                    
+                            
+                    {
+                        "NameOfScene": "EventBroke",
+                        "theScene": [ "Oops, something went wrong! Please contact and ping JLP603 on the MGD discord in order to get this fixed."
+                                  ]
+                    }      
+                ]
+}

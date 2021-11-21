@@ -1,0 +1,132 @@
+{
+    "name":"Ruins Reset",
+    "CardType":"Quest",
+    "CardLimit":"1",
+    "Description":"Add to the Grimoires card deck to reset the progress of the Ruins event in the Caverns.",
+    "requires":[""],
+    "Speakers":[
+       {
+          "name":"???",
+          "postName":"",
+          "SpeakerType":""
+       }
+    ],
+    "EventText":[
+      {
+        "NameOfScene":"Reset",
+        "theScene":[
+           
+           "Hello. Do you want to reset the progress for the event: Ruins ?",
+           "Menu",
+           "Yes",
+           "No",
+           "EndLoop"
+         ]
+       },
+       {
+         "NameOfScene":"Yes",
+         "theScene":[
+            "You have chosen to reset progress. Thank you, the reset will now begin.",
+            "GetEventAndSetChoice", "Ruins", "1", "",
+            "GetEventAndSetChoice", "Ruins", "2", "",
+            "GetEventAndSetChoice", "Ruins", "3", "",
+            "GetEventAndSetChoice", "Ruins", "4", "",
+            "GetEventAndSetChoice", "Ruins", "5", "",
+            "GetEventAndSetChoice", "Ruins", "6", "",
+            "GetEventAndSetChoice", "Ruins", "7", "",
+            "GetEventAndSetChoice", "Ruins", "8", "",
+            "GetEventAndSetChoice", "Ruins", "9", "",
+            "GetEventAndSetChoice", "Ruins", "10", "",
+            "GetEventAndSetChoice", "Ruins", "11", "",
+            "GetEventAndSetChoice", "Ruins", "12", "",
+            "GetEventAndSetChoice", "Ruins", "13", "",
+            "GetEventAndSetChoice", "Ruins", "14", "",
+            "GetEventAndSetChoice", "Ruins", "77", "",
+            "GetEventAndSetProgress", "Ruins", "0",
+            "IfHasItem","Guest Entry Pass","RemovePass",
+            
+            
+            "PlaySoundBankOnce", "../Mods/ArtificialLove/Music/btn16.mp3", 
+            "The reset has been finished.",
+            "JumpToScene", "ResetFullMenu"
+            
+            
+          ]
+        },
+        {
+            "NameOfScene":"RemovePass",
+            "theScene":[
+                "GiveItemQuietly",
+                "-1",
+                "Guest Entry Pass",
+            "PlaySoundBankOnce", "../Mods/ArtificialLove/Music/btn16.mp3", 
+            "The reset has been finished.",
+            "JumpToScene", "ResetFullMenu"
+             ]
+           },
+        {
+          "NameOfScene":"No",
+          "theScene":[
+             "You have chosen NOT to reset progress.",
+             "JumpToScene", "ResetFullMenu"
+           ]
+         },
+         {
+          "NameOfScene": "ResetFullMenu",
+          "theScene": [ "Do you want to reset the rest of Artificial Love?",
+            "Menu",
+            "Yes I do",
+            "No I don't",
+            "EndLoop"
+                    ]
+      },
+      {
+        "NameOfScene": "Yes I do",
+        "theScene": [ 
+          "You have chosen to reset progress. Thank you, the reset will now begin.",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "60", "",
+            "GetEventAndSetChoice", "EllyAddition", "60", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "61", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "62", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "63", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "64", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "65", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "66", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "67", "",
+            "GetEventAndSetChoice", "Head over to Elly's table.", "68", "",
+            "IfHasPerk", "Master Command", "RemoveMasterCommand",
+            "PlaySoundBankOnce", "../Mods/ArtificialLove/Music/btn16.mp3", 
+            "The reset has been finished. Thank you, have a nice day!"
+                  ]
+    },
+    {
+      "NameOfScene": "RemoveMasterCommand",
+      "theScene": [ 
+          "RemovePerkQuietly", "Master Command",
+          "PlaySoundBankOnce", "../Mods/ArtificialLove/Music/btn16.mp3", 
+          "The reset has been finished. Thank you, have a nice day!"
+                ]
+  },
+    {
+      "NameOfScene": "No I don't",
+      "theScene": [ 
+        "You have chosen NOT to reset progress. Thank you, have a nice day!"
+                ]
+  },
+         {
+            "NameOfScene":"Others",
+            "theScene":[
+               "IfHasItem","Crystal Shard","RemovePass",
+              "IfHasItem","Automaton Artifical Vagina","RemovePass",
+              "IfHasPerk", "Master Command", "FullEventReset",
+              "RemovePerkQuietly", "Master Command"
+             ]
+           },
+            {
+                "NameOfScene": "Event Broke",
+                "theScene": [ "Oops, something went wrong! Please contact and ping JLP603 on the MGD discord in order to get this fixed."
+                          ]
+            }
+    ]
+ }
+ 

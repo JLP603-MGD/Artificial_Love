@@ -1,0 +1,26 @@
+{
+    "name": "Caverns",
+    "Addition": "Yes",
+    "Monsters": [ ""],
+    "MonsterGroups": [
+
+                  {
+                      "Group": [ ""]
+                  }
+
+                ],
+    "Events": [ "Ruins"],
+    "Quests": [ ""],
+    "Adventures": [ ""],
+    "Treasure": [
+                {
+                    "Common": [ ""]
+                },
+                {
+                    "Uncommon": [ ""]
+                },
+                {
+                    "Rare": [ ""]
+                }
+              ]
+}

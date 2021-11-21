@@ -1,0 +1,14 @@
+{
+    "name": "Master Command",
+    "description": "Gives you administrative privilleges, recognizing you as the designated master or owner of one or more Automata giving you the ability to command said Automata or Automatons.",
+    
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "UnholySensitivity"],
+    "EffectPower": [ "0"],
+
+    "PlayerCanPurchase": "No"
+}

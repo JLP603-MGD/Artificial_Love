@@ -1,0 +1,540 @@
+{
+  "name": "Automaton",
+  "IDname": "MetalGirl",
+  "species": "Golem",
+  "gender": "female",
+  "description": "An expressionless gynoid of medium frame, with peculiarly hard smooth skin with a semi-glossy sheen. Impossibly straight, medium length, bob cut hair covers the top of her head, as her bangs taper down before cleanly cutting off at her perfectly shaped eyebrows, that frame her cold, yet unnaturally clear bright eyes, small mouth, and oval shaped face.\n\nHer mechanical, perfectly proportioned body is dressed in some form of strange metallic armour; resembling some kind of short crop top with shoulderless sleeves and elbow length arm bracers. A frontless, ankle length skirt wraps around her waist, and two horn shaped head pieces are attached to the sides of her head. All in all, they do nothing to cover up her c-cup gravity defying breasts, sculpted rubbery torso, long, tapering, dynamically lined angular legs that end at her flat tipped triangular feet, and her brazenly displayed compact pussy.\n\nShe has intricately plated arms with concave fittings, going all the way to her hands, and her sublimely padded fingertips. Her wide curved hips accentuate her bottomed out hourglass figure. Her entire body is also lined with shallow, wide sweeping grooves, that along with her exposed spurred gear joints, and fluorescent glowing womb tattoo, serve as highlights to her sleek feminine body.",
+  "encyclopedia": "Automatons or Automata are a series of gynoids, thought to be some type of advanced Golem animated by sophisticated demonic energy and complex mechanical systems. They possess a high amount of intellect, capable of processing data at inhuman speeds and memorizing vast quantities of information, as well as strong and durable bodies, made out of unknown materials and highly advanced technology.\n\nTheir bodies are equipped with several mechanisms, weapons, and parts that seem to be designed specifically with the intention of extracting the spiritual energy of humans; male or otherwise. Experts believe they predate all the way back to the early human and monster girl wars. Their bodies have also been enchanted with magic that allows them to convert spiritual energy into an alternative source of power, which they use as a backup in case something goes wrong.\n\nAutomatons are highly rational, non willful beings that do not seem to express their emotions well, if they are even capable of feeling them at all. Automatons exhibit a rather service oriented mindset, seeing servitude as their primary directive in life, and devoting themselves in serving whoever they recognize as their master by following their every command, and even taking the initiative in attending to their needs in the most exemplary way possible. They often serve as guardians or bodyguards and are extremely hostile to those they consider as intruders or threats.\n\nReplication using current technology is currently deemed impossible; however, in recent years major breakthroughs have been made enabling us to perform modifications on their bodies and fixing broken parts. Not much is known about the origins of these Automata; however, experts believe that more information can be found deep inside the ancient ruins of which they guard.",
+  "tags": "none",
+  "generic": "True",
+  "requires": [ ""],
+  "requiresEvent": [
+                      {
+                        "NameOfEvent": "",
+                        "Progress": "-99",
+                        "ChoiceNumber": "-1",
+                        "Choice": ""
+                      }
+                    ],
+  "skillList": [ "Body Lock","Tazer","Automatic Firing","Tazer","Automatic Firing"],
+  "perks": ["Arcane Adept","Quick Witted","Clingy","Grappler","Pinpoint Pleasure","Alert","Bond Breaker","Undeniable Pleasure"],
+  "stats": { "lvl": "40",
+            "Exp": "400",
+            "max_hp": "650",
+            "max_ep": "15",
+            "max_sp": "1",
+            "Power": "25",
+            "Technique": "30",
+            "Intelligence": "30",
+            "Allure": "15",
+            "Willpower": "30",
+            "Luck": "10"
+  },
+  "Fetishes": [ ""],
+  "BodySensitivity": { "Sex": "75",
+            "Ass": "75",
+            "Breasts": "75",
+            "Mouth": "75",
+            "Seduction": "75",
+            "Magic": "100",
+            "Pain": "75",
+            "Holy": "100",
+            "Unholy": "100"
+  },
+  "resistancesStatusEffects": {
+            "Stun": "20",
+            "Charm": "200",
+            "Aphrodisiac": "200",
+            "Restraints": "20",
+            "Sleep": "200",
+            "Trance": "200",
+            "Paralysis": "20",
+            "Debuff": "0"
+  },
+  "moneyDropped": "400",
+  "ItemDropList": [
+                    {
+                      "name": "Automaton Artifical Vagina",
+                      "dropChance": "30"
+                    },
+                    {
+                      "name": "Automaton Head",
+                      "dropChance": "20"
+                    },
+                    {
+                      "name": "Automaton Left Arm",
+                      "dropChance": "10"
+                    },
+                    {
+                      "name": "Automaton Left Leg",
+                      "dropChance": "10"
+                    },
+                    {
+                      "name": "Automaton Right Arm",
+                      "dropChance": "10"
+                    },
+                    {
+                      "name": "Automaton Right Leg",
+                      "dropChance": "10"
+                    },
+                    {
+                      "name": "Automaton Torso",
+                      "dropChance": "10"
+                    },
+                    {
+                      "name": "Damaged Internal Hard Drive",
+                      "dropChance": "-999"
+                    }
+                  ],
+  "lossScenes": [
+                  {
+                      "NameOfScene": "Tazer Loss",
+                      "move": "",
+                      "stance": "",
+                      "includes": [ ""],
+                      "theScene": [ "The Automaton walks towards you at a controlled pace as you lie on the ground, too exhausted to continue.",
+                                    "Pushing you up against a nearby wall, she swiftly straddles your lap and grabs your wrists, forcefully raising your arms up into the air and holding them behind your head with one outstretched hand.",
+                                    "You scowl at her with eyes of defiance before having it crumble at the sight of the Automaton raising her hand as it morphs to reveal a long two pronged rod, cackling with electricity.",
+                                    "You squirm against the woman's hold and try to break free but it only makes things worse as she tightens her grip and hovers the rod barely an inch over your body; making it travel up and down as the hair on your skin stand on end from the flying sparks coming from it's conductive tip.",
+                                    "Speaks",
+                                    "Warning: Enemy is showing signs of resistance despite confirmed surrender. Hold. Still.",
+                                    "ChangeArousalByPercent", "15",
+                                    "Suddenly you are hit in the side, making you jump as volts of electricity are sent throughout your system, assaulting the pleasure sensor of your brain as you scream in masochistic pleasure!",
+                                    "The Automaton retracts the rod from your body as you immediately slump down to find your face flush with heat, your chest heaving up and down and your cock standing stiff as you try to recover from the forceful jumpstart to your heart!",
+                                    "After finally calming down you look up to see the Automaton leaning incredibly close to your face.",
+                                    "Speaks",
+                                    "Scans seem to indicate that the subject is showing signs of heightened arousal from exposure to electrocusion. Good. Current power output seems to be below the subject's pain threshold. Continuing forced extraction.",
+                                    "ChangeArousalByPercent", "30",
+                                    "You clench your teeth as she hits you again. Electricity courses through your system, which only lasts for a momment as you proceed to come down from your high, when all of a sudden your body stiffens up from being exposed to another sizzling shock!",
+                                    "ChangeArousalByPercent", "25",
+                                    "She hits you again and again, each in a different place, as she mixes up the timing and alternates between short and long bursts; preventing you from coming down from your high as you clench your teeth harder and your face contorts to form a crooked smile with flashing eyes.", 
+                                    "ChangeArousalByPercent", "25",
+                                    "Each strike sends your heart rate higher and higher, wracking you brain with adrenaline fueled heat, and leaving your mind fried as you long for sweet release before finally get it when the current finally cuts off.", 
+                                    "You slump back down to the ground; a sweaty and jittery mess as your quaking body goes into overdrive floundering like a fish to pumps more oxygen into your seared throbbing brain and blood to your erect twitching cock.",
+                                    "The Automaton brings her hand to your chin and raises it up as she forces you to look into her clear eyes.",
+                                    "As you struggle to focus through your drifting mind, the Automaton slowly brings the rod towards your face. Through laboured breaths you plead for her to stop as you close your eyes and brace yourself expecting the worst... but instead find a gentle touch, as a metallic finger carresses the side of your face.",
+                                    "You open your eyes to find a slightly soft expression on the metallic woman's face as her pupils are seemingly glazed giving off a soft look as her pupils dilate while her mouth opens slightly agape.", 
+                                    "PlayerOrgasm", "1",
+                                    "Her actions catch you off guard as your shoulders relax while slipping out a small coo before having your lips stolen by a deep kiss that sparks a wave of electrifying bliss, sending you over the edge as your whole body trembles before releasing loads of cum into the air as your thoughts leave your body and your eyes roll up before you blackout from pleasure.",
+                                    "ChangeSensitivity", "Pain", "5"
+                                  ],
+                      "picture": ""
+                  },
+                  {
+                      "NameOfScene": "Finger Loss",
+                      "move": "",
+                      "stance": "Finger Pegging",
+                      "includes": [ ""],
+                      "theScene": [ "The Automaton continues to take control of your butt as she pushes her finger deeper into your ass, finding your prostate as her colid solid finger hits your prostate; making your whole body jump as you feel your heart leap out of your throat.",
+                                    "After collecting yourself, you turn your head over your shoulder to find the Automaton standing up as she brings her other arm to your front and cups the underside of your dick.",
+                                    "She proceeds to rub her padded hand up and down your length while her other hand's finger repeatedly presses up against your prostate. Despite your efforts to resist, the dual stimulation soon proves to be too much as your cock quickly hardens once again.",
+                                    "After rubbing your dick with her hand, she presses the palm of her hand against your tip, making precum ooze out as she squishes it around with little circular motions before letting go as your dick twitches and throbs from being exposed to the cold air.",
+                                    "The Automaton curls her index finger and thumb to form a small ring before tightly wrapping it around your crown as she uses your precum to methodically pump your shaft while plunging her other hand's finger in and out of your ass.",
+                                    "You feel the pleasure start to mount as she starts picking up the pace; violently striking your prostate as she moves her other hand franticly up and down. Going back and forth between the two before moving in tandem to create one fluid singular motion.",
+                                    "With one final hit to your prostate, you explode as you clench your asscheeks and buckle your hips to unleash a torrent of cum into the air! The Automaton continues to stroke your shaft until eventually your ejaculation dies down, having nothing else to give as the Automaton releases her hold making you shakily stand on your legs before collapsing down on the ground as you black out from the intense orgasm.",
+                                    "ChangeSensitivity", "Ass", "5",
+                                    "ChangeSensitivity", "Sex", "5"
+                                ],
+                      "picture": ""
+                  }
+                ],
+  "combatDialogue": [
+              {
+                "lineTrigger": "SetMusicTo",
+                "move": "",
+                "theText": [ "../Mods/ArtificialLove/Music/Trimmed Electro  7 Minutes Dead  Act III Monstercat FREE Halloween Release.mp3"]
+              },
+              {
+                "lineTrigger": "StartOfCombat",
+                "move": [""],
+                "theText":[
+                  "Warning! Intruder Alert. Uknown magic detected in the atmosphere. Aim Recalibration: Success. Engaging target."
+                  ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Spank",
+                "theText": [ "Her body jerks upwards as her curvy butt absorbs the impact.",
+                              "'!'",
+                              "'...Are you testing my shock absorption?'"
+                            ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Whip", "Electrify"],
+                "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|PhysicalHarm2|n|"
+                          ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Demon Layer",
+                "theText": [ "'Error! Unkown magic type registered. Detecting body temperature abnormality on afflicted areas.'",
+                             "'!'",
+                             "'Error! Unkown magic type registered. Reassessing system damage.'",
+                             "Her body lightly vibrates from the overwhelming sensations rocking her body."]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Holy Headpat",
+                "theText": [ 
+                             "'Analyzing... Detecting trace amounts of unknown magic type. Damage is negligible.'",
+                             "'...?' She tilts her head to the side at a 45 degree angle.",
+                             "Action registered. Asessing attempt at subordination... Subordination denied." ]
+              },
+          {
+                "lineTrigger": "HitWith",
+                "move": "Analyze",
+                "theText": [ 
+                             "'Warning! Enemy scan detected. System data has been breached.'" ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Bondage Net", "Magical Binding"],
+                "theText": [ "'Warning! Movements have been restrained. Attempting to break free.'"]
+              },
+              {
+                "lineTrigger": "RestraintEscapedFail",
+                "move": ["Body Lock"],
+                "theText":[
+                  "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|RestraintStruggleFail|n|"
+                  ]
+              },
+              {
+                "lineTrigger": "RestraintEscaped",
+                "move": ["Body Lock"],
+                "theText":[
+                  "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|RestraintStruggleSuccess|n|"
+                  ]
+                },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Pin",
+                "theText": [ "'Warning. Data shows lowered chances at victory in this position. Suggesting immediate escape.'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Finger",
+                "theText": [ 
+                  "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Finger|n|"
+                            ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Dildo",
+                "theText": [ "'Warning! Detecting unidentified foreign object inside of body.'",
+                             "'...'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Caress",
+                "theText": [ 
+                  "You indulge in the oddly satisfying sensation of feeling her cold equisitely smooth, steely fittings; textured, leathery surfaces and dipping your fingers before running them down her deep sweeping grooves.",
+                  "'...'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Squeeze Ass", "Massage Ass", "Grope Ass","Breast Caress", "Fondle Ass","Breast Massage", "Breast Knead", "Breast Fondle"],
+                "theText": [ 
+                  "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Grope|n|"
+                  ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Suckle",
+                "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Suckle|n|"]
+              },
+              {
+                  "lineTrigger": "HitWith",
+                  "move": "Penetrate",
+                  "theText": [
+                    "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Penetrate|n|"
+                    ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Thrust", "Channeling Thrust"],
+                "theText": [ 
+                  "She stares into your eyes, taking in your expression as you fuck her.",
+                "!" ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck"],
+                "theText": [ "Every thrust makes her body quake, while your entire body shivers from the sensation of your fucking."]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                "theText": [
+                            "The sensation of your wild thrusts reverberate across her body, making her quiver in feedback."]
+              },
+              {
+                  "lineTrigger": "HitWith",
+                  "move": "Ear Tease",
+                  "theText": [ "...?"]
+              },
+              {
+                  "lineTrigger": "HitWith",
+                  "move": "Make Out",
+                  "theText": [ "..."]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Charm", "Charm Wave"],
+                "theText": [ "'...'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": "Sleep",
+                "theText": [ "'Attempt at system shutdown registered. Task failed.'"
+                            ]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Enfeeble"],
+                "theText": [ "'Warning! System settings have been changed. Power output has been reduced.'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Sensitize"],
+                "theText": [ "'Warning! System settings have been changed. Requesting sensor recalibration.'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Disarming Appeal"],
+                "theText": [ "'Request Accepted. Reducing output levels.'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Arouse", "Arousara", "Arousero"],
+                "theText": [ "'Warning! Systems are experiencing an increase in internal body temperature.'"]
+              },
+              {
+                "lineTrigger": "HitWith",
+                "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
+                "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Seduce|n|"
+                             ]
+              },
+          {
+                "lineTrigger": "HitWith",
+                "move": "Face Fuck",
+                "theText": [ "'...'",
+                             "She silently takes the rough fucking you are giving her, effortlessly deepthroating your mouth with cold eyes."]
+              },
+              {
+                "lineTrigger": "AutoCounter",
+                "move": "Anal Penetration",
+                "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|No Anal3|n|"
+                            ]
+              },
+              {
+                  "lineTrigger": "PlayerLowHealth",
+                  "move": "",
+                  "theText": [ "'Scanning... enemy is showing signs of exhaustion after performing sexual actions. Defeat is imminent.'"
+                  ]
+              },
+          {
+                  "lineTrigger": "OnPlayerOrgasm",
+                  "move": "Sex",
+                  "theText": [ 
+                              "You desperately thrust into the Automaton's exquisite pussy before she suddenly clamps down! Making you deposit loads of semen into her! 'Detecting potent source of potential energy in system. Absobing...' The tatoo on her stomach glows once before growing dim once more."
+                            ]
+              },
+          {
+                  "lineTrigger": "OnPlayerOrgasm",
+                  "move": "Blowjob",
+                  "theText": [ 
+                              "The Automaton places both of her hands on your ass holding you in place while you tremble in pleasure and cum into her mouth. She makes several audible gulps as she chugs down all of your sperm down her throat! 'Detecting potent source of potential energy in system. Absobing...' The tatoo on her stomach glows once before growing dim once more."
+                            ]
+              },
+          {
+                  "lineTrigger": "OnPlayerOrgasm",
+                  "move": "Making Out",
+                  "theText": [ "Your senses are overun from the intense make out as your mind temporarily blacks out from the intense pleasure, unleashing thick ropes of cum and marking the Automaton's body! The Automaton looks down your crotch and scoops up your warm cum, before putting it into her mouth. 'Detecting potent source of alternative energy. Recommending continued extraction.'"
+                              
+                            ]
+              },
+              {
+                "lineTrigger": "OnPlayerOrgasm",
+                "move": "Finger Pegging",
+                "theText": [ "Your body is completely overwhelmed from the assualt to your rear as you involuntarily release thick ropes of cum while your dick flails wildly in the air! The Automaton looks down your crotch and scoops up your spunk with the tip of her finger before tasting it with her tongue. 'Detecting potent source of alternative energy. Recommending continued extraction.'"
+                          ]
+            },
+          {
+                  "lineTrigger": "OnPlayerOrgasm",
+                  "move": "",
+                  "theText": [ "Your body is overcome with arousal as your body explodes with tremendous burts of pleasure, involuntarily releasing thick ropes of cum into the air! The Automaton looks down your crotch and scoops up your warm jizz with the tip of her finger before tasting it with her tongue. 'Detecting potent source of alternative energy. Recommending continued extraction.'"
+                            ]
+              },
+              {
+                  "lineTrigger": "OnOrgasm",
+                  "move": "",
+                  "theText": [ "'Danger! System is overheating.' She throws her head backwards, as her entire body clenches before squirting all over you.",
+                               "'Danger! System failure.' Her entire body shakes as violent waves of pleasure wash over her body, causing her pelvis to jolt upwards and orgasms all over you."
+                            ]
+              },
+              {
+                  "lineTrigger": "OnSurrender",
+                  "move": "",
+                  "theText": ["|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|Surrender|n|" ]
+              },
+              {
+                "lineTrigger": "StanceStruggle",
+                "move": "Finger Pegging",
+                "theText": [ "You try to pull your butt free from the Automaton's finger...",
+                             "You try to seperate your ass from the Automaton's finger..."]
+            },
+            {
+                "lineTrigger": "StanceStruggleFail",
+                "move": "Finger Pegging",
+                "theText": [ 
+                  "But she keeps a tight grip on your rear!"]
+            },
+            {
+                "lineTrigger": "StanceStruggleComment",
+                "move": "Finger Pegging",
+                "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
+                              "'Logging enemy escape attempt. Task failed.'"]
+            },
+            {
+                "lineTrigger": "StanceStruggleFree",
+                "move": "Finger Pegging",
+                "theText": [ "And manages to break free from her grasp!",
+                  "And manages to pry his cock from her finger!"]
+            },
+            {
+                "lineTrigger": "StanceStruggleFreeComment",
+                "move": "Finger Pegging",
+                "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements."]
+            },
+
+          {
+                  "lineTrigger": "StanceStruggle",
+                  "move": "Sex",
+                  "theText": [ "You try to pull out of the Automaton's tight gel like pussy...",
+                               "You try to pry yourself away from the Automaton's tight gel like pussy..."]
+              },
+              {
+                  "lineTrigger": "StanceStruggleFail",
+                  "move": "Sex",
+                  "theText": [ 
+                    "But you are unable to break free from her sticky slit!"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleComment",
+                  "move": "Sex",
+                  "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
+                                "'Logging enemy escape attempt. Task failed.'"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleFree",
+                  "move": "Sex",
+                  "theText": [ "And manages to pull his cock out of her tight slit!",
+                    "And manages to pry his cock out of her tight slit!"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleFreeComment",
+                  "move": "Sex",
+                  "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements."]
+              },
+              {
+                  "lineTrigger": "StanceStruggle",
+                  "move": "Making Out",
+                  "theText": [ "You try to break the deep kiss with the Automaton...",
+                    "You try to pry your lips from the Automaton's..."]
+              },
+              {
+                  "lineTrigger": "StanceStruggleFail",
+                  "move": "Making Out",
+                  "theText": [ 
+                              "But he is unable to pry himself away!"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleComment",
+                  "move": "Making Out",
+                  "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
+                                "'Logging enemy escape attempt. Task failed.'"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleFree",
+                  "move": "Making Out",
+                  "theText": [ "And manage to push the Automaton away!",
+                            "And free your mouth from the Automaton's lips!"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleFreeComment",
+                  "move": "Making Out",
+                  "theText": [ 
+                    "'...' She keeps her gaze fixed on you. Watching your movements."]
+              },
+          {
+                  "lineTrigger": "StanceStruggle",
+                  "move": "Blowjob",
+                  "theText": [ "You try to get the Automaton's mouth off of your cock...",
+                  "You try to pry her lips off of your dick..."]
+              },
+          {
+                  "lineTrigger": "StanceStruggleFail",
+                  "move": "Blowjob",
+                  "theText": [ 
+                              "But she makes a vaccum tight seal around her lips; locking your cock within her mouth!"]
+              },
+              {
+                  "lineTrigger": "StanceStruggleComment",
+                  "move": "Blowjob",
+                  "theText": [ "'...' She keeps her gaze fixed on you. Watching your movements.",
+                              "She looks up at you as she casually continues servicing your dick."]
+              },
+          {
+                  "lineTrigger": "StanceStruggleFree",
+                  "move": "Blowjob",
+                  "theText": [ "And manage to push her away from it!",
+                            "And manage to break free of from her lips!"]
+              },
+              
+          {
+                  "lineTrigger": "StanceStruggleFreeComment",
+                  "move": "Blowjob",
+                  "theText": [ 
+                            "'...' She keeps her gaze fixed on you. Watching your movements."]
+              },
+              
+              {
+                "lineTrigger": "EndOfRound",
+                "move": "",
+                "theText": [ "|f|CallCombatEventAndScene|/|AutomatonCombatEvents|/|ArousalCheck|n|"]
+              }
+                    ],
+"victoryScenes": [
+          {
+            "NameOfScene": "",
+              "move": "",
+              "stance": "",
+              "includes": [ ""],
+              "theScene": [ ""
+                        ],
+              "picture": ""
+        }
+      ],
+"pictures": [
+            {
+                "Name": "Base",
+                "StartOn": "1",
+                "AlwaysOn": "1",
+                "IsScene": "0",
+                "TheBody": "1",
+                "Overlay": "No",
+                "setXalign": "0.0",
+                "setYalign": "0.18",
+                "Images": [
+                {
+                    "Name": "Base",
+                    "File": "../Mods/ArtificialLove/Images/MGE_Automaton_87%.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+              ]
+            }
+          ]
+
+  }
