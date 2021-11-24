@@ -1,0 +1,610 @@
+{
+    "name": "AutomatonCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Automaton",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EncounterStart",
+                        "theScene": [
+                            "JumpToRandomScene",
+                            "NormalStart",
+                            "DialogueStart",
+                            "EndLoop"
+                            ]
+                    },
+                    {
+                        "NameOfScene": "NormalStart",
+                        "theScene": [
+                                "You encounter an Automaton!"
+                            ]
+                    },
+                    {
+                        "NameOfScene": "DialogueStart",
+                        "theScene": [
+                                "FocusedSpeaks",
+                                "SwapLineIf", "Random",
+                                "Alert! Uknown enemy detected. Activating weapon systems. Engaging target.",
+                                "Target identified. Commencing combat protocol.",
+                                "!",
+                                "EndLoop"
+                            ]
+                    },
+                    {
+                        "NameOfScene": "Feature Display: Mouth",
+                        "theScene": [ 
+                                      "FocusedSpeaks",
+                                      "SwapLineIf", "Random",
+                                        "Ahhhhhh...",
+                                        "...♥",
+                                      "EndLoop",
+                                      "SetPostName", "",
+                                      "IfFetishLevelEqualOrGreater", "Oral", "100", "CantResistBJ",
+                                      "Menu",
+                                        "Insert penis!",
+                                        "Don't insert penis!",
+                                      "EndLoop"
+                                  ]
+                    },
+                          {
+                              "NameOfScene": "Insert penis!",
+                              "theScene": [
+                                            "ApplyStance", "Blowjob",
+                                            "HitPlayerWith", "Orifice Clamp: Mouth",
+                                            "You rush forward and plunge your cock inside the Automaton's warm saliva coated mouth, as it slides down her throat. Her lips form a tight seal around your dick and gives it a tight squeeze.{DamageToPlayer}",
+                                            "HitMonsterWith", "Thrust",
+                                            "But the Automaton herself seems to be affected, as her body receives a small shock to her entire system from the sudden thrust.{DamageToEnemy}"
+                                        ]
+                          },
+                              {
+                                  "NameOfScene": "CantResistBJ",
+                                  "theScene": [
+                                                "ApplyStance", "Blowjob",
+                                                "HitPlayerWith", "Orifice Clamp: Mouth",
+                                                "Without a second thought, you plunge your cock inside the Automaton's warm saliva coated mouth, as it slides down her throat. Her lips form a tight seal around your dick and gives it a tight squeeze.{DamageToPlayer}",
+                                                "HitMonsterWith", "Thrust",
+                                                "But the Automaton herself seems to be affected, as her body receives a small shock to her entire system from the sudden thrust.{DamageToEnemy}"
+                                            ]
+                              },
+                          {
+                              "NameOfScene": "Don't insert penis!",
+                              "theScene": [
+                                            "You make an effort to resist the temptation of sticking your dick in her waiting mouth.",
+                                            "StatCheck",
+                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
+                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
+                                            "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
+                                            "Temptation", "20", "NoSuckySucky",
+                                            "Fail",
+                                            "CantResistBJ"
+                                        ]
+                          },
+                                {
+                                    "NameOfScene": "NoSuckySucky",
+                                    "theScene": [ "The Automaton places a finger in her mouth, as she wraps her lips around it and gives it a strong suck, stopping her saliva from dripping as she stares at you wordlessly."
+                                              ]
+                                },
+                                {
+                                    "NameOfScene": "Feature Display: Pussy",
+                                    "theScene": [ 
+                                                  "FocusedSpeaks",
+                                                  "SwapLineIf", "Random",
+                                                    "Enter...",
+                                                    "Request: Please. Use me.",
+                                                  "EndLoop",
+                                                  "SetPostName", "",
+                                                  "IfFetishLevelEqualOrGreater", "Sex", "100", "CantResistPussy",
+                                                  "Menu",
+                                                    "Accept!",
+                                                    "Decline!",
+                                                  "EndLoop"
+                                              ]
+                                },
+                                      {
+                                          "NameOfScene": "Accept!",
+                                          "theScene": [
+                                                        "ApplyStance", "Sex",
+                                                        "HitPlayerWith", "Orifice Clamp: Pussy",
+                                                        "You impatiently approach the Automaton and align your dick with her entrance, before penetrating her wet insides. While she responds by tightly clamping down on your dick.{DamageToPlayer}",
+                                                        "HitMonsterWith", "Thrust",
+                                                        "But the Automaton herself seems to be affected, as her body receives a small shock to her entire system from the sudden thrust.{DamageToEnemy}"
+                                                    ]
+                                      },
+                                          {
+                                              "NameOfScene": "CantResistPussy",
+                                              "theScene": [
+                                                            "ApplyStance", "Sex",
+                                                            "HitPlayerWith", "Orifice Clamp: Pussy",
+                                                            "Without a second thought, you rush forward and approach the Automaton and align your dick with her entrance, before penetrating her wet insides. While she responds by tightly clamping down on your dick.{DamageToPlayer}",
+                                                            "HitMonsterWith", "Thrust",
+                                                            "But the Automaton herself seems to be affected, as her body receives a small shock to her entire system from the sudden thrust.{DamageToEnemy}"
+                                                        ]
+                                          },
+                                      {
+                                          "NameOfScene": "Decline!",
+                                          "theScene": [
+                                                        "You make an effort to resist the temptation of her drooling pussy.",
+                                                        "StatCheck",
+                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "25", "2",
+                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "50", "3",
+                                                        "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "75", "5",
+                                                        "Temptation", "20", "No Sex",
+                                                        "Fail",
+                                                        "CantResistPussy"
+                                                    ]
+                                      },
+                                            {
+                                                "NameOfScene": "No Sex",
+                                                "theScene": [ "The Automaton crosses her slender legs, before gracefully adjusting herself upright and then levitates off the ground."
+                                                          ]
+                                            },
+                                {
+                                    "NameOfScene": "No Anal",
+                                    "theScene": [
+                                                    "SkipPlayerAttack",
+                                                    "IfMonsterHasStatusEffect", "Restrain", "No Anal Still",
+                                                    "IfMonsterHasStatusEffect", "Sleep", "No Anal Still",
+                                                    "IfMonsterHasStatusEffect", "Stun", "No Anal Still",
+                                                    "You move to penetrate the Automaton's asshole, but she doesn't appear to have one? 'I am not equipped with that feature. Recommending use of equipped vaginal unit instead.",
+                                                    "Menu",
+                                                    "Fuck her vagina!",
+                                                    "Abort!",
+                                                    "EndLoop"
+                                        ]
+                                },
+                                                {
+                                                    "NameOfScene": "No Anal Still",
+                                                    "theScene": [
+                                                                "You move to penetrate the Automaton's asshole, but she doesn't appear to have one?",
+                                                                "Menu",
+                                                                    "Fuck her vagina!",
+                                                                    "Abort!",
+                                                                "EndLoop"
+                                                            ]
+                                                },
+                                        {
+                                            "NameOfScene": "Abort!",
+                                            "theScene": [ "You step back and try to think of your next move as the Automaton wordlessly stares at you."
+                                                        ]
+                                        },
+                                        {
+                                            "NameOfScene": "Fuck her vagina!",
+                                            "theScene": [ "ApplyStance", "Sex",
+                                                            "HitPlayerWith", "Orifice Clamp: Pussy",
+                                                            "You plunge your rigid cock into her gel like pussy with a moan.{DamageToPlayer}",
+                                                            "HitMonsterWith", "Thrust",
+                                                            "But the Automaton absorbs the blow, as her pussy clamps down on you and works on your cock.{DamageToEnemy}"
+                                                        ]
+                                        },
+                                        {
+                                            "NameOfScene": "No Anal2",
+                                            "theScene": [
+                                                            "SkipPlayerAttack",
+                                                            "IfMonsterHasStatusEffect", "Restrain", "No Anal Still",
+                                                            "IfMonsterHasStatusEffect", "Sleep", "No Anal Still",
+                                                            "IfMonsterHasStatusEffect", "Stun", "No Anal Still",
+                                                            "You move to penetrate the Automaton's asshole, but she doesn't appear to have one? 'I am not equipped with that feature. Recommending use of equipped vaginal unit instead.",
+                                                            "Menu",
+                                                            "Fuck her vagina!",
+                                                            "Abort!",
+                                                            "EndLoop"
+                                                ]
+                                        },
+                                {
+                                    "NameOfScene": "ArousalCheck",
+                                    "theScene": [ 
+                                                  
+                                                  "IfMonsterArousalGreaterThan", "455", "I_NEED_HEALING",
+                                                  "IfMonsterArousalGreaterThan", "325", "HOT!!!",
+                                                  "IfMonsterArousalGreaterThan", "165", "Hot",
+                                                  "IfChoice", "4", "AutoFire", "AutoFire",
+                                                  "IfChoice", "4", "Tazer", "Tazered"
+                                                      
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "Hot",
+                                    "theScene": [
+                                                  "IfChoice", "1", "Hotness1_done", "Heat Recognized",
+                                                  "You notice her cheeks turning a slight shade of red on her otherwise expresionless face.",
+                                                  "SetChoice", "1", "Hotness1_done",
+                                                  "IfChoice", "4", "AutoFire", "AutoFire",
+                                                  "IfChoice", "4", "Tazer", "Tazered"
+
+                                                      
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "HOT!!!",
+                                    "theScene": [ 
+
+                                                    "IfChoice", "2", "Hotness2_done", "Heat Recognized",
+                                                    "FocusedSpeaks",
+                                                    "Warning! Detecting high levels of heat in internal core reactor and lower abdomen. External leakage of lubricant detected.",
+                                                    "A small amount of liquid drips down between her thighs as her face turns into an alarming shade of red, radiating off heat that even you can feel from where you stand. Her eyes focus on you with increased intesity.",
+                                                    "SetChoice", "2", "Hotness2_done",      
+                                                    "GetEventAndIfChoice", "Ruins", "77", "","MACHINE LEARNING CHECK"
+         
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "I_NEED_HEALING",
+                                    "theScene": [
+                                                    "IfMonsterHasStatusEffect", "Restrain", "Heat Recognized",
+                                                    "IfMonsterHasStatusEffect", "Stun", "Heat Recognized",
+                                                    "SetChoice", "1", "Hotness1_done",
+                                                    "SetChoice", "2", "Hotness2_done",
+                                                    "FocusedSpeaks",  
+                                                    "Warning! System overheating. Activating emergency cooling protocol.",
+                                                    "CallMonsterAttack", "SpecificAttack", "System Cooling",
+                                                    "GetEventAndIfChoice", "Ruins", "77", "","MACHINE LEARNING CHECK"
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "Heat Recognized",
+                                    "theScene": [ 
+                                                    "IfChoice", "4", "AutoFire", "AutoFire",
+                                                    "IfChoice", "4", "Tazer", "Tazered",
+
+                                                    ""               
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "BodyLock",
+                                    "theScene": [
+                                        "{AttackerName} rockets towards {TargetName} and tries to restrain him with her tight embrace as the sound of a loud click shortly follows.",
+                                            "FocusedSpeaks",
+                                            "Target Secured."
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "PhysicalHarm",
+                                    "theScene": [
+                                            "IfMonsterHasStatusEffect", "Restrain", "Heat Recognized",
+                                            "IfMonsterHasStatusEffect", "Stun", "Heat Recognized",
+                                            "FocusedSpeaks",
+                                            "SwapLineIf", "Random",
+                                            "!",
+                                            "Hostile action registered. Enacting appropriate response.",
+                                            "EndLoop",
+                                            "CallMonsterAttack", "SpecificAttack", "Automatic Firing: Arousal Shell"
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "PhysicalHarm2",
+                                    "theScene": [
+                                            "IfMonsterHasStatusEffect", "Restrain", "Heat Recognized",
+                                            "IfMonsterHasStatusEffect", "Stun", "Heat Recognized",
+                                            "FocusedSpeaks",
+                                            "SwapLineIf", "Random",
+                                            "!",
+                                            "Hostile action registered. Enacting appropriate response.",
+                                            "EndLoop",
+                                            "CallMonsterAttack", "SpecificAttack", "Automatic Firing"
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "Electrify",
+                                    "theScene": [
+                                        "As you pat her head her ear twitch with delight, and she practically melts into your hand as you caress her hair, holy warmth spreading through her head to toe.",
+                                      "FocusedSpeaks",
+                                        "This is greaatttt... Every part of me feels like it's basking in the sun.♥",
+                                        "GetEventAndIfChoice", "MinotaurPowerPuzzles", "7", "", "InstantPatWin",
+                                        "ClearMonsterEncounterBossFight",
+                                        "AddMonsterToEncounter", "Feng",
+                                        "She then pushes you away with surprising force and a laugh before lithely hopping away from you and stretching her arms and legs, showing no signs of her prior stiffness.",
+                                        "JumpToScene",
+                                        "IntoPhase2"
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "RestraintStruggleFail",
+                                    "theScene": [
+                                        "But can't get free!",
+                                        "FocusedSpeaks",
+                                        "Logging enemy escape attempt. Task failed. Recommending enemy surrender."
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "RestraintStruggleSuccess",
+                                    "theScene": [
+                                        "And free yourself!",
+                                        "FocusedSpeaks",
+                                        "SwapLineIf", "Random",
+                                        "Warning! Target has escaped containment. Proceeding with caution.",
+                                        "Logging enemy escape.",
+                                        "EndLoop",
+                                        "She keeps her gaze fixed on you. Watching your movements."
+                                        
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "PussyPenetration",
+                                    "theScene": [
+                                            "FocusedSpeaks",
+                                            "SwapLineIf", "Random",
+                                            "!",
+                                            "Connection established.",
+                                            "EndLoop",
+                                            "CallMonsterAttack", "SpecificAttack", "Orifice Clamp: Pussy"
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "IntoPhase2",
+                                    "theScene": [    "ChangeImageLayer", "Expression", "WildGrin",
+                                                    "FocusedSpeaks",
+                                                    "Hahhhhh...♥ That's better! Now that I'm all warmed up... Let's do this!",
+                                                    "ChangeBGM", "music/Temple/Four colors.mp3",
+                                                    "SetChoice", "2", "Normal",
+                                                     "ChangeImageLayer", "Expression", "Base",
+                                                    "She shifts into a low combat stance, energetically prancing back and forth, unintentionally showing off her long legs."
+                                              ]
+                                },
+                                  {
+                                    "NameOfScene": "AutomaticFiring",
+                                    "theScene": [   
+									  "SetPostName", " - Automatic Firing",
+                                      "FocusedSpeaksSkill",
+                                        "{AttackerName} raises {AttackerHisOrHer} arm as it splits open in the middle, revealing a long and narrow barrel and starts firing a barrage of bullets! Hit! {DamageToPlayer}",
+                                        "SetPostName", "",
+                                        "SetChoice", "4", "AutoFire"
+                                              ]
+                                },
+                                {
+                                    "NameOfScene": "AutoFire",
+                                    "theScene": [ 
+                                        "FocusedSpeaks",
+                                        "SwapLineIf", "Random",
+                                            "'Hit confirmed. However, target remains unaffected... Strange.'",
+                                            "'Scanning... Target seems to be unaffected by the use of current weapons... attempting to retry.'",
+                                        "EndLoop",
+                                        "SetChoice", "4", "",
+                                        "Speak", ""         
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "Tazer",
+                                    "theScene": [    
+                                                    "SetPostName", " - Tazer",
+                                                "FocusedSpeaksSkill",
+                                                    "{AttackerName} raises her arm and opens it up to reveal a slender two pronged rod cackling with electricity as she strikes {TargetName}! Increasing his heart rate with volts of electrifying pleasure! {DamageToPlayer}",
+                                                    "SetPostName", "",
+                                                    
+                                                    "GetEventAndIfChoice", "Ruins", "77","WORLD-DOMINATION-Bzzt","Heat Recognized",
+                                                    "IfChoice", "3", "", "SetTazer"
+                                                    
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "SetTazer",
+                                    "theScene": [    
+                                                "SetChoice", "4", "Tazer"
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Tazered",
+                                    "theScene": [    
+                                                "FocusedSpeaks",
+                                                "SwapLineIf", "Random",
+                                                    "Scanning... detecting increased levels of arousal. Interesting...",
+                                                    "Target seems to display combative behaviour. Electrocusion seems to prove effective.",
+                                                "EndLoop",
+                                                "SetChoice", "4", ""
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Finger",
+                                    "theScene": [    "IfChoice", "3", "LEARNED", "NormalFinger",
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Target seems to be attempting sexual foreplay during combat... odd.",
+                                                    "Target seems to be attempting sexual foreplay during combat... weird.",
+                                                    "EndLoop"
+                                                    
+                                                    
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "NormalFinger",
+                                    "theScene": [    
+                                                    "You slowly retract your finger from her tight snatch, leaving a gooey string of lubricant between her pussy and the tip of your coated finger."
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Grope",
+                                    "theScene": [    
+                                                    "IfChoice", "3", "LEARNED", "NormalGrope",            
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Target seems to be attempting sexual foreplay during combat... odd.",
+                                                    "Target seems to be feeling up the currently equipped padding. Behaviour is... odd.",
+                                                    "EndLoop"
+                                                    
+                                                    
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "NormalGrope",
+                                    "theScene": [    
+                                                    "She stares at you wordlessly, letting you freely explore and feel around her body."
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Suckle",
+                                    "theScene": [    
+                                                    "IfChoice", "3", "LEARNED", "NormalSuckle",            
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Target seems to be attempting the extraction of breast milk despite no evidence to support such behaviour... weird.",
+                                                    "Target is displaying regressive infantile behaviour by attempting to suckle on breasts... Foolish.",
+                                                    "EndLoop"
+                                                    
+                                                    
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "NormalSuckle",
+                                    "theScene": [    
+                                                    "She doesn't say anything as she continues to let you suck on her tits."
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Penetrate",
+                                    "theScene": [    
+                                                    "IfChoice", "3", "LEARNED", "PussyPenetration",            
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Logging enemy attempt at sexual reproduction. Behaviour is... odd.",
+                                                    "Target seems to be attempting sexual intercourse during combat... weird.",
+                                                    "EndLoop"
+                                                    
+                                                    
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Seduce",
+                                    "theScene": [    
+                                                    "IfChoice", "3", "LEARNED", "NormalSeduce",            
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Logging enemy attempt at human courting ritual. Behaviour... weird.",
+                                                    "...",
+                                                    "EndLoop"
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "NormalSeduce",
+                                    "theScene": [    
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Processing human courting ritual... Process complete.",
+                                                    "...",
+                                                    "EndLoop"
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Surrender",
+                                    "theScene": [    
+                                        "GetEventAndSetChoice", "Ruins", "77", "WORLD-DOMINATION-Bzzt",
+                                                    "IfChoice", "3", "LEARNED","Learned Surrender",
+                                                    
+                                                                
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Enemy surrender accepted.",
+                                                    "Updating mission status... Mission: Dispatch Enemy is now complete.",
+                                                    "Processing enemy surrender... Process complete. Enemy surrender confirmed.",
+                                                    "EndLoop",
+                                                    
+                                                    
+                                                    
+                                                    "FocusedSpeaks",
+                                                    "Notice: Scans have detected significant quantities of alternative energy residing in the target. Immediate extraction is advised. Downloading energy extraction protocol...",
+                                                    "ClearStanceFromMonsterAndPlayer", "All",
+                                                    "RemoveStatusEffectFromMonster", "All",
+                                                    "StoreCurrentBGM",
+                                                    "StopBGM",
+                                                    "PlayLoopingSoundEffect","../Mods/Artificial_Love/Music/btn09.mp3",
+                                                    "All of a sudden the Automaton goes limp before her entire body starts to shake! Her eyes and tatoo glow in a bright purple before settling back down as she turns towards you.",
+                                                    "StopSoundEffectLoop",
+
+                                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn04.mp3",
+
+                                                    "FocusedSpeaks",
+                                                    "Download Complete. Executing updated combat protocol. Prepare for forced spirit extraction.",
+                                                    "SetChoice", "4", "",
+                                                    "SetChoice", "3", "LEARNED",
+                                                    
+                                                    "GiveSkillToMonster", "Finger: Jack Hammer Motion",
+                                                    "GiveSkillToMonster","Finger: Drill Motion",
+                                                    "GiveSkillToMonster", "Finger Penetrate",
+                                                    "GiveSkillToMonster", "Finger Penetrate",
+                                                    "RemoveSkillFromMonster","Tazer",
+                                                    "RemoveSkillFromMonster","Automatic Firing",
+                                                    "RemoveSkillFromMonster","Automatic Firing",
+                                                    "RemoveSkillFromMonster","Automatic Firing",
+                                                    "PlayStoredBGM",
+                                                    
+                                                    "Speak", ""
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "Learned Surrender",
+                                    "theScene": [    
+                                                    
+                                                    "FocusedSpeaks",
+                                                    "SwapLineIf", "Random",
+                                                    "Enemy surrender accepted. Commencing enemy dispatch protocol.",
+                                                    "Updating mission status... Mission: Dispatch Enemy is now complete.",
+                                                    "Processing enemy surrender... Process complete. Enemy surrender confirmed.",
+                                                    "EndLoop"
+                                                    
+                                                ]
+                                },
+                                {
+                                    "NameOfScene": "MACHINE LEARNING CHECK",
+                                    "theScene": [ 
+                                                    "IfChoice", "3", "LEARNED", "MACHINE LEARNED",
+                                                    
+                                                   "FocusedSpeaks",           
+                                                   "Report: Results from initial combat analysis note that traditional methods of combat prove to be ineffective. System has logged aggressive sexual behaviour from the target directed towards self during combat. Downloading data to match enemy behaviour...",
+                                                   "ClearStanceFromMonsterAndPlayer", "All",
+                                                   "RemoveStatusEffectFromMonster", "All",
+                                                   "StoreCurrentBGM",
+                                                    "StopBGM",
+                                                    "PlayLoopingSoundEffect","../Mods/Artificial_Love/Music/btn09.mp3",
+                                                   "All of a sudden the Automaton goes limp before her entire body starts to shake! You quickly back away as she gets up off the ground. Her eyes and tatoo glow in a bright purple before settling back down as she turns towards you.",
+                                                   "StopSoundEffectLoop",
+                                                   "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn04.mp3",
+                                                   "FocusedSpeaks",
+                                                   
+                                                   "Download Complete. Executing updated combat protocol.",
+                                                   "SetChoice", "4", "",
+                                                   
+                                                   "SetChoice", "3", "LEARNED",
+                                                   
+                                                   "GiveSkillToMonster", "Finger: Jack Hammer Motion",
+                                                   "GiveSkillToMonster","Finger: Drill Motion",
+                                                   "GiveSkillToMonster", "Finger Penetrate",
+                                                   "GiveSkillToMonster", "Finger Penetrate",
+                                                   "RemoveSkillFromMonster","Tazer",
+                                                   "RemoveSkillFromMonster","Automatic Firing",
+                                                   "RemoveSkillFromMonster","Automatic Firing",
+                                                   "RemoveSkillFromMonster","Automatic Firing",
+                                                   "PlayStoredBGM",
+                                                   "Speak", ""
+            
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "No Anal3",
+                                    "theScene": [
+                                                    "SkipPlayerAttack",
+                                                    "You move to penetrate the Automaton's asshole, but she doesn't appear to have one?"
+                                        ]
+                                },
+                                {
+                                    "NameOfScene": "MACHINE LEARNED",
+                                    "theScene": [ 
+                                                    ""               
+                                    ]
+                                },
+                                {
+                                    "NameOfScene": "Combat Event Vars",
+                                    "theScene": [ 
+                                                    "Choice 1-if the automaton's 1st status text displayed",
+                                                    "Choice 2-if the automaton's 2nd status text displayed",
+                                                    "Choice 3-if the automaton in the lab learns new moves enabling the 2nd part of her fight",
+                                                    "Choice 4-determines what move the automaton used last in the round and her corresponding reactions to using them"               
+                                    ]
+                                }
+                ]
+}

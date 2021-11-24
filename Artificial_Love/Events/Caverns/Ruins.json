@@ -1,0 +1,1079 @@
+{
+    "name": "Ruins",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Amidst your journey through the caverns you vaguely recall a recessed section along the wall of one of the dark tunnels. Thinking over it some more, you seem to remember two metallic posts and a pile of rocks that previously blocked off entry.",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Automaton",
+                    "postName": " 1",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Automaton",
+                    "postName": " 2",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "MetalGirl",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+                                    
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [  
+                                    "ChangeBGM-NoFade", "music/Caverns/New-Paradise.mp3",
+                                    "ChangeBG", "CavernsDark.png",
+                                    "IfChoice","1","RockBlock","VisitedIntroBlocked",
+                                    "IfChoice","1","RockClear", "VisitedIntroClear",
+                                    
+                                    "PlayVisualEffect", "IncreasingHaze", "void.png",
+                                    "While navigating your way through one of the cavern's numerous tunnels, you find your surroundings growing dimmer and dimmer as the patches of luminous crystals that line the walls and litter the ground dwindle out until none remain, leaving you with nothing to ward off the darkness that engulfs the passage and obscures the way ahead.",
+                                    "Despite the lack of visibility, you steadily advance through the tunnel, placing one hand onto the wall and the other out in front as you cautiously feel your way through the dark. Blindly groping forward is far from ideal, but you are at least able to avoid bumping into any rocky protrusions and can get an approximate idea of your location.",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+                                    "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                    "Like this, you continue making your way through the rather straight-forward tunnel, shivering occasionally from the intermittent cold gusts of wind.", 
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/zapsplat-impacts-body-fall-hit-g.mp3",
+                                    "PlayMotionEffect", "Crash",
+                                    "Until your hand abruptly finds nothing to steady itself against as you crash to the side onto the dirty pebble-covered floor. Cursing in the dark, you quickly get up and pat yourself down, shaking the debris and dust off your body as you once again reach out for the wall but find nothing there.",
+                                    "You raise both your arms and slowly feel your way forward before shortly coming in contact with the wall. A flash of relief crosses your face before being quickly replaced by a sense of puzzlement as your hands feel a new series of textures.",
+                                    "Patting along the surface, you manage to make out what seems to be a bunch of tightly packed rocks in between two vertically long metallic posts.", 
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+                                    "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                    "A cave-in comes to your mind before having your thoughts rudely interrupted by another cold breath of wind, causing you to clutch your arms and shiver. You'd better decide what to do quickly before you actually catch a cold...",
+                                    
+                                    "Menu",
+                                    "Try prying the rocks apart",
+                                    "Turn back and continue through the tunnel",
+                                    "EndLoop"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "VisitedIntroBlocked",
+                      "theScene": [ 
+                                  "PlayVisualEffect", "IncreasingHaze", "void.png",
+                                  "While navigating your way through the caverns, you find your surroundings growing dimmer and dimmer as the patches of luminous crystals that line the walls and litter the ground dwindle out until none remain.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+
+                                  "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                  "Despite the lack of visibility, you steadily advance through the tunnel by feeling your way through the dark. Shivering occasionally from the intermittent cold gusts of wind, until your hand abruptly finds nothing to steady itself against as you fall to the side.",
+                                  "But luckily you manage to react fast enough to catch yourself from falling, saving you from a rather embarassing fall. After calming yourself down you can't help but feel being here before as you move to the side and shortly coming in contact with what seems to be a bunch of tightly packed rocks in between two long metallic posts.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+
+                                  "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                  "A cave-in comes to your mind before having your thoughts rudely interrupted by another cold breath of wind, causing you to clutch your arms and shiver. You'd better decide what to do quickly before you actually catch a cold...",
+                                  "Menu",
+                                  "Try prying the rocks apart",
+                                  "Turn back and continue through the tunnel",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "VisitedIntroClear",
+                      "theScene": [ 
+                                  "PlayVisualEffect", "IncreasingHaze", "void.png",
+                                  "While navigating your way through the caverns, you find your surroundings growing dimmer and dimmer as the patches of luminous crystals that line the walls and litter the ground dwindle out until none remain.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+
+                                  "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                  "Despite the lack of visibility, you steadily advance through the tunnel by feeling your way through the dark. Shivering occasionally from the intermittent cold gusts of wind, until your hand abruptly finds nothing to steady itself against as you fall to the side.",
+                                  "PlayVisualEffect", "DecreasingHaze", "void.png",
+                                  "But luckily you manage to react fast enough to catch yourself from falling, saving you from a rather embarassing fall. After calming yourself down you are able to make out two vertically tall, rusted metallic posts framing the sides of some sort of entrance; illuminated by the faint glow of some crystals overhead.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+
+                                  "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                  "As you ponder on whether or not to go in, your thoughts are suddenly interrupted by a cold breath of wind, causing you to clutch your arms and shiver. You'd better decide what to do quickly before you actually catch a cold...",
+                                  "Menu",
+                                  "Enter the passageway",
+                                  "Turn back and continue through the tunnel",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Turn back and continue through the tunnel",
+                      "theScene": [  
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+                    
+                                  "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                  "IfChoice","1","RockClear","RockClearVFX",
+                                  "Another cold gust of wind rattles your body before you finally decide to leave, turning around with your hand once again pressed against the wall before shuffling on ahead through the dark tunnel...",
+                                 
+                                  "Walking through the tunnel, time seems to stretch on and on as you just keep walking and walking; your footsteps getting heavier and heavier while your eyes grow all the more weary to the point where it starts to play tricks on you, conjuring up the illusion of the soft glow of light out in the distance...",
+                                  "Wait. Rubbing your eyes, you peer into the darkness to find that you are in fact NOT hallucinating, seeing your goal in sight as you unconsciously drag your feet. Gradually your shuffling turns into a walk, which then turns into a sprint as you charge into the light!", 
+                                  "PlayVisualEffect2", "BlindingFlash", "white.png",
+                                  "EndVisualEffect",
+                                  "ChangeBG", "Caverns.png",
+                                  "ChangeBGM", "music/Forest/Starry sky.mp3",
+                                  "Your sprint quickly comes to a halt as you bend over and try to catch your breath. You slowly raise your head up to find the familiar glow of numerous crystals overhead as your mouth breaks open into a wide grin. After a moment of rest you get up, turning your head backwards one last time before moving on, venturing through the caverns.",
+                                  "IfChoice","1","","SetChoice1Block"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "RockClearVFX",
+                      "theScene": [  
+                                  "PlayVisualEffect", "IncreasingHaze", "void.png",
+                                  "Another cold gust of wind rattles your body before you finally decide to leave, turning around with your hand once again pressed against the wall before shuffling on ahead through the dark tunnel...",
+                                 
+                                  "Walking through the tunnel, time seems to stretch on and on as you just keep walking and walking; your footsteps getting heavier and heavier while your eyes grow all the more weary to the point where it starts to play tricks on you, conjuring up the illusion of the soft glow of light out in the distance...",
+                                  "Wait. Rubbing your eyes, you peer into the darkness to find that you are in fact NOT hallucinating, seeing your goal in sight as you unconsciously drag your feet. Gradually your shuffling turns into a walk, which then turns into a sprint as you charge into the light!", 
+                                  "PlayVisualEffect2", "BlindingFlash", "white.png",
+                                  "EndVisualEffect",
+                                  "ChangeBG", "Caverns.png",
+                                  "ChangeBGM", "music/Forest/Starry sky.mp3",
+                                  "Your sprint quickly comes to a halt as you bend over and try to catch your breath. You slowly raise your head up to find the familiar glow of numerous crystals overhead as your mouth breaks open into a wide grin. After a moment of rest you get up, turning your head backwards one last time before moving on, venturing through the caverns.",
+                                  "IfChoice","3","IntruderOccupy","AllowSpwns",
+                                  "IfChoice","1","","SetChoice1Block"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "AllowSpwns",
+                      "theScene": [  
+                                  "SetChoice","10","",
+                                  "SetChoice","11","",
+                                  "SetChoice","12","",
+                                  "IfChoice","77","tmp","Set77"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "SetChoice1Block",
+                      "theScene": [  
+                                  "SetChoice","1","RockBlock"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Set77",
+                      "theScene": [  
+                                  "SetChoice","77","WORLD-DOMINATION-Bzzt"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Try prying the rocks apart",
+                      "theScene": [
+                                  "Running your hands along the wall you find a rather sizable protrusion as you wrap your hand around it; giving it a few tugs, yet it remains tightly fixed in place. You give it another go, this time using both hands as you fully exert yourself, scrunching up your face as you feel a slight budge.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/1luoshi-AudioTrimmercom.mp3",
+
+                                  "PlayMotionEffect", "Crash",
+
+                                  "Before releasing your hold and falling flat on your back with a frustrated cry.", 
+                                  "Just one more time. Giving it one last try you get up and pull using all the strength you can muster, wiggling it loose until it finally gives!",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/1luoshi.ogg",
+                                  "PlayMotionEffect", "Explosion",
+                                  "PlayVisualEffect", "DecreasingHaze", "void.png",
+                                  "Flinging you backwards and kicking up a cloud of dust as the sound of collapsing rocks fill the room.", 
+                                  "After the dust settles, you open your eyes to find your previously obscured surroundings illuminated by the soft glow of crystals coming from inside of some sort of passage. Taking another look you can now make out the two rusted metallic posts serving as the doorway of the mysterious passage.", 
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Wind-[AudioTrimmer.com].ogg",
+                                  "PlayVisualEffect2", "ScreenFlash", "../Mods/Artificial_Love/Images/blueHaze.png",
+                                  "As you ponder on whether or not to go in, another gust of wind finds your body sending shivers up your spine.",
+                                  "SetChoice","1","RockClear",
+                                  "Menu",
+                                  "Enter the passageway",
+                                  "Turn back and continue through the tunnel",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Enter the passageway",
+                      "theScene": [
+                                  "PlayVisualEffect", "FadingHaze", "void.png",
+                                  "ChangeBG", "dungeon.png",
+                                  "IfChoice","2","EnteredPassage", "VisitedPassage",  
+                                  "You step into the passage, finding the walls to be made of smooth stone as they support the concave ceiling and curve towards a line of domed glass fixtures housing several glowing crystals. Each dome is generously spaced out between each other leaving spots of darkness along the way.",
+                                  "Attached to the wall, several black strips come down from the ceiling, connected to the glass fixtures before stretching out into the passage. You walk through the passage, noting the lack of any diverging paths or sudden corners, before shortly arriving at the end.",
+                                  "SetChoice","2","EnteredPassage",
+                                  "JumpToScene",  "ChamberIntro1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "VisitedPassage",
+                      "theScene": [
+                                  "You advance through the passage, walking past the spots of darkness before shortly arriving at the end of the passsage.",
+                                  "JumpToScene",  "ChamberIntro1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ChamberIntro1",
+                      "theScene": [
+                                  "EndVisualEffect",
+                                  "PlayVisualEffect2", "BlindingFlash", "white.png",
+                                  
+                                  "SetChoice", "6", "ChamberEntrance",
+                                  "ChangeBG", "Caverns.png",
+                                  "IfChoice","3","IntruderOccupy", "IntruderCheck",
+                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "ChamberIntro4",
+                                  "ChangeBGM", "../Mods/Artificial_Love/Music/Drips.ogg",                                  
+                                  "Stepping out of the passage you wince as your eyes are hit by a sudden influx of light before opening them up and being greeted with the scenic view of a wide open chamber, decorated with a mix of turquoise and sky blue crystals as your eyes are immediately drawn to the singular giant mass of shining crystal jutting down from the ceiling.", 
+                                  "Below it lies some sort of platform branching from a long bridge that sends people over the wide rift that otherwise seperates you from the mysterious large building, visible to you even from such a far distance. The sound of water dripping down from the stalagmites are the only thing you hear as you stand atop an elevated stone platform with a small set of stairs.",
+                                  "You walk down the steps and arrive at the lower level to find it enclosed with metal railing. To the side you find a clear slanted crystal.",
+                                  
+                                  "JumpToScene",  "ChamberEntranceMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ChamberIntro2",
+                      "theScene": [
+                                  "ChangeBGM", "../Mods/Artificial_Love/Music/Drips.ogg",  
+                                        
+                                  "Stepping out of the passage you wince as your eyes are hit by a sudden influx of light before opening them up and being greeted with the scenic view of a wide open chamber, decorated with a mix of turquoise and sky blue crystals as your eyes are immediately drawn to the singular giant mass of shining crystal jutting down from the ceiling.", 
+                                  "Below it lies some sort of platform branching from a long bridge that sends people over the wide rift that otherwise seperates you from the mysterious large building, visible to you even from such a far distance. The sound of water dripping down from the stalagmites are the only things you hear as you stand atop an elevated stone platform with a small set of stairs.",
+                                  "You walk down the steps and arrive at the lower level to find it enclosed with metal railing. To the side you find a clear slanted crystal.",
+                                  "IfChoice","10","EnemySpwned","None",
+                                  "JumpToScene",  "Enemy Spawn"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ChamberIntro2Part2",
+                      "theScene": [
+                        "SetChoice","10","EnemySpwned",
+                                  "JumpToScene",  "ChamberEntranceMenu1"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ChamberIntro3",
+                      "theScene": [
+                                  "Insert Epic battle of Automatons fucking the other Cavern Monster generics away.",
+                                  "SetChoice", "3", "IntruderGone",
+                                  "JumpToScene","ChamberIntro4"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ChamberIntro4",
+                      "theScene": [
+                                  "DisplayCharacters",
+                                  "Automaton",
+                                  "Automaton",
+                                  "EndLoop", 
+                                  "Speaks",
+                                  "Intruder detected. Halt. Do not go beyond any further, all unverified lifeforms are not allowed to go beyond this point. Turn around now.",
+                                  "Menu",
+                                  "Exit the chamber and go through the chilly tunnel",
+                                  "EndLoop"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ChamberEntranceMenu1",
+                      "theScene": [
+                                "Menu",
+                                "Cross the bridge",
+                                "Walk over to the slanted crystal",
+                                "Exit the chamber and go through the chilly tunnel",
+                                "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "IntruderCheck",
+                      "theScene": [
+                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "ChamberIntro3",                                  
+                                  "JumpToScene",  "ChamberIntro2"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Cross the bridge",
+                      "theScene": [
+                        "ChangeBGM", "../Mods/Artificial_Love/Music/Drips.ogg",         
+                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "Cross the bridge3", 
+                                  "IfChoice","4","WalkedBridge", "Cross the bridge2",
+                                  "You walk over to the bridge and stop to study its rather unique design of two lanes with ribbed metallic black tiles and yellow trim that are seperated by a transparent partition on both sides and covered in a protective strip of black rubber. After a short while of walking, you arrive at a junction as another set of two laned bridges branch off to different places.",
+                                  "SetChoice","4","WalkedBridge",
+                                  "JumpToScene", "PathDeterminer"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Cross the bridge2",
+                      "theScene": [
+                                  "You cross over the bridge until you arrive at a junction as another set of two laned bridges branch off to different places.",
+                                  "JumpToScene", "PathDeterminer"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Cross the bridge3",
+                      "theScene": [
+                                  "IfChoice","4","WalkedBridgeMoving", "Cross the bridge4",
+                                  "You walk over to the bridge noticing a change as the previously stationary tiles, are now moving with the lane on the right moving away and the one on the left towards you. After a short while of walking, you arrive at a junction as another set of moving two laned bridges branch off to different places.",
+                                  "SetChoice","4","WalkedBridgeMoving",
+                                  "JumpToScene", "PathDeterminer"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Cross the bridge4",
+                      "theScene": [
+                                  "You cross over the bridge as the metal tiles creep along the strip until you arrive at a junction as another set of moving two laned bridges branch off to different places.",
+                                  "JumpToScene", "PathDeterminer"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "PathDeterminer",
+                      "theScene": [
+                                  "IfChoice","6","GiantCrystal", "Paths2",
+                                  "IfChoice","6","Lab", "Paths3",
+                                  "IfChoice","6","ChamberEntrance", "Paths1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Paths1",
+                      "theScene": [
+
+                                  "Menu",
+                                  "Head towards the large building",
+                                  "Head to the gigantic crystal",
+                                  "Go back to where you came from",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Paths2",
+                      "theScene": [
+
+                                  "Menu",
+                                  "Head towards the large building",
+                                  "Head to the chamber entrance",
+                                  "Go back to where you came from",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Paths3",
+                      "theScene": [
+
+                                  "Menu",
+                                  "Head to the gigantic crystal",
+                                  "Head to the chamber entrance",
+                                  "Go back to where you came from",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Go back to where you came from",
+                      "theScene": [
+                                  "IfChoice","6","GiantCrystal", "Head to the gigantic crystal",
+                                  "IfChoice","6","Lab", "Head towards the large building",
+                                  "IfChoice","6","ChamberEntrance", "Head to the chamber entrance"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head to the chamber entrance",
+                      "theScene": [
+                        "SetChoice", "6", "ChamberEntrance",
+                                  "You walk over to base of the chamber's entrance stopping at the bottom of the steps. At the corner of the entrance is a small area with a large slanted crystal next to a sloped metal track.",
+                                  "JumpToScene", "ChamberEntranceMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Walk over to the slanted crystal",
+                      "theScene": [
+                                  "SetChoice", "6","SlantedCrystal",
+                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "Walk over to the slanted crystal3", 
+                                  "Walking over to the slanted crystal, it stands at an approximate 75 degree angle, made out of clear quartz atop a metallic base. It is chiseled to perfection in the shape of a narrow rectangular block as large as the average human.",
+                                  "Near the crystal is a steel mesh cage, separating you from a metal platform stuck mid way on a sloped metal track that goes all the way up to the chamber's entrance.",
+                                  "Menu",
+                                  "RequiresChoice", "5", "CardNotFound","HideOptionOnRequirementFail","Search the area",
+                                  "Go back",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Walk over to the slanted crystal3",
+                      "theScene": [
+                                  "Walking over to the slanted crystal, it stands at an approximate 75 degree angle, made out of clear quartz atop a metallic base. It is chiseled to perfection in the shape of a narrow rectangular block as large as the average human.",
+                                  "Near the crystal is a steel mesh cage, separating you from a metal platform on a sloped metal track that goes all the way up to the chamber entrance.",
+                                  "SwapLineIf", "Random",
+                                  "An Automaton walks over and opens the mesh door and quickly closes it before standing on the platform. She presses a button as a mechanical sound rings out, before the platform slowly creeps up the track while making a loud beeping sound.",
+                                  "An Automaton rests with closed eyes against the crystal while a thin wire sprouts from the back of her head and connects to the metal base.",
+                                  "EndLoop",
+                                  "Menu",
+                                  "Go back",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Exit the chamber and go through the chilly tunnel",
+                      "theScene": [
+                                  "ChangeBGM-NoFade", "music/Caverns/New-Paradise.mp3",
+                                  "PlayVisualEffect", "StartHaze", "void.png",
+                                  "ChangeBG", "dungeon.png",
+                                  "You walk up the steps to the chamber's entrance before going through the passage...",
+                                  "PlayVisualEffect", "GrowingHaze", "void.png",
+                                  "ChangeBG", "CavernsDark.png",
+                                  "...until you find yourself outside in the dark windy tunnel.",
+                                  "IfChoice","3","","SetIntruder",
+                                  "JumpToScene", "Turn back and continue through the tunnel"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "SetIntruder",
+                      "theScene": [
+                                  "SetChoice","3","IntruderOccupy",
+                                  "JumpToScene", "Turn back and continue through the tunnel"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head to the gigantic crystal",
+                      "theScene": [
+                                  "SetChoice", "6", "GiantCrystal",
+                                  "ChangeBGM","../Mods/Artificial_Love/Music/Purple Planet Music - Ethereal Eternity (1_43) 70bpm.mp3",
+                                  "IfChoice","77","WORLD-DOMINATION-Bzzt", "Head to the gigantic crystal4",
+                                  "IfChoice","3","IntruderOccupy", "Head to the gigantic crystal3", 
+                                  "You make your way over to the platform below the gigantic crystal. Several metal carts are left around the fenced perimeter. Inside one of the carts, you find an array of pickaxes, hammers, and other tools worn for wear covered in dust.",
+                                  "Looking at the crystal up close it seems to be made out several tiers, seemingly single handedly illuminating this entire section of the chamber with a green hue.",
+                                  "JumpToScene", "CrystalMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "SetCrystalSearched",
+                      "theScene": [
+                                  "SetChoice", "8", "CrystalSearched",
+                                  "JumpToScene","CrystalMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "CrystalMenu1",
+                      "theScene": [
+                                  "Menu",
+                                  "RequiresChoice", "8", "","HideOptionOnRequirementFail","Search the area",
+                                  "Extract some crystal",
+                                  "Go back to the bridge",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head to the gigantic crystal3",
+                      "theScene": [    
+                                  "You make your way over to the platform below the gigantic crystal. Several metal carts are left around the fenced perimeter. Inside one of the carts, you find an array of pickaxes, hammers, and other tools worn for wear covered in dust.",
+                                  "Looking at the crystal up close it seems to be made out several tiers, seemingly single handedly illuminating this entire section of the chamber with a green hue.",
+                                  "IfChoice","11","EnemySpwned","None",
+                                  "JumpToScene","Enemy Spawn"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head to the gigantic crystal3 part2",
+                      "theScene": [ 
+                        "SetChoice","11","EnemySpwned",          
+                        "JumpToScene", "CrystalMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head to the gigantic crystal4",
+                      "theScene": [
+                                  "You make your way over to the platform below the gigantic crystal. Several metal carts are left around the fenced perimeter filled with small crystals and other minerals. Looking at the crystal up close it seems to be made out several tiers, seemingly single handedly illuminating this entire section of the chamber with a green hue.", 
+                                  "Several Automata have errected several scaffholdings and seem to be mining the crystal, leaving mountains of dust and small piles of crystal shavings on the floor",
+                                  "Menu",
+                                  "Talk to the miners and ask for crystals",
+                                  "Go back to the bridge",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Extract some crystal",
+                      "theScene": [
+                        "PlayLoopingSoundEffect","../Mods/Artificial_Love/Music/GlassClink.ogg",
+                                  "You pick up the tools on the ground and check its condition before spending some time breaking off pieces of crystal...",
+                                  "JumpToRandomScene",
+                                  "Extract some crystal Success 1",
+                                  "Extract some crystal Success 2",
+                                  "Extract some crystal Fail",
+                                "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Extract some crystal Success 1",
+                      "theScene": [
+                                  "GiveItem", "5", "Crystal Shard",
+                                  "AdvanceTime", "1",
+                                  "StopSoundEffectLoop",
+                                  "JumpToScene","CrystalMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Extract some crystal Success 2",
+                      "theScene": [
+                                  "GiveItem", "3", "crystal shard",
+                                  "AdvanceTime", "1",
+                                  "StopSoundEffectLoop",
+                                  "JumpToScene","CrystalMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Extract some crystal Fail",
+                      "theScene": [
+                        "StopSoundEffectLoop",          
+                        "But don't manage to get any...",
+                                  "AdvanceTime", "1",
+                                  "JumpToScene","CrystalMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Search the area",
+                      "theScene": [
+                        "PlayLoopingSoundEffect","../Mods/Artificial_Love/Music/foley-debris-rummage-001.mp3",
+                                  "You search the surrounding area...",
+                                  "StopSoundEffectLoop",
+                                  "IfChoice","6","SlantedCrystal", "SearchSuccess",
+                                  "StopSoundEffectLoop",  
+                                  "...but find nothing of note!",
+                                  "IfChoice","6","Lab", "SetLabSearched", 
+                                  "IfChoice","6","GiantCrystal", "SetCrystalSearched",  
+                                  "Menu",
+                                  "Go back to the bridge",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "SearchSuccess",
+                      "theScene": [
+                                  "SetChoice", "5","CardFound",
+                                  "...and find a palm sized, paper thin sheet of plastic covered in dust!",
+                                  "Blowing on it and brushing the dust off, you reveal the words 'Guest Entry Pass' printed on one of its sides. Hmm... it feels like this should go somewhere...",
+                                  "GiveItem", "1", "Guest Entry Pass",
+                                  "SetChoice","7","LabSearched",
+                                  "SetChoice","8","CrystalSearched",
+                                  "Menu",
+                                  "Go back",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Go back",
+                      "theScene": [
+                                  "You walk back over to the chamber's entrance.",
+                                  "SetChoice", "6", "ChamberEntrance",
+                                  "JumpToScene","ChamberEntranceMenu1"
+                                ]
+                    },
+                    
+                    {
+                      "NameOfScene": "Go back to the bridge",
+                      "theScene": [
+                                  "JumpToScene","Cross the bridge"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head towards the large building",
+                      "theScene": [
+                                  "SetChoice", "6", "Lab",
+                                  "ChangeBGM", "../Mods/Artificial_Love/Music/Darkness.ogg",          
+                                  "IfChoice","3","IntruderOccupy","Head towards the large building 2",
+                                  "IfChoice","5","","Head towards the large building 3",
+                                  "Walking across the bridge, you reach the other side of the chamber and are now able to clearly see the large, monochromatic, four story building with its unique brutalistic design and blocky overall shape.",
+                                  "Rows of windows are stacked and framed by thick flat arches projecting out of its facade, before slanting inwards to sit atop its giant block of a base. The entire building seems to be made out of exposed, coarse concrete; spattered and speckled with marks, stains, and drips.",
+                                  "You walk towards the building, passing by several empty metal carts until you reach the building's entrance. Stopping in front of a pair of heavy looking metallic doors.",
+                                  "JumpToScene","LabMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head towards the large building 3",
+                      "theScene": [
+                                  "Walking across the bridge, you reach the other side of the chamber and are now able to clearly see the large, monochromatic, four story building with its unique brutalistic design and blocky overall shape.",
+                                  "Rows of windows are stacked and framed by thick flat arches projecting out of its facade, before slanting inwards to sit atop its giant block of a base. The entire building seems to be made out of exposed, coarse concrete; spattered and speckled with marks, stains, and drips.",
+                                  "You walk towards the building, passing by several empty metal carts until you reach the building's entrance. Stopping in front of a pair of heavy looking metallic doors to take in the atmosphere its monolithic design begets, that can only be described to another as feeling rather... heavy...",
+                                  "JumpToScene","LabMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "SetLabSearched",
+                      "theScene": [
+                                  "SetChoice", "7", "LabSearched",
+                                  "JumpToScene","LabMenu2"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "LabMenu1",
+                      "theScene": [
+                                  "IfChoice","7","LabSearched", "LabMenu2", 
+                                  "Menu",
+                                  "RequiresChoice", "77", "","HideOptionOnRequirementFail","Enter the building",
+                                  "RequiresChoice", "5", "CardNotFound","HideOptionOnRequirementFail","Search the area",
+                                  "Go back to the bridge",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "LabMenu2",
+                      "theScene": [
+                                  "Menu",
+                                  "RequiresChoice", "77", "","HideOptionOnRequirementFail","Enter the building",
+                                  "Go back to the bridge",
+                                  "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Enter the building",
+                      "theScene": [
+                                  "IfHasItemInInventory", "Guest Entry Pass", "1", "Try the 'Entry Pass'",
+                                  "SwapLineIf", "Random",
+                                  "Inspecting the doors you find a lack of any discernible handles as you decide to knock on the door and call out for anyone to answer, but they never do... Looking at your surroundings you find a small box next to the door with a small red light above a thin slit. Hmmm... maybe someone left something here that would fit right in?",
+                                  "Inspecting the doors you find a lack of any discernible handles as you proceed to push the door open, but it doesn't budge. Looking at your surroundings you find a small box next to the door with a small red light above a thin slit. Hmmm... maybe someone left something here that would fit right in?",
+                                  "EndLoop",
+                                  "SetChoice", "5","CardNotFound",
+                                  "JumpToScene","LabMenu1"
+
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Try the 'Entry Pass'",
+                      "theScene": [
+                                  "IfChoice","9","LabVisited", "Try the 'Entry Pass'2",
+                                  "Looking at your surroundings you find a small box next to the door with a small red light above a thin slit. Hmmm... You stare at it for awhile when an idea pops into your head as you quickly search through your inventory before pulling out the 'Entry Pass'.", 
+                                  "Holding it next to the box's opening, it does indeed seem to fit as you proceed to insert the card, feeling it go in about halfway.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn16.mp3", 
+                                  "When the red light above suddenly turns green followed by a loud rumble!",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  "You back away as the heavy double doors part in the middle and recede back into the walls all on their own, letting in rays of light to reveal the building's mysterious interior.",
+                                  "JumpToScene","LabInterior1"
+
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Try the 'Entry Pass'2",
+                      "theScene": [
+                                  "Looking at your surroundings you find a small box next to the door with a small red light above a thin slit as you quickly search through your inventory before pulling out the 'Entry Pass'.", 
+                                  "You proceed to insert the card, feeling it go in about halfway.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn16.mp3", 
+                                  "When the red light above suddenly turns green followed by a loud rumble!",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  "You back away as the heavy double doors part in the middle and recede back into the walls all on their own, letting in rays of light to reveal the building's mysterious interior.",
+                                  "JumpToScene","LabInterior1"
+
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head towards the large building 2",
+                      "theScene": [
+                                  "Walking across the bridge, you reach the other side of the chamber. You are now able to clearly see the large, monochromatic, four story building with its unique brutalistic design and blocky overall shape.",
+                                  "Rows of windows are stacked and framed by thick flat arches projecting out of its facade, before slanting inwards to sit atop its giant block of a base. The entire building seems to be made out of exposed, coarse concrete; spattered and speckled with marks, stains, and drips.",
+                                  "You walk towards the building, passing by several empty metal carts until you reach the building's entrance. Stopping in front of a pair of heavy looking metallic doors.",
+                                  "IfChoice","12","EnemySpwned","None",
+                                  "JumpToScene","Enemy Spawn"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Head towards the large building 2 part2",
+                      "theScene": [
+                        "SetChoice","12","EnemySpwned",
+                                  "JumpToScene","LabMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "LabInterior1",
+                      "theScene": [
+                                  
+                                  "IfChoice","9","LabVisited", "LabInterior2",
+                                  "PlayVisualEffect", "StartHaze", "void.png",
+                                  "ChangeBG", "dungeon.png",
+                                  "You walk into the room and see several pieces of worn out furniture with a wide desk positioned at the very center as you breathe in the stale air. You walk over to the desk and find a bent rectangular piece of metal atop of the desk and wipe off the thick layer of dust to reveal the words 'reception' etched on to the plate.",
+                                  "PlayVisualEffect", "GrowingHaze", "void.png",
+                                  "StopBGMHard",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  
+                              
+                                  "All of a sudden you hear another rumble as the cone of light coming from the doorway shrinks as you turn back to see the door once again closing up! You frantically run back but are too late as the last ray of light disappears along with the close of the doors as you slam up against it; shaking in anger before banging your fist in frustration.",
+                                  "PlayVisualEffect", "FadingHaze","void.png",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/zapsplat-warehouse-light-switche-[AudioTrimmer.com].mp3",
+                                  "You lament on your horrible situation when suddenly rows of light open up one after another, forming a straight line that leads you through a long hall in the adjoining room...",
+                                  "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                                  "JumpToScene","LabInteriorMenu1"
+                                  
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "LabInterior2",
+                      "theScene": [
+                                  
+                        
+                                  "ChangeBG", "dungeon.png",
+                                  "PlayVisualEffect", "StartHaze", "void.png",
+                                  "You walk into the room and see several pieces of worn out furniture with a wide desk positioned at the very center as you breathe in the stale air. You walk over to the desk and find a bent rectangular piece of metal atop of the desk and wipe off the thick layer of dust to reveal the words 'reception' etched on to the plate.",
+                                  "PlayVisualEffect", "GrowingHaze", "void.png",
+
+                                  "StopBGMHard",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  
+                                  "All of a sudden you hear another rumble as the cone of light coming from the doorway shrinks as you turn back to see the door once again closing up.",
+                                  "PlayVisualEffect", "FadingHaze","void.png",
+
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/zapsplat-warehouse-light-switche-[AudioTrimmer.com].mp3",
+                                  "Suddenly rows of light open up one after another, forming a straight line that leads you through a long hall in the adjoining room...",
+                                  "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                                  "JumpToScene","LabInteriorMenu1"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Explore the building",
+                      "theScene": [
+                        
+                                  
+                                  "You walk across the hall, coming across several locked doors and empty rooms as you travel up the building finding nothing of note... until you arrive near the end of a hall on the top floor and see someone laying down on a raised, tilted bed.",
+                                  "EndVisualEffect",
+                                  "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                                  "You rush over to the side of the bed and clutch the person's head to see the feminine face of a woman with straight, medium length, bob cut hair soundlessly sleeping... almost too soundlessly as you immediately check for a pulse, but find no signs of life.",
+                                  "In a panic you quickly get up and prepare to get her out of there but freeze at the sight of her weird appearance.",
+                                  "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                                  "She is dressed in some form of strange metallic armour, resembling some kind of short crop top with shoulderless sleeves and elbow length arm bracers, with a frontless ankle length skirt that wraps around her waist; and wearing two horn shaped head pieces attached to the sides of her head.",
+                                  "Her skin seems to be unnaturally smooth, and cold to the touch; giving off a metallic semi glossy sheen while her entire body is also lined with shallow, wide sweeping grooves, that along with the exposed spurred gear joints, and womb tattoo; make you firmly believe she is definitely no human.", 
+                                  
+                                  "As you calm yourself down you, you finally notice the long wire sprouting from the back of her neck as you run your hand along it to find it leading to a large, person sized colorless block; sitting atop an equally wide metal base with wires that stretch to the walls of the room.", 
+                                  "Finding it rather odd you look at your surroundings again but have your heart almost leap out of your throat when you finally notice yourself being surrounded by several women!", 
+                                  "PlaySoundBankOnce","../Mods/Artificial_Love/Music/Metal Gear Solid - Exclamation Point Sound Effect.mp3",
+                                  "ChangeBGM", "music/Forest Dungeon/chain.mp3",
+                                  "You get into a stance as you prepare for battle{w}.{w}.{w}. {w}but nothing happens.",
+                                  "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                                  "You stand there awkwardly for a while, before blushing a little in embarrassment as you decide to approach one of the women but stop in your tracks once again when you find her to be completely identical to the one on the bed!", 
+                                  "ChangeBGM-NoFade", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                                  "Staring at her in disbelief, you look at them back and fourth, but find no discernible difference as you look to your side to find the same person again, and again, and again, and again... {w}Until you circle the entire room, finding each and everyone of them fixed in place, leaning forward a little almost like a statue chiseled into the wall...",
+                                  "You walk over to the center, next to the sleeping woman and ponder on what to do...",
+                                  "StopBGMHard",
+                                  "PlaySoundBankOnce","../Mods/Artificial_Love/Music/y2mate.com - 61 Among Us Sabotage Alarm siren  sound effect  HQ-[AudioTrimmer.com].mp3",
+                                  "Speak", "???",
+                                  "{i}Charging Complete. Battery level at 100%. Warning: An unexpected problem has occured! System start up has failed. Please squeeze breasts to trigger manual restart.{/i}",
+                                  "PlaySoundBankOnce","../Mods/Artificial_Love/Music/Metal Gear Solid - Exclamation Point Sound Effect.mp3",
+                                  "You jump and quickly survey the area, but find nothing has changed despite hearing the stranger's monotonous voice as it repeats the same message over and over. Judging from its sound, it seems to come from the sleeping woman next to you, as your hand hovers over her perky chest...",
+                                  "PlaySoundBankOnce","../Mods/Artificial_Love/Music/y2mate.com - 61 Among Us Sabotage Alarm siren  sound effect  HQ-[AudioTrimmer.com].mp3",
+
+                                  "Speak", "???",
+                                  "{i}Charging Complete. Battery level at 100%. Warning: An unexpected problem has occured! System start up has failed. Please squeeze breasts to trigger manual restart.{/i}",
+                                  "ChangeBGM-NoFade", "../Mods/Artificial_Love/Music/MusMus-BGM-110.mp3",
+                                  "SetChoice","13","MetalGirlMet",
+                                  "Menu",
+                                  "Do Squeeze Her Breasts",
+                                  "Do Not Squeeze Her Breasts",
+                                  "EndLoop"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Do Squeeze Her Breasts",
+                      "theScene": [
+                                  "You give her breast a quick squeeze, finding them surprisingly soft before quickly letting go as you shift to her face but find no change as she remains completely unaffected, sleeping like the dead.",
+                                  "PlaySoundBankOnce","../Mods/Artificial_Love/Music/y2mate.com - 61 Among Us Sabotage Alarm siren  sound effect  HQ-[AudioTrimmer.com].mp3",
+                                  "Speak", "???",
+                                  
+                                  "{i}Charging Complete. Battery level at 100%. Warning: An unexpected problem has occured! System start up has failed. Please squeeze breasts to trigger manual restart.{/i}",
+                                  "You try again, covering her breasts with both hands as you give each of them a firm squeeze, alternating back and forth, making them squish up and down, before finally pressing down and rubbing your palms against them with little circular motions.",
+                                  "StopBGMHard",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn16.mp3",
+                                  "Speak", "???",
+                                  "{i}Manual restart detected. Beginning system boot up, please do not unplug the machine.{/i}",
+                                  "PlayLoopingSoundEffect","../Mods/Artificial_Love/Music/btn05.mp3",
+                                  "As if on cue, the large block next to you lights up in a shade of green as several rings of light travel through the cord and flow towards the back of the woman's head!",
+                                  "StopSoundEffectLoop",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/zapsplat_science_fiction_robot_activate_on_high_pitched_beep_chirp_cyberpunk_63419.mp3",
+                                  
+                                  "You feel something abuzz in your inventory as you rummage through it and finding your grimoire, take it out only for it to shoot out of your hand as it floats in front of you and begins rapidly turning its pages before coming to a stop as magical letters begin filling up a page!",
+                                  "DisplayCharacters",
+                                    "MetalGirl",
+                                    "EndLoop",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                  "You only manage to take a brief look when you recoil at the sound of a repeated bang! Your ears keeping rining, feeling a heat by the side of your face as you look up to see the previously sleeping woman standing and staring at you coldly with her arm split in the middle to reveal a long yet thin barrel pointed right at you as smoke rises from the tip.",
+                                  "You stare at her vacantly as you silently mouth the creature's name...the Automaton.",
+                                  "CombatEncounter","NoRunning",
+                                    "MetalGirl",
+                                  "StartCombat",
+                                  
+                                  "DisplayCharacters",
+                                    "MetalGirl",
+                                    "EndLoop",
+                                    "StopBGMHard",
+
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Metal Gear Solid - Exclamation Point Sound Effect.mp3",
+                                    "But she reappears soon after at the other end of the room!",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                  
+                                  
+                                  "ChangeArousalByPercent", "65",
+                                  "ChangeBGM","../Mods/Artificial_Love/Music/Dreaming.mp3",
+                                  "The sound of fire ring out in the air as you are hit with a sudden barrage of bullets. However, you find something odd as your breathing suddenly turns rough. Your cheeks going flush as you feel a clawing heat permeating throughout your body!",
+                                  "With laboured breaths you slowly pan up to see the metallic woman standing up with her hand split in the middle to reveal a long barrel as several purple cylinders magically materialize next to in the air as several more materialize stacked on top of the others.",
+                                  
+                                  "ChangeBGM-NoFade","../Mods/Artificial_Love/Music/zapsplat_science_fiction_alarm_big_warning_meltdown_wailing_metallic_buzz_tone_slow_40032.mp3",
+                                  "PlayVisualEffect", "ScreenPulse", "../Mods/Artificial_Love/Images/red.png",
+                                  "All of a sudden the room is dyed in a shade of red as an alarming sound echos throughout the room.",
+                                  "PlayVisualEffect", "ScreenPulse", "../Mods/Artificial_Love/Images/red.png",
+                                   "DisplayCharacters",
+                                    "Automaton",  
+                                    "MetalGirl",
+                                    "EndLoop",
+                                    "{i}Warning! Intruder Alert.{/i}",
+                                    
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Artificial_Love/Images/red.png",
+                                    "DisplayCharacters",
+                                    "Automaton",  
+                                    "MetalGirl",
+                                    "Automaton",
+                                    "EndLoop",
+                                    "{i}Warning! Intruder Alert.{/i}",
+
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Artificial_Love/Images/red.png",
+                                    "DisplayCharacters",
+                                    "Automaton",
+                                    "Automaton",
+                                    "MetalGirl",
+                                    "Automaton",
+                                    "Automaton",
+                                    "EndLoop",
+                                    "{i}Warning! Intruder Alert.{/i}",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Trimmed - Taser Sound  Free Sound Effects  Game and Interface Sounds.mp3",
+                                    "You find yourself surrounded as the women embedded into the wall somehow come to life! Breaking free from their surroundings as they all line up next to one another to form a perfectly straight line and raise their hands to revealing long two pronged rods cackling with electricity.",
+                                    "Speak", "Automatons",
+                                    "{b}Detecting significant amounts of potential spiritual energy. Combat protocol updated. Engaging target.{/b}",
+                                    "DisplayCharacters",
+                                    "EndLoop",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                    "ChangeBGM-NoFade", "../Mods/Artificial_Love/Music/Predator.mp3", 
+                                    "PlayVisualEffect", "StartHaze","void.png",
+                                    "You turn around and immediately make a run for it! Somehow managing to outrun your pursuers as you zoom past the empty halls and the adjoining rooms, rushing down the steps before reaching the building's lobby.",
+                                    "Your momentum carries you forward as you slam up against the door and in your panic frantically search for a handle that doesnt exist as you hear the sound of mechanical footsteps walking towards you.",
+                                    "EndVisualEffect",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                    "You manage to find a black box at the side of the door as you swiftly fetch the 'Entry Pass' out of your pocket and franticly jam it in as the heavy doors rumble and begin to slowly recede into the walls.",
+                                    "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/Edited Machine Gun  Sound Effect HD.mp3",
+                                    "ChangeBG","Caverns.png",
+                                    "As soon as it opens, you grab the card out from the box and rush through the door as several bullets hit where you stood before the door once again slams shut as you hear the sound of several people slamming up against the door. You stand there for a while, watching the door to see if it remains closed, before finally feeling content as you let out a sigh of relief.",
+                                    "You might want get out of there before they start coming out to find you...",
+                                    "ChangeBGM", "../Mods/Artificial_Love/Music/Darkness.ogg",
+                                  "SetChoice", "77", "tmp",
+                                  "SetChoice","10","EnemySpwned",
+                                  "SetChoice","11","EnemySpwned",
+                                  "SetChoice","12","EnemySpwned",
+                                  "JumpToScene",
+                                  "LabMenu1"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Do Not Squeeze Her Breasts",
+                      "theScene": [
+                                  "You decide it to be best to NOT squeeze her breasts retracting your hand. The voice still keeps on repeating no matter what you do, looping itself over and over without a hint of exhaustion...",
+                                  "JumpToScene","LabInteriorMenu2"
+                                ]
+                    },
+                    
+                    {
+                      "NameOfScene": "LabInteriorMenu1",
+                      "theScene": [
+                                  "Menu",
+                                  "RequiresChoice", "13", "","HideOptionOnRequirementFail","Explore the building",
+                                  "RequiresChoice", "13", "MetalGirlMet","HideOptionOnRequirementFail","Return to the room with the sleeping woman",
+                                  "RequiresChoice", "9", "","HideOptionOnRequirementFail","Search the entrance for a way out",
+                                  "RequiresChoice", "9", "LabVisited","HideOptionOnRequirementFail","Exit the Building",
+                                  "EndLoop"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "LabInteriorMenu2",
+                      "theScene": [
+                                  "Menu",
+                                  "RequiresChoice", "14", "","HideOptionOnRequirementFail","Keep exploring",
+                                  "RequiresChoice", "14", "LabExplored","HideOptionOnRequirementFail","Go back to the entrance",
+                                  "EndLoop"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Keep exploring",
+                      "theScene": [
+                        "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                          "You exit the room and decide to keep exploring the building...",
+                          "But find nothing of interest and eventually find yourself back in front of the building's entrance.",
+                          "SetChoice","14","LabExplored",
+                          "JumpToScene","LabInteriorMenu1"        
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Go back to the entrance",
+                      "theScene": [
+                        "ChangeBGM", "music/Caverns/New-Paradise.mp3",
+                          "You exit the room and head back until you find yourself back in front of the building's entrance.",
+                          "JumpToScene","LabInteriorMenu1"        
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Return to the room with the sleeping woman",
+                      "theScene": [
+                                  "You decide to head back to the sleeping woman, walking along the hallway through the various locked doors and empty rooms...",
+                                  "ChangeBGM-NoFade", "../Mods/Artificial_Love/Music/MusMus-BGM-110.mp3",
+                                  "Until you reach the end of the hallway and step inside a large room, made out of columns of identical looking women seemingly etched into the walls spanning across the entire room.",
+                                  "At the center lies a large person sized block, made out of clear crystal, as it sits perfectly atop a low metalic base while a long cord sprouts from the side and leads towards a woman wearing a strange outfit, resting on a raised tilted bed. Her appearance identical to the women etched into the room while a monotonous and even mechanical voice repeats itself on and on...",
+                                  "PlaySoundBankOnce","../Mods/Artificial_Love/Music/y2mate.com - 61 Among Us Sabotage Alarm siren  sound effect  HQ-[AudioTrimmer.com].mp3",
+                                  "Speak", "???",
+                                  "{i}Charging Complete. Battery level at 100%. Warning: An unexpected problem has occured! System start up has failed. Please squeeze breasts to trigger manual restart.{/i}",
+                                  "Menu",
+                                  "Do Squeeze Her Breats",
+                                  "Do Not Squeeze Her Breasts",
+                                  "EndLoop"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Search the entrance for a way out",
+                      "theScene": [
+                                  "SetChoice","9","LabVisited",
+                                  "You turn towards the door and try to pry it open, but have no luck as it remains tightly shut. Looking around your surroundings, you find a small box at the side of the door, seemingly identical as the one outside as the light on the box flashes red.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn16.mp3",
+                                  "You take out your inventory and fetch for the 'Entry Pass' as you insert it into the slit about halfway before the light flashes green.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  "With a loud rumble, the doors start to move, as they part in the middle and recede back into the walls, letting out rays of light from outside.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  "ChangeBG", "Caverns.png",
+                                  "You take the card out from the box and step outside before the metal doors once again close back up.",
+                                  "ChangeBGM", "../Mods/Artificial_Love/Music/Darkness.ogg",
+                                  "JumpToScene","LabMenu1"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Exit the building",
+                      "theScene": [
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/btn16.mp3",
+                                  "You turn towards the door and and find a small box at the side of the door and take out the 'Entry Pass' as you insert it into the slit.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  "With a loud rumble, the doors start to move, as they part in the middle and recede back into the walls, letting out rays of light from outside.",
+                                  "PlaySoundBankOnce", "../Mods/Artificial_Love/Music/y2mate.com - Fallout 3 Vault Doors Opening-[AudioTrimmer.com].mp3",
+                                  "ChangeBG", "Caverns.png",
+                                  "You take the card out from the box and step outside before the metal doors once again close back up.",
+                                  "ChangeBGM", "../Mods/Artificial_Love/Music/Darkness.ogg",
+                                  "JumpToScene","LabMenu1"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Enemy Spawn",
+                      "theScene": [ 
+                                  "JumpToRandomScene",
+                                  "Salaris",
+                                  "ToxiTango",
+                                  "Ghosts",
+                                  "None",
+                                "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Salaris",
+                      "theScene": [ 
+
+                                  "When all of a sudden...",
+                                  "StoreCurrentBGM",
+                                  "JumpToRandomScene",
+                                  "Salaris1",
+                                  "Salaris2",
+                                "EndLoop"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Salaris1",
+                      "theScene": [ 
+                                    "CombatEncounter", "NoRunning",
+                                    "Salaris",
+                                  "StartCombat",
+                                  
+                        "PlayStoredBGM", 
+                                  "JumpToScene","EncounterRouter"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Salaris2",
+                      "theScene": [ 
+                                    "CombatEncounter", "NoRunning",
+                                    "Salaris",
+                                    "Salaris",
+                                  "StartCombat",
+                                  
+                        "PlayStoredBGM", 
+                                  "JumpToScene","EncounterRouter"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ToxiTango",
+                      "theScene": [ 
+
+                                  "When all of a sudden...",
+                                  "StoreCurrentBGM",
+                                    "CombatEncounter", "NoRunning",
+                                    "Toxic Matango",
+                                  "StartCombat",
+                                  
+                        "PlayStoredBGM", 
+                                  "JumpToScene","EncounterRouter"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Ghosts",
+                      "theScene": [ 
+                                  "When all of a sudden...",
+                                  "StoreCurrentBGM",
+                                    "CombatEncounter", "NoRunning",
+                                    "Ghost",
+                                    "Ghost",
+                                    "Ghost",
+                                  "StartCombat",
+                                  
+                        "PlayStoredBGM", 
+                                  "JumpToScene","EncounterRouter"
+                                  
+                                ]
+                    },
+                    {
+                      "NameOfScene": "None",
+                      "theScene": [ 
+                                  "JumpToScene","EncounterRouter"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "EncounterRouter",
+                      "theScene": [ 
+                                    "IfChoice","6","GiantCrystal", "Head to the gigantic crystal3 part2",
+                                    "IfChoice","6","Lab", "Head towards the large building 2 part2",
+                                    "IfChoice","6","ChamberEntrance", "ChamberIntro2Part2"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "UseWomb",
+                      "theScene": [  
+                                    "ChangeArousalQuietly","30",
+                                    "You pick up the device from your inventory and unzip your pants, freeing your erect dick as you hold it firmly by the end and align yourself with the entrance of the artificial pussy before squeezing yourself into its tight slit.",
+                                    "ChangeArousalQuietly","70",  
+                                    "You give yourself some time to adjust to the texture of the device's minty gelatinous walls, when suddenly the machine flashes brightly as it seemingly comes to life and starts lowly vibrating!",
+                                    "ChangeArousalQuietly","120",             
+                                    "A moan slips out of your mouth as you tremble in pleasure and reflexively grip the machine. You quickly get a hold of yourself and loosen your hold as you slowly start to stroke yourself, testing the device's limits, and eventually end up hitting a squishy rubber rubbery wall sending a shiver down your spine.",
+                                    "PlayerOrgasmNoSpiritLoss", 
+                                    "After confirming how far you can go, you pick up the pace as you proceed to rigorously pump your length, stroking faster and faster, building up your arousal until with a few final pumps you reach climax, moaning loudly as you unload your cum into the orifice while your legs tremble from your self induced orgasm!",
+                                    "The machine stops whirling in your hand as you come down from your high and pull out your dick with a content smile, fully satisfied with the device's performance, before pulling up your pants and properly disposing of it."
+
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Event Vars",
+                      "theScene": [ 
+                                    "Choice 1= RockBlock is clear or not, check",
+                                    "Choice 2= entered passage or not, check",
+                                    "Choice 3= chamber state, what intro will appear based on choices",
+                                    "Choice 4= bridge state, determines if first time seeing text appears",
+                                    "Choice 5= find card, determines if search area option appears",
+                                    "Choice 6= current location, determines what bridge menu appears",
+                                    "Choice 7= lab was searched or not",
+                                    "Choice 8= giant crystal was searched or not",
+                                    "Choice 9= if you left the building or not",
+                                    "Choice 10= if you had a monster appear in the entrance area",
+                                    "Choice 11= if you had a monster appear in the giant crystal area",
+                                    "Choice 12= if you had a monster appear in the building area",
+                                    "Choice 13= if you visited the Metal woman",
+                                    "Choice 77= Automaton's roaming, check"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "Event Broke",
+                      "theScene": [ "Oops, something went wrong! Please contact and ping JLP603 on the MGD discord in order to get this fixed."
+                                ]
+                  }
+                ]
+}

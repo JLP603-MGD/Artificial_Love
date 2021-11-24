@@ -1,0 +1,27 @@
+{
+    "name": "Caverns",
+    "exploreTitle": "Addition",
+    "Monsters": [ "Automaton"],
+    "Addition": "Yes",
+    "MonsterGroups": [
+
+                  {
+                      "Group": [ "Automaton"]
+                  }
+
+                ],
+    "Events": [ ""],
+    "Quests": [ ""],
+    "Adventures": [ ""],
+    "Treasure": [
+                {
+                    "Common": [ ""]
+                },
+                {
+                    "Uncommon": [ ""]
+                },
+                {
+                    "Rare": [ ""]
+                }
+              ]
+}

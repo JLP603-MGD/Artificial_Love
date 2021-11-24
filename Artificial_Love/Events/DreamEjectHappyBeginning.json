@@ -1,0 +1,72 @@
+{
+    "name": "Dream Eject Happy Beginning",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Galla",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+	                   {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+										                "IfHasPerk", "Master Command", "RoomCheck"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "RoomCheck",
+                      "theScene": [
+                                  "GetEventAndIfChoice", "Go to your room.", "1", "SleepingInRoom", "DreamSceneHappyBeginning"
+                                ]
+                  },
+                    {
+                        "NameOfScene": "DreamSceneHappyBeginning",
+                        "theScene": [
+							
+									                  "DisplayCharacters",
+                                    "EndLoop",
+									                  "StoreCurrentBGM",
+                                    "ChangeBGM", "music/Relaxing/Purple Planet Music - Gentle - Meltwater (1_38) (L).mp3",
+                                    "StoreCurrentBG",
+                                    "ChangeBG", "blankScreen.png",
+                                    "...",
+                                    "...tsk...nn..",
+                                    "Speak", "???",
+                                    "ch...mphh, mmm... shllrrp...tsk...",
+                                    "Your mind drifts in and out of consciousness, hearing broken sounds of what seem to be sucking and slurping as you unconsciously let out a moan, feeling your body being washed in soft waves of ecstasy and a warm yet wet tingly sensation coming from your crotch.",
+                                    "UseHeldBG",
+                                    "DisplayCharacters",
+                                    "Galla",
+                                    "EndLoop",
+                                    "Stirred awake, your eyes are immediately greeted by rays of sunlight as you let out a yawn and rub your eyes, before lazily panning down and readjusting your eyes to find Galla, with her pleasant lips wrapped around your dick as she sucks your cock.",
+                                    "PlayerOrgasmNoSpiritLoss",
+                                    "She doesn't seem to notice you as she continues to bob her head up and down, taking you in all the way to the base, and gives you a powerful suck, catching you off guard as you shoot out a burst of cum while she devotedly swallows it all, before slowly sliding her mouth away from your dick and parting with a loud pop.",
+                                    "Strings of saliva trail down her face, connecting it to the tip of your cock as she presses your dick against her cold metallic skin, sending shivers down your spine as your cock delightfully twitches.",
+                                    "Speak","Galla",
+                                    "Good morning master, you have awoken exactly 27 minutes and 42 seconds ahead of your regular schedule. Scans detected high levels of arousal in your body while you were asleep, therefore I have taken the initiative to alleviate you of discomfort. Worry not, and please go back to sleep.",
+                                    "The Automaton does not wait for you to reply, going back to servicing you as she positions her head at differnt angles, sucking every inch of your cock, and brushes off the tip with several licks of her tongue; before swallowing it back into her narrow throat.",
+                                    "StoreCurrentBGM",
+                                    "ChangeBG", "blankScreen.png",
+                                    "DisplayCharacters",
+                                    "EndLoop",
+                                    "JumpToScene",
+                                    "RoomWakeUp"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "RoomWakeUp",
+                        "theScene": [
+                                        "Your recent orgasm dulls your mind as tiredness ounce again sets in your body causing you to languidly lie back down on the bed as the pleasant tingly sensations return and ease you back to sleep. You gently close your eyes and let out a few shots of cum, sleeping soundly knowing the Automaton will be there to take care of it all.",
+                                        "PlayStoredBGM",
+                                        "UseHeldBG"
+                                  ]
+                    }
+                ]
+}
