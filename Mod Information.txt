@@ -7,16 +7,18 @@
  |_|  |_|\____/|_____/  |_____|_| \_|_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____\____/|_| \_|
 
 
-Version Changes from Artificial Love v.0.06g -> Artificial Love v.0.06h                                                                                                                                                                                 
+Version Changes from Artificial Love v.0.06g-> Artificial Love v.0.06i                                                                                                                                                                                 
 ------------------------------------------------------------------------------------------------
 -fixed a typo
+-fixed a logic error where it would check for night access in the guild and skip the check 
+to see if you had Automaton parts
 -tidied up some variables used in the ruins event
 -changed the name of the Automaton loot drops thus if you want to make an automaton 
 from scratch you need to get the parts again as old versions of the parts will not work
 -added some incomplete dialogue to building the automaton from Elly
 -added a full reset option for the mod resetting the variables used to build the robot and etc. 
 
-Author Message - Artificial Love v.0.06h                                                                                                                                                                             
+Author Message - Artificial Love v.0.06                                                                                                                                                                             
 ------------------------------------------------------------------------------------------------
 
 	This mod also contains some extreme but avoidable content such as prolapse, rough sex, 
