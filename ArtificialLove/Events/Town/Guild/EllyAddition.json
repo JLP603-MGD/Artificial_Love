@@ -13,33 +13,41 @@
                   }
                 ],
     "EventText": [
-                      {
-                        "NameOfScene": "PostIntroEvent",
-                        "theScene": [
-                                      "IfChoice", "13", "", "NightAccessGiveCheck",
-                                      "IfChoice", "60", "", "Automata Checker",
-                                      "JumpToScene", "VisitMenu"
-                                  ]
-                    },
-                    {
-                      "NameOfScene": "Automata Checker",
-                      "theScene": [
-                                    "IfHasItemInInventory", "Automaton Head", "1", "Automata Part Found",
-                                    "IfHasItemInInventory", "Automaton Torso", "1", "Automata Part Found",
-                                    "IfHasItemInInventory", "Automaton Left Leg", "1", "Automata Part Found",
-                                    "IfHasItemInInventory", "Automaton Left Arm", "1", "Automata Part Found",
-                                    "IfHasItemInInventory", "Automaton Right Arm", "1", "Automata Part Found",
-                                    "IfHasItemInInventory", "Automaton Right Leg", "1", "Automata Part Found",
-                                    "JumpToScene", "VisitMenu"
-                                ]
-                  },
-                  {
-                    "NameOfScene": "Automata Part Found",
-                    "theScene": [
-                                  "SetChoice", "60", "PartFound!",
-                                  "JumpToScene", "VisitMenu"
-                              ]
-                },
+      {
+        "NameOfScene": "PostIntroEvent",
+        "theScene": [
+          "IfChoice", "60", "", "Automata Checker",
+          "JumpToScene", "OriginalPostIntroEventChecks"
+                  ]
+    },
+    {
+      "NameOfScene": "Automata Checker",
+      "theScene": [
+                    "IfHasItemInInventory", "Automaton Head", "1", "Automata Part Found",
+                    "IfHasItemInInventory", "Automaton Torso", "1", "Automata Part Found",
+                    "IfHasItemInInventory", "Automaton Left Leg", "1", "Automata Part Found",
+                    "IfHasItemInInventory", "Automaton Left Arm", "1", "Automata Part Found",
+                    "IfHasItemInInventory", "Automaton Right Arm", "1", "Automata Part Found",
+                    "IfHasItemInInventory", "Automaton Right Leg", "1", "Automata Part Found",
+                    "JumpToScene", "OriginalPostIntroEventChecks"
+
+                ]
+  },
+  {
+    "NameOfScene": "Automata Part Found",
+    "theScene": [
+                  "SetChoice", "60", "PartFound!",
+                  "JumpToScene", "OriginalPostIntroEventChecks"
+
+              ]
+},
+{
+  "NameOfScene": "OriginalPostIntroEventChecks",
+  "theScene": [
+    "IfChoice", "13", "", "NightAccessGiveCheck",
+    "JumpToScene", "VisitMenu"
+            ]
+},
                     {
                         "NameOfScene": "VisitMenu",
                         "theScene": [
